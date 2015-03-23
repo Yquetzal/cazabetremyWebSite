@@ -1,0 +1,10054 @@
+#19930309
++	mamie	cohe
+#19930314
++	narcis	camou
+-	mamie	cohe
+#19930326
++	pitou	azul
+-	narcis	camou
+#19931202
++	calta	azul
+#19931209
++	neige	fraise
+#19931210
++	pitou	calta
++c	0
++nc	pitou	0
++nc	calta	0
++nc	azul	0
++	sky	pitou
++	sky	calta
++nc	sky	0
+#19931213
++	sky	azul
+#19940111
++	neige	luz
++	luz	fraise
++c	1
++nc	fraise	1
++nc	luz	1
++nc	neige	1
+#19940115
++	veraze	eglant
++	veraze	julie
++	julie	eglant
++c	2
++nc	julie	2
++nc	veraze	2
++nc	eglant	2
+#19940124
++	pom	golo
+#19940213
++	pom	may
+#19940215
++	may	fraise
+#19940218
++	nice	blou
++	nice	may
++	may	blou
++c	3
++nc	blou	3
++nc	nice	3
++nc	may	3
+#19940224
++	may	mare
+#19940314
+-	pom	golo
+-	pom	may
++	red	pail
++	pail	dup
+#19940315
++	camou	blou
+#19940324
+-	may	blou
+-nc	may	3
+-nc	nice	3
+-nc	blou	3
+-c	3
+#19940325
++	mare	luz
+#19940328
++	neige	mare
++nc	mare	1
+#19940330
+-	pitou	azul
+-	sky	calta
+-	sky	azul
+-nc	sky	0
+-nc	pitou	0
+-nc	calta	0
+-nc	azul	0
+-c	0
+#19940331
+-	pitou	calta
+-	red	pail
++	sol	alba
++	pail	calta
++	mare	fraise
+#19941208
++	pom	brutus
++	sol	blou
+#19941209
++	nice	narcis
++	narcis	blou
++c	4
++nc	blou	4
++nc	nice	4
++nc	narcis	4
++	sol	nice
++nc	sol	4
++	sol	narcis
++	gabi	calta
+#19941210
++	pom	calta
++	pom	gabi
++c	5
++nc	calta	5
++nc	pom	5
++nc	gabi	5
+#19941226
+-	nice	may
++	neige	gabi
++	dup	calta
++c	6
++nc	calta	6
++nc	dup	6
++nc	pail	6
++	gabi	fraise
++c	7
++nc	fraise	7
++nc	neige	7
++nc	gabi	7
+-nc	fraise	7
+-nc	neige	7
+-nc	gabi	7
+-c	7
+=	1	7
+#19941228
++	gabi	azul
++nc	azul	5
+#19950104
++	may	luz
++nc	may	1
+#19950108
++	pail	azul
++nc	azul	6
++nc	pail	5
+-nc	calta	6
+-nc	dup	6
+-nc	pail	6
+-nc	azul	6
+-c	6
+=	5	6
+#19950127
++	pom	neige
++c	8
++nc	neige	8
++nc	pom	8
++nc	gabi	8
+-nc	neige	8
+-nc	pom	8
+-nc	gabi	8
+-c	8
+=	5	8
+-	neige	gabi
+#19950130
++	neige	brutus
++c	9
++nc	brutus	9
++nc	neige	9
++nc	pom	9
+#19950131
+-	camou	blou
+#19950203
++	zef	sky
++	zef	gabi
+-	sky	pitou
++	sky	gabi
++c	10
++nc	zef	10
++nc	sky	10
++nc	gabi	10
+#19950206
+-	neige	fraise
+#19950314
++	pom	mare
++c	11
++nc	mare	11
++nc	neige	11
++nc	pom	11
+-nc	mare	11
+-nc	neige	11
+-nc	pom	11
+-c	11
+=	1	11
+#19950321
++	neige	fine
+#19950327
+-	dup	calta
+-	pail	dup
+#19950328
++	nice	alba
++c	12
++nc	nice	12
++nc	alba	12
++nc	sol	12
++	narcis	alba
++nc	alba	4
++nc	narcis	12
+-nc	nice	12
+-nc	alba	12
+-nc	sol	12
+-nc	narcis	12
+-c	12
+=	4	12
+-	pail	azul
+-nc	pail	5
+-	pail	calta
++	blou	alba
+#19950330
+-	nice	blou
++	pom	pail
+-	luz	fraise
+-	sol	blou
++	pail	neige
++c	13
++nc	pail	13
++nc	neige	13
++nc	pom	13
+-	blou	alba
+-nc	blou	4
+#19951202
++	pol	lis
+#19951208
++	neige	flo
+#19951219
++	may	blou
+#19951220
++	stic	mare
++	mare	flo
++c	14
++nc	mare	14
++nc	neige	14
++nc	flo	14
+#19951222
+-	stic	mare
+#19951227
++	pom	azul
++	lis	bule
+#19951229
++	pom	luz
++nc	pom	1
++	pom	flo
++nc	pom	14
+-nc	mare	14
+-nc	neige	14
+-nc	pom	14
+-nc	flo	14
+-c	14
+=	1	14
++	may	lou
++	luz	flo
++nc	flo	1
+-	pail	neige
+-nc	pail	13
+-nc	pom	13
+-nc	neige	13
+-c	13
++	pail	mare
++c	15
++nc	mare	15
++nc	pail	15
++nc	pom	15
+-	gabi	fraise
+#19951230
+-	narcis	blou
+#19960103
+-	pom	brutus
+-nc	pom	9
+-nc	neige	9
+-nc	brutus	9
+-c	9
++	julie	adon
++	luz	brutus
++c	16
++nc	brutus	16
++nc	luz	16
++nc	neige	16
++	sky	pom
++nc	pom	10
++	sky	luz
++c	17
++nc	luz	17
++nc	pom	17
++nc	sky	17
+-nc	luz	17
+-nc	pom	17
+-nc	sky	17
+-c	17
+=	10	17
++	mare	brutus
++nc	mare	16
+-nc	mare	16
+-nc	brutus	16
+-nc	luz	16
+-nc	neige	16
+-c	16
+=	1	16
++	flo	brutus
++nc	brutus	1
+#19960108
+-	pom	neige
+-nc	pom	1
+-	pom	flo
++	sky	azul
++nc	azul	10
++nc	sky	5
+-nc	zef	10
+-nc	pom	10
+-nc	sky	10
+-nc	azul	10
+-nc	gabi	10
+-c	10
+=	5	10
+#19960109
+-	pol	lis
++	lou	blou
++c	18
++nc	blou	18
++nc	lou	18
++nc	may	18
++	sky	calta
+-	sky	luz
+#19960121
+-	neige	brutus
+-nc	neige	1
+-	lis	bule
+#19960203
+-	neige	fine
++	luz	fine
+#19960229
+-	pom	pail
+-nc	pom	15
+-nc	mare	15
+-nc	pail	15
+-c	15
++	pitou	calta
+#19960320
+-	pom	azul
+-	zef	sky
+-	zef	gabi
+-	sky	pom
+-nc	pom	5
+-	sky	calta
+-	sky	gabi
+-nc	sky	5
+-	sky	azul
+#19960321
+-	calta	azul
+-nc	calta	5
+-nc	gabi	5
+-nc	azul	5
+-c	5
+-	gabi	azul
+#19960326
+-	lou	blou
+-nc	lou	18
+-nc	may	18
+-nc	blou	18
+-c	18
+#19961203
++	yac	bule
++	pic	mis
+#19961219
+-	pom	calta
++	timy	flo
++	luz	fraise
++	calta	bip
++	ula	mis
+#19961220
++	yac	ula
+-	luz	brutus
+-nc	brutus	1
+-nc	flo	1
++	ula	bule
++c	19
++nc	yac	19
++nc	bule	19
++nc	ula	19
++	mare	lou
++c	20
++nc	mare	20
++nc	lou	20
++nc	may	20
+#19961223
+-	neige	flo
+-	neige	mare
+-	neige	luz
+-	veraze	eglant
+-nc	veraze	2
+-nc	julie	2
+-nc	eglant	2
+-c	2
++	timy	neige
++	timy	mare
++c	21
++nc	mare	21
++nc	timy	21
++nc	flo	21
+-	luz	flo
+#19961231
+-	pom	luz
++	pom	fraise
++c	22
++nc	fraise	22
++nc	mare	22
++nc	pom	22
+-nc	fraise	22
+-nc	mare	22
+-nc	pom	22
+-c	22
+=	1	22
+-	timy	neige
+-	may	blou
+#19970117
+-	calta	bip
+#19970125
++	pitou	azul
++	sol	julie
+#19970127
++	mare	gabi
++c	23
++nc	mare	23
++nc	pom	23
++nc	gabi	23
+#19970128
++	nice	eglant
+-	veraze	julie
++	narcis	eglant
++c	24
++nc	nice	24
++nc	eglant	24
++nc	narcis	24
+-nc	nice	24
+-nc	eglant	24
+-nc	narcis	24
+-c	24
+=	4	24
++	sol	eglant
++nc	eglant	4
+#19970131
+-	pitou	azul
++	yac	pic
++	pic	bule
++nc	pic	19
+#19970204
+-	pail	mare
+-	mare	lou
+-nc	mare	20
+-nc	may	20
+-nc	lou	20
+-c	20
+#19970210
++	ity	bule
++	yac	ity
++nc	ity	19
+#19970213
+-	pitou	calta
+-	sol	julie
+#19970214
++	fraise	fine
++nc	fine	1
+-	mare	brutus
+-	flo	brutus
+#19970218
+-	may	mare
+-	mare	fraise
+-nc	mare	1
+#19970308
+-	pom	fraise
++	eglant	adon
++c	25
++nc	julie	25
++nc	eglant	25
++nc	adon	25
+#19970314
+-	narcis	alba
+#19970321
++	luc	lou
+#19970325
++	bule	ade
+-	yac	ula
+-nc	ula	19
++	yac	ade
++c	26
++nc	bule	26
++nc	yac	26
++nc	ade	26
++	ula	ade
++nc	ula	26
++	lis	lady
+#19970326
+-	nice	alba
+-nc	alba	4
+-	eglant	adon
+-nc	eglant	25
+-nc	julie	25
+-nc	adon	25
+-c	25
+-	yac	pic
+-nc	pic	19
+-	julie	adon
+-	sol	alba
+-	gabi	calta
+-	pic	mis
+-	pic	bule
+#19970327
++	lady	ade
+#19971210
++	gabi	fine
+#19971211
+-	julie	eglant
+#19971212
++	fine	ade
++	lady	fine
++c	27
++nc	lady	27
++nc	ade	27
++nc	fine	27
+#19971215
+-	ula	ade
+-nc	ula	26
++	ula	lis
++	lis	ade
++nc	lis	27
+#19971218
++	yac	lis
++nc	lis	26
++nc	ade	19
+-nc	lis	26
+-nc	bule	26
+-nc	yac	26
+-nc	ade	26
+-c	26
+=	19	26
+-	ula	mis
++	lis	bule
++nc	lis	19
+#19971222
+-	nice	eglant
+-	pom	gabi
+-nc	pom	23
+-nc	mare	23
+-nc	gabi	23
+-c	23
+-	pom	mare
+-	narcis	eglant
+-nc	eglant	4
+-	sol	eglant
+#19980107
++	key	eglant
++	toro	fraise
+#19980109
++	veraze	luc
++	red	dup
+#19980121
+-	veraze	luc
+#19980130
+-	key	eglant
+-	yac	lis
+-nc	lis	19
+-	lis	bule
+#19980203
+-	timy	flo
+-nc	timy	21
+-nc	mare	21
+-nc	flo	21
+-c	21
+#19980216
+-	bule	ade
+-nc	ade	19
+-	yac	ade
+#19980220
+-	ula	bule
+#19980225
+-	mare	luz
+#19980304
+-	ity	bule
+-nc	ity	19
+-nc	yac	19
+-nc	bule	19
+-c	19
+-	yac	ity
+-	ula	lis
+#19980310
+-	red	dup
+-	luc	lou
++	sky	azul
+#19980317
+-	yac	bule
++	neou	azul
+#19980319
++	pek	neou
+#19980321
++	may	lady
++	may	fine
++	luz	lady
++nc	lady	1
+-	mare	flo
++	lady	fraise
+#19980323
+-	may	fine
+-	luz	fine
+-nc	fine	1
+-	sky	azul
+#19980325
+-	may	lady
+-	may	fraise
+-nc	may	1
+-	luz	lady
+-nc	luz	1
+-nc	fraise	1
+-nc	lady	1
+-c	1
+-	luz	fraise
+#19981202
++	samy	fine
+#19981203
++	nice	igor
++	toro	lady
++c	28
++nc	fraise	28
++nc	toro	28
++nc	lady	28
++	toro	ade
++nc	ade	28
++nc	toro	27
+-nc	fraise	28
+-nc	toro	28
+-nc	lady	28
+-nc	ade	28
+-c	28
+=	27	28
++	sol	igor
++nc	igor	4
+#19981204
++	nice	gala
++	igor	gala
++c	29
++nc	nice	29
++nc	igor	29
++nc	gala	29
+-nc	nice	29
+-nc	igor	29
+-nc	gala	29
+-c	29
+=	4	29
+#19981206
++	cloe	azul
++	toro	fine
++	toro	lis
++	pek	cloe
++	pek	azul
++c	30
++nc	pek	30
++nc	neou	30
++nc	azul	30
++c	31
++nc	pek	31
++nc	cloe	31
++nc	azul	31
++nc	cloe	30
+-nc	pek	31
+-nc	cloe	31
+-nc	azul	31
+-c	31
+=	30	31
+#19981208
++	narcis	igor
++	toro	samy
++c	32
++nc	toro	32
++nc	samy	32
++nc	fine	32
+-	toro	lis
++	rosi	nice
++	rosi	narcis
++c	33
++nc	nice	33
++nc	rosi	33
++nc	narcis	33
++	rosi	igor
++nc	igor	33
++nc	rosi	4
+-nc	nice	33
+-nc	igor	33
+-nc	rosi	33
+-nc	narcis	33
+-c	33
+=	4	33
++	tati	aziz
+-	lis	lady
+-nc	lis	27
+-	lis	ade
+#19981209
+-	toro	samy
+-nc	toro	32
+-nc	fine	32
+-nc	samy	32
+-c	32
++	neou	clio
+#19981214
++	mare	clio
++	gabi	azul
+#19981217
++	narcis	gala
++nc	gala	4
++	rosi	gala
++	mis	laso
++	pek	gabi
++c	34
++nc	pek	34
++nc	azul	34
++nc	gabi	34
+-nc	pek	34
+-nc	azul	34
+-nc	gabi	34
+-c	34
+=	30	34
+#19981222
+-	toro	fraise
+-	fraise	fine
+-	lady	fraise
+#19981226
+-	samy	fine
+#19990104
++	may	lise
++	luz	lise
++c	35
++nc	luz	35
++nc	lise	35
++nc	may	35
+#19990105
++	yop	lady
+#19990107
++	lou	lise
++nc	lou	35
++	lou	blou
++	may	blou
++c	36
++nc	blou	36
++nc	lou	36
++nc	may	36
+-nc	blou	36
+-nc	lou	36
+-nc	may	36
+-c	36
+=	35	36
++	lise	blou
++nc	blou	35
+#19990108
++	timy	pek
++	timy	clio
++c	37
++nc	mare	37
++nc	timy	37
++nc	clio	37
++	laou	calta
++	sol	rosi
++	pek	clio
++nc	pek	37
+#19990112
++	rosi	aziz
+#19990115
++	rex	narcis
+#19990126
++	timy	neou
++nc	neou	37
++	timy	azul
++nc	azul	37
++nc	timy	30
++nc	clio	30
+-nc	pek	37
+-nc	mare	37
+-nc	neou	37
+-nc	timy	37
+-nc	azul	37
+-nc	clio	37
+-c	37
+=	30	37
++	timy	cloe
++	rosi	rex
++c	38
++nc	rex	38
++nc	rosi	38
++nc	narcis	38
++	neou	cloe
+#19990201
++	may	laou
+#19990202
++	titou	bule
+#19990205
++	rex	igor
++nc	igor	38
+-nc	rex	38
+-nc	igor	38
+-nc	rosi	38
+-nc	narcis	38
+-c	38
+=	4	38
+#19990211
++	rex	gala
++nc	rex	4
+-	rosi	rex
+#19990301
+-	nice	igor
+-	rex	gala
+-nc	rex	4
++	rex	nice
++c	39
++nc	nice	39
++nc	rex	39
++nc	narcis	39
+-nc	nice	39
+-nc	rex	39
+-nc	narcis	39
+-c	39
+=	4	39
+-	rex	igor
++	sol	gala
++	mare	calta
+#19990302
++	lou	laou
++c	40
++nc	laou	40
++nc	lou	40
++nc	may	40
+-nc	laou	40
+-nc	lou	40
+-nc	may	40
+-c	40
+=	35	40
+-	rex	nice
+-	toro	ade
+#19990303
++	timy	dup
++	laou	clio
++	pek	laou
++c	41
++nc	pek	41
++nc	laou	41
++nc	clio	41
+-nc	pek	41
+-nc	laou	41
+-nc	clio	41
+-c	41
+=	30	41
+#19990308
+-	rex	narcis
++	narcis	aziz
++c	42
++nc	rosi	42
++nc	aziz	42
++nc	narcis	42
++	tati	narcis
++nc	tati	42
+#19990311
++	clio	calta
++c	43
++nc	calta	43
++nc	mare	43
++nc	clio	43
++c	44
++nc	calta	44
++nc	laou	44
++nc	clio	44
++nc	mare	44
+-nc	calta	43
+-nc	mare	43
+-nc	clio	43
+-c	43
+=	44	43
++	pek	calta
++nc	pek	44
+#19990315
+-	toro	lady
+-nc	toro	27
+-	toro	fine
++	luz	lou
++	luz	blou
+#19990316
++	pek	mare
+#19990320
++	nice	aziz
++nc	nice	42
++	sol	aziz
++nc	aziz	4
++nc	sol	42
+-nc	nice	42
+-nc	rosi	42
+-nc	aziz	42
+-nc	sol	42
+-nc	tati	42
+-nc	narcis	42
+-c	42
+=	4	42
+#19990322
++	timy	gabi
++c	45
++nc	timy	45
++nc	azul	45
++nc	gabi	45
++c	46
++nc	mare	46
++nc	timy	46
++nc	gabi	46
++c	47
++nc	pek	47
++nc	timy	47
++nc	gabi	47
++nc	azul	47
+-nc	timy	45
+-nc	azul	45
+-nc	gabi	45
+-c	45
+=	47	45
+-nc	pek	47
+-nc	timy	47
+-nc	azul	47
+-nc	gabi	47
+-c	47
+=	30	47
++	igor	aziz
++	gala	aziz
++	neou	gabi
++nc	gabi	30
++nc	neou	46
+-nc	mare	46
+-nc	neou	46
+-nc	timy	46
+-nc	gabi	46
+-c	46
+=	30	46
++	gabi	clio
++nc	gabi	44
++	tati	nice
++c	48
++nc	nice	48
++nc	aziz	48
++nc	tati	48
++c	49
++nc	nice	49
++nc	narcis	49
++nc	tati	49
++nc	narcis	48
+-nc	nice	49
+-nc	narcis	49
+-nc	tati	49
+-c	49
+=	48	49
+-nc	nice	48
+-nc	aziz	48
+-nc	narcis	48
+-nc	tati	48
+-c	48
+=	4	48
++	tati	sol
++nc	tati	4
+#19990323
+-	nice	aziz
+-	timy	dup
+-	laou	calta
+-nc	laou	44
+-	sol	rosi
+-	sol	aziz
+-	rosi	aziz
+-	rosi	nice
+-nc	rosi	4
+#19990325
+-	nice	gala
+-	narcis	gala
+-nc	gala	4
+-	sol	gala
+-	neou	gabi
++	pek	fine
++c	50
++nc	pek	50
++nc	fine	50
++nc	gabi	50
+-nc	pek	50
+-nc	fine	50
+-nc	gabi	50
+-c	50
+=	44	50
+#19990331
++	blek	ade
+#19991201
++	mega	laou
++	mega	bug
++	laou	bug
++c	51
++nc	bug	51
++nc	laou	51
++nc	mega	51
++	gat	bule
++	saxa	neou
++	saxa	bambi
++	saxa	floki
++	neou	floki
++c	52
++nc	saxa	52
++nc	neou	52
++nc	floki	52
++	blak	azul
++	titou	gat
++c	53
++nc	titou	53
++nc	bule	53
++nc	gat	53
+#19991203
++	niva	lou
++	pol	mis
++	mega	clio
++nc	clio	51
++	mega	calta
++c	54
++nc	calta	54
++nc	mega	54
++nc	clio	54
+-nc	calta	54
+-nc	mega	54
+-nc	clio	54
+-c	54
+=	44	54
++	mega	gabi
++nc	mega	44
++	mega	azul
++c	55
++nc	mega	55
++nc	azul	55
++nc	gabi	55
+-nc	mega	55
+-nc	azul	55
+-nc	gabi	55
+-c	55
+=	44	55
++	timy	calta
++nc	timy	44
+-nc	calta	44
+-nc	mare	44
+-nc	timy	44
+-nc	pek	44
+-nc	mega	44
+-nc	gabi	44
+-nc	clio	44
+-c	44
+=	30	44
++	timy	mega
++nc	mega	30
++	timy	bug
++nc	timy	51
++	clio	bug
++	clio	azul
++	calta	bug
++nc	calta	51
++	calta	azul
++nc	azul	51
++nc	calta	30
+-nc	bug	51
+-nc	calta	51
+-nc	laou	51
+-nc	mega	51
+-nc	azul	51
+-nc	timy	51
+-nc	clio	51
+-c	51
+=	30	51
++	bug	azul
++nc	bug	30
++	gabi	calta
++	gabi	bug
+#19991204
++	mare	azul
++nc	mare	30
+#19991205
++	karo	gala
++	karo	igor
++c	56
++nc	karo	56
++nc	igor	56
++nc	gala	56
++	rosi	karo
++nc	rosi	56
+-	rosi	igor
+#19991207
++	pol	laso
++c	57
++nc	mis	57
++nc	laso	57
++nc	pol	57
++	timy	atos
++	azul	atos
++c	58
++nc	timy	58
++nc	azul	58
++nc	atos	58
++	gabi	atos
++nc	gabi	58
+#19991208
++	niva	may
++c	59
++nc	niva	59
++nc	lou	59
++nc	may	59
++	mega	atos
++nc	mega	58
+-nc	timy	58
+-nc	mega	58
+-nc	azul	58
+-nc	gabi	58
+-nc	atos	58
+-c	58
+=	30	58
+-	lou	laou
++	izar	floki
++	izar	cloe
++	laou	atos
++c	60
++nc	laou	60
++nc	mega	60
++nc	atos	60
++	neou	izar
++nc	izar	52
++	floki	cloe
++nc	cloe	52
+#19991209
++	mega	izar
++	mega	mare
++	timy	izar
++c	61
++nc	izar	61
++nc	timy	61
++nc	mega	61
++c	62
++nc	izar	62
++nc	neou	62
++nc	timy	62
++c	63
++nc	cloe	63
++nc	izar	63
++nc	timy	63
++nc	cloe	61
+-nc	cloe	63
+-nc	izar	63
+-nc	timy	63
+-c	63
+=	61	63
++nc	neou	61
+-nc	izar	62
+-nc	neou	62
+-nc	timy	62
+-c	62
+=	61	62
+-nc	cloe	61
+-nc	izar	61
+-nc	neou	61
+-nc	timy	61
+-nc	mega	61
+-c	61
+=	30	61
+-	timy	mare
++	izar	clio
++c	64
++nc	izar	64
++nc	timy	64
++nc	clio	64
++c	65
++nc	izar	65
++nc	neou	65
++nc	clio	65
++c	66
++nc	izar	66
++nc	mega	66
++nc	clio	66
++nc	timy	66
+-nc	izar	64
+-nc	timy	64
+-nc	clio	64
+-c	64
+=	66	64
++nc	neou	66
+-nc	izar	65
+-nc	neou	65
+-nc	clio	65
+-c	65
+=	66	65
+-nc	izar	66
+-nc	neou	66
+-nc	timy	66
+-nc	mega	66
+-nc	clio	66
+-c	66
+=	30	66
++	izar	azul
++c	67
++nc	izar	67
++nc	timy	67
++nc	azul	67
++c	68
++nc	izar	68
++nc	azul	68
++nc	clio	68
++c	69
++nc	cloe	69
++nc	izar	69
++nc	azul	69
++c	70
++nc	izar	70
++nc	neou	70
++nc	azul	70
++c	71
++nc	izar	71
++nc	mega	71
++nc	azul	71
++nc	neou	71
+-nc	izar	70
+-nc	neou	70
+-nc	azul	70
+-c	70
+=	71	70
++nc	clio	71
+-nc	izar	68
+-nc	azul	68
+-nc	clio	68
+-c	68
+=	71	68
++nc	timy	71
+-nc	izar	67
+-nc	timy	67
+-nc	azul	67
+-c	67
+=	71	67
++nc	cloe	71
+-nc	cloe	69
+-nc	izar	69
+-nc	azul	69
+-c	69
+=	71	69
+-nc	cloe	71
+-nc	izar	71
+-nc	neou	71
+-nc	timy	71
+-nc	mega	71
+-nc	azul	71
+-nc	clio	71
+-c	71
+=	30	71
++	izar	gabi
++nc	izar	30
+-	mare	gabi
+-nc	mare	30
+#19991213
++	niva	luz
++nc	luz	59
++nc	niva	35
+-nc	niva	59
+-nc	luz	59
+-nc	lou	59
+-nc	may	59
+-c	59
+=	35	59
++	pitou	fiz
++	saxa	blek
++	saxa	fine
++	saxa	lady
++nc	saxa	27
++	saxa	ade
++	tati	lou
++	tati	niva
++c	72
++nc	niva	72
++nc	lou	72
++nc	tati	72
+-nc	niva	72
+-nc	lou	72
+-nc	tati	72
+-c	72
+=	35	72
++	fine	blek
++nc	blek	27
++	lady	blek
+#19991217
++	yaho	gala
++	yaho	karo
++nc	yaho	56
+-	saxa	bambi
+#19991220
++	yaho	tati
++	yaho	aziz
++nc	aziz	56
+#19991223
++	luz	clio
++	saxa	gabi
++c	73
++nc	saxa	73
++nc	fine	73
++nc	gabi	73
+-nc	saxa	73
+-nc	fine	73
+-nc	gabi	73
+-c	73
+=	27	73
++	bug	atos
++nc	bug	60
++	gabi	ade
++nc	gabi	27
++	lady	gabi
+#19991224
++	gala	diva
++	yop	saxa
++c	74
++nc	saxa	74
++nc	lady	74
++nc	yop	74
+-	yop	lady
+-nc	yop	74
+-nc	saxa	74
+-nc	lady	74
+-c	74
++	yop	ade
++c	75
++nc	saxa	75
++nc	yop	75
++nc	ade	75
++	yop	fine
++nc	fine	75
+-nc	saxa	75
+-nc	yop	75
+-nc	ade	75
+-nc	fine	75
+-c	75
+=	27	75
+-	rosi	gala
+-nc	rosi	56
++	rosi	diva
+#19991225
++	narcis	kali
++	narcis	karo
++nc	narcis	56
++	karo	kali
++c	76
++nc	kali	76
++nc	karo	76
++nc	narcis	76
++	kali	igor
++nc	igor	76
+-nc	kali	76
+-nc	karo	76
+-nc	igor	76
+-nc	narcis	76
+-c	76
+=	56	76
+#19991227
+-	izar	cloe
+-nc	cloe	30
+-nc	izar	52
++	safo	narcis
++	clio	atos
++nc	atos	30
++nc	clio	60
+-nc	bug	60
+-nc	laou	60
+-nc	mega	60
+-nc	clio	60
+-nc	atos	60
+-c	60
+=	30	60
++	laou	azul
++nc	laou	30
++	laou	cloe
++c	77
++nc	cloe	77
++nc	laou	77
++nc	azul	77
++c	78
++nc	cloe	78
++nc	laou	78
++nc	pek	78
+-nc	cloe	78
+-nc	laou	78
+-nc	pek	78
+-c	78
+=	30	78
+-nc	cloe	77
+-nc	laou	77
+-nc	azul	77
+-c	77
+=	30	77
++	laou	floki
++nc	laou	52
++	sol	safo
++c	79
++nc	sol	79
++nc	safo	79
++nc	narcis	79
++	neou	laou
++	kali	diva
++	floki	azul
++nc	azul	52
+#19991229
++	safo	gala
++	yop	blek
++nc	yop	27
+#19991230
++	safo	lila
++	yaho	lila
++	yaho	safo
++c	80
++nc	safo	80
++nc	lila	80
++nc	yaho	80
++c	81
++nc	safo	81
++nc	yaho	81
++nc	gala	81
+-nc	safo	81
+-nc	yaho	81
+-nc	gala	81
+-c	81
+=	56	81
+-	yop	blek
++	lila	gala
++nc	gala	80
+#19991231
++	narcis	diva
++c	82
++nc	kali	82
++nc	diva	82
++nc	narcis	82
++c	83
++nc	diva	83
++nc	rosi	83
++nc	narcis	83
++nc	kali	83
+-nc	kali	82
+-nc	diva	82
+-nc	narcis	82
+-c	82
+=	83	82
++	karo	diva
++nc	karo	83
+-	yaho	gala
+-nc	yaho	56
++	lila	karo
++nc	karo	80
++	lila	diva
++nc	diva	80
+-	rosi	karo
+-nc	rosi	83
+-	rosi	narcis
+-	rosi	diva
+#20000102
++	safo	aziz
++nc	safo	56
+-nc	karo	56
+-nc	aziz	56
+-nc	safo	56
+-nc	igor	56
+-nc	narcis	56
+-nc	gala	56
+-c	56
+=	4	56
+#20000105
++	mare	luz
++c	84
++nc	mare	84
++nc	luz	84
++nc	clio	84
+#20000106
++	timy	saxa
++nc	timy	52
++	izar	atos
++	saxa	izar
++nc	izar	52
+-nc	saxa	52
+-nc	cloe	52
+-nc	izar	52
+-nc	neou	52
+-nc	laou	52
+-nc	floki	52
+-nc	timy	52
+-nc	azul	52
+-c	52
+=	30	52
++	saxa	azul
++c	85
++nc	saxa	85
++nc	azul	85
++nc	gabi	85
++c	86
++nc	saxa	86
++nc	izar	86
++nc	azul	86
++c	87
++nc	saxa	87
++nc	neou	87
++nc	azul	87
++c	88
++nc	saxa	88
++nc	timy	88
++nc	azul	88
++c	89
++nc	saxa	89
++nc	floki	89
++nc	azul	89
++nc	timy	85
+-nc	saxa	88
+-nc	timy	88
+-nc	azul	88
+-c	88
+=	85	88
+-nc	saxa	85
+-nc	timy	85
+-nc	azul	85
+-nc	gabi	85
+-c	85
+=	30	85
+-nc	saxa	87
+-nc	neou	87
+-nc	azul	87
+-c	87
+=	30	87
+-nc	saxa	86
+-nc	izar	86
+-nc	azul	86
+-c	86
+=	30	86
++	neou	bug
++	pek	floki
++nc	pek	89
++	pek	bug
++	floki	bug
++nc	bug	89
+-nc	bug	89
+-nc	saxa	89
+-nc	pek	89
+-nc	floki	89
+-nc	azul	89
+-c	89
+=	30	89
+#20000107
+-	timy	calta
+-	may	laou
++	may	mare
++nc	may	84
+-nc	mare	84
+-nc	luz	84
+-nc	may	84
+-nc	clio	84
+-c	84
+=	35	84
++	luz	laou
++c	90
++nc	luz	90
++nc	clio	90
++nc	laou	90
+-nc	luz	90
+-nc	clio	90
+-nc	laou	90
+-c	90
+=	30	90
++	saxa	fiz
++	pek	izar
++	mare	laou
++c	91
++nc	mare	91
++nc	laou	91
++nc	azul	91
++c	92
++nc	mare	92
++nc	luz	92
++nc	laou	92
++c	93
++nc	mare	93
++nc	laou	93
++nc	clio	93
++c	94
++nc	pek	94
++nc	mare	94
++nc	laou	94
++c	95
++nc	mare	95
++nc	laou	95
++nc	mega	95
++nc	azul	92
+-nc	mare	91
+-nc	laou	91
+-nc	azul	91
+-c	91
+=	92	91
++nc	luz	94
++nc	azul	94
+-nc	mare	92
+-nc	luz	92
+-nc	laou	92
+-nc	azul	92
+-c	92
+=	94	92
++nc	clio	94
+-nc	mare	93
+-nc	laou	93
+-nc	clio	93
+-c	93
+=	94	93
+-nc	pek	94
+-nc	mare	94
+-nc	luz	94
+-nc	laou	94
+-nc	azul	94
+-nc	clio	94
+-c	94
+=	30	94
+-nc	mare	95
+-nc	laou	95
+-nc	mega	95
+-c	95
+=	30	95
+-	gabi	fine
+-nc	gabi	27
++	titou	pol
+-	lady	gabi
+#20000108
+-	timy	clio
+-	timy	izar
+-	timy	mega
+-	timy	gabi
+-nc	timy	30
+-	timy	saxa
+-	timy	bug
+-	izar	gabi
++	saxa	clio
++c	96
++nc	saxa	96
++nc	gabi	96
++nc	clio	96
++c	97
++nc	saxa	97
++nc	neou	97
++nc	clio	97
++c	98
++nc	saxa	98
++nc	azul	98
++nc	clio	98
++c	99
++nc	saxa	99
++nc	izar	99
++nc	clio	99
++nc	gabi	98
+-nc	saxa	96
+-nc	gabi	96
+-nc	clio	96
+-c	96
+=	98	96
+-nc	saxa	98
+-nc	azul	98
+-nc	gabi	98
+-nc	clio	98
+-c	98
+=	30	98
+-nc	saxa	97
+-nc	neou	97
+-nc	clio	97
+-c	97
+=	30	97
+-nc	saxa	99
+-nc	izar	99
+-nc	clio	99
+-c	99
+=	30	99
++	saxa	mega
++nc	saxa	30
++	saxa	bug
+-	gabi	azul
+#20000111
++	nice	kali
++c	100
++nc	kali	100
++nc	nice	100
++nc	narcis	100
+-nc	kali	100
+-nc	nice	100
+-nc	narcis	100
+-c	100
+=	83	100
+-	saxa	izar
+#20000112
+-	safo	lila
+-nc	safo	80
++	safo	igor
++nc	igor	79
++nc	safo	4
+-nc	igor	79
+-nc	sol	79
+-nc	safo	79
+-nc	narcis	79
+-c	79
+=	4	79
++	safo	karo
++c	101
++nc	karo	101
++nc	safo	101
++nc	narcis	101
++c	102
++nc	karo	102
++nc	safo	102
++nc	gala	102
++c	103
++nc	karo	103
++nc	safo	103
++nc	igor	103
++c	104
++nc	karo	104
++nc	safo	104
++nc	yaho	104
++nc	narcis	102
+-nc	karo	101
+-nc	safo	101
+-nc	narcis	101
+-c	101
+=	102	101
++nc	yaho	102
+-nc	karo	104
+-nc	safo	104
+-nc	yaho	104
+-c	104
+=	102	104
++nc	igor	102
+-nc	karo	103
+-nc	safo	103
+-nc	igor	103
+-c	103
+=	102	103
+-nc	karo	102
+-nc	safo	102
+-nc	igor	102
+-nc	yaho	102
+-nc	narcis	102
+-nc	gala	102
+-c	102
+=	4	102
++	safo	diva
++nc	safo	83
++nc	safo	80
+-nc	kali	83
+-nc	diva	83
+-nc	karo	83
+-nc	safo	83
+-nc	narcis	83
+-c	83
+=	80	83
++	igor	diva
++nc	igor	80
++	karo	aziz
++nc	aziz	80
+-	yaho	aziz
+-nc	yaho	80
+-	yaho	karo
+-	yaho	lila
++	yaho	diva
++c	105
++nc	diva	105
++nc	safo	105
++nc	yaho	105
+-	lila	karo
+-nc	lila	80
+-	lila	diva
++	tati	karo
++nc	karo	4
++	tati	igor
++	tati	safo
++nc	tati	80
++nc	tati	105
+-nc	diva	80
+-nc	karo	80
+-nc	aziz	80
+-nc	safo	80
+-nc	igor	80
+-nc	tati	80
+-nc	gala	80
+-c	80
+=	4	80
++	tati	diva
++nc	diva	4
++	floki	clio
++nc	floki	30
++	diva	aziz
++nc	aziz	105
+-nc	diva	105
+-nc	aziz	105
+-nc	safo	105
+-nc	yaho	105
+-nc	tati	105
+-c	105
+=	4	105
+#20000114
+-	mega	izar
+-nc	izar	30
++	mega	floki
+-	izar	clio
+-	izar	floki
+-	izar	atos
+-	azul	atos
+-	neou	izar
++	neou	atos
++	neou	mega
+-	pek	izar
++	pek	atos
++	pek	mega
+-	tati	karo
+-	tati	igor
++	floki	atos
+#20000115
++	calta	atos
++	tati	camou
+#20000117
+-	may	lise
++	mare	lise
++c	106
++nc	mare	106
++nc	luz	106
++nc	lise	106
+-nc	mare	106
+-nc	luz	106
+-nc	lise	106
+-c	106
+=	35	106
++	mare	blou
++nc	mare	35
+#20000119
++	niva	lise
++	niva	blou
+#20000120
++	niva	mare
++	pom	pek
++	pom	bug
++c	107
++nc	bug	107
++nc	pek	107
++nc	pom	107
++	mare	lou
+#20000121
+-	izar	azul
++	safo	kali
++nc	kali	4
++	safo	dona
++	karo	dona
++c	108
++nc	karo	108
++nc	dona	108
++nc	safo	108
++	julie	bos
+-	lila	gala
++	kali	aziz
++	kali	dona
++nc	kali	108
+-nc	kali	108
+-nc	karo	108
+-nc	dona	108
+-nc	safo	108
+-c	108
+=	4	108
++	dona	diva
++c	109
++nc	diva	109
++nc	karo	109
++nc	dona	109
++c	110
++nc	kali	110
++nc	diva	110
++nc	dona	110
++c	111
++nc	diva	111
++nc	dona	111
++nc	safo	111
++nc	karo	111
+-nc	diva	109
+-nc	karo	109
+-nc	dona	109
+-c	109
+=	111	109
+-nc	diva	111
+-nc	karo	111
+-nc	dona	111
+-nc	safo	111
+-c	111
+=	4	111
+#20000124
+-	niva	blou
+-	lou	blou
+-	may	mare
+-	lise	blou
+-nc	blou	35
+#20000125
+-	may	blou
+-	igor	gala
++	narcis	dona
++nc	narcis	110
+-nc	kali	110
+-nc	diva	110
+-nc	dona	110
+-nc	narcis	110
+-c	110
+=	4	110
+-	gala	diva
++	kali	gala
++c	112
++nc	kali	112
++nc	karo	112
++nc	gala	112
++c	113
++nc	kali	113
++nc	aziz	113
++nc	gala	113
++c	114
++nc	kali	114
++nc	safo	114
++nc	gala	114
++nc	karo	113
+-nc	kali	112
+-nc	karo	112
+-nc	gala	112
+-c	112
+=	113	112
++nc	safo	113
+-nc	kali	114
+-nc	safo	114
+-nc	gala	114
+-c	114
+=	113	114
+-nc	kali	113
+-nc	karo	113
+-nc	aziz	113
+-nc	safo	113
+-nc	gala	113
+-c	113
+=	4	113
+#20000128
++	pol	ade
+-	safo	gala
+-	gala	aziz
+-	karo	gala
+#20000131
+-	niva	mare
+-	calta	atos
+-	mare	lou
+-nc	mare	35
+-	gabi	calta
+-nc	calta	30
+-	gabi	atos
+-nc	gabi	30
+#20000203
+-	narcis	dona
+-	kali	gala
+#20000204
+-	luz	blou
+-	mare	blou
+#20000209
+-	niva	luz
++	pom	gabi
++nc	gabi	107
+-	timy	pek
+-	timy	neou
+-	timy	azul
+-	timy	cloe
+-	luz	lou
+-	kali	dona
+#20000213
+-	may	luz
+-nc	luz	35
+#20000215
++	pom	fine
++nc	fine	107
++	bule	ade
+#20000219
+-	saxa	lady
+-	lady	blek
+-nc	lady	27
+-	lady	ade
+#20000222
+-	tati	lou
+-	tati	niva
+#20000302
+-	tati	aziz
+-	tati	camou
+#20000303
++	nice	diva
+-	mare	calta
+-	lady	fine
+#20000305
+-	pek	mare
++	titou	ade
++nc	ade	53
++	lise	atos
+#20000307
++	yeti	mega
+-	lise	atos
+#20000308
+-	pom	fine
+-nc	fine	107
++	samba	safo
++	samba	karo
++c	115
++nc	samba	115
++nc	karo	115
++nc	safo	115
++	samba	diva
++nc	diva	115
+-	cloe	azul
+-	safo	dona
+-	karo	dona
+-	pek	fine
+#20000313
+-	mega	atos
++	samba	igor
++nc	igor	115
+-nc	samba	115
+-nc	karo	115
+-nc	safo	115
+-nc	igor	115
+-nc	diva	115
+-c	115
+=	4	115
+-	clio	atos
+-	laou	atos
+-nc	atos	30
+-	neou	atos
+-	bug	atos
+-	pek	atos
+-	floki	atos
+#20000314
++	samba	kali
++c	116
++nc	kali	116
++nc	samba	116
++nc	diva	116
++c	117
++nc	kali	117
++nc	samba	117
++nc	igor	117
++c	118
++nc	kali	118
++nc	samba	118
++nc	karo	118
++c	119
++nc	kali	119
++nc	samba	119
++nc	safo	119
++nc	igor	116
+-nc	kali	117
+-nc	samba	117
+-nc	igor	117
+-c	117
+=	116	117
++nc	safo	116
+-nc	kali	119
+-nc	samba	119
+-nc	safo	119
+-c	119
+=	116	119
+-nc	kali	116
+-nc	samba	116
+-nc	igor	116
+-nc	safo	116
+-nc	diva	116
+-c	116
+=	4	116
+-nc	kali	118
+-nc	samba	118
+-nc	karo	118
+-c	118
+=	4	118
+#20000316
+-	calta	azul
+-	dona	diva
+#20000318
++	zora	lou
++	zora	niva
++nc	zora	35
++	zora	lise
+#20000320
+-	mega	calta
++	cloe	blak
+-	bule	ade
+-nc	ade	53
++	safo	nice
+-	clio	calta
++	sol	diva
+-	calta	bug
+-	pek	calta
+-	zora	niva
+-nc	zora	35
+-	tati	narcis
+-nc	tati	4
+-	tati	sol
+-	tati	safo
++	zazi	pek
++	zazi	clio
++c	120
++nc	zazi	120
++nc	pek	120
++nc	clio	120
++	zazi	mega
++nc	mega	120
++	zazi	neou
++nc	neou	120
+-nc	zazi	120
+-nc	pek	120
+-nc	neou	120
+-nc	mega	120
+-nc	clio	120
+-c	120
+=	30	120
++	zazi	bug
++nc	zazi	30
+#20000324
++	saxa	pek
+-	bug	azul
+-	pek	azul
++	gabi	cloe
++c	121
++nc	cloe	121
++nc	pek	121
++nc	gabi	121
+-nc	cloe	121
+-nc	pek	121
+-nc	gabi	121
+-c	121
+=	107	121
+-	tati	nice
+-	tati	diva
++	zazi	saxa
++	zazi	azul
+#20000325
+-	niva	may
+-nc	may	35
+-	may	lou
+#20000328
+-	niva	lou
+-nc	niva	35
+-nc	lise	35
+-nc	lou	35
+-c	35
+-	niva	lise
++	samba	narcis
++nc	samba	4
++	sol	kali
++	sol	samba
++	sol	karo
+#20000330
+-	pol	ade
+-	titou	pol
+-	titou	ade
+#20001201
++	tif	julie
+#20001202
++	fan	clio
++	gat	doly
++	neou	fan
++c	122
++nc	neou	122
++nc	fan	122
++nc	clio	122
++	zazi	fan
++nc	zazi	122
++	zazi	yeti
++c	123
++nc	zazi	123
++nc	mega	123
++nc	yeti	123
++	doly	bule
++nc	doly	53
+#20001203
++	ity	gabi
++	mega	fan
++nc	mega	122
+-nc	zazi	122
+-nc	neou	122
+-nc	mega	122
+-nc	fan	122
+-nc	clio	122
+-c	122
+=	30	122
++	mega	kado
++	samba	nice
+-	pitou	fiz
++	kado	clio
++c	124
++nc	mega	124
++nc	kado	124
++nc	clio	124
++	kado	fan
++nc	fan	124
++	kado	azul
++nc	azul	124
++	fan	azul
+-	pek	cloe
++	zazi	kado
++nc	zazi	124
+-	zazi	azul
+#20001204
++	kado	floki
++nc	floki	124
+-nc	zazi	124
+-nc	mega	124
+-nc	floki	124
+-nc	fan	124
+-nc	azul	124
+-nc	kado	124
+-nc	clio	124
+-c	124
+=	30	124
++	neou	mare
++c	125
++nc	mare	125
++nc	neou	125
++nc	mega	125
++c	126
++nc	mare	126
++nc	neou	126
++nc	laou	126
++c	127
++nc	mare	127
++nc	neou	127
++nc	clio	127
++c	128
++nc	mare	128
++nc	neou	128
++nc	azul	128
++nc	laou	125
+-nc	mare	126
+-nc	neou	126
+-nc	laou	126
+-c	126
+=	125	126
++nc	azul	125
+-nc	mare	128
+-nc	neou	128
+-nc	azul	128
+-c	128
+=	125	128
+-nc	mare	125
+-nc	neou	125
+-nc	laou	125
+-nc	mega	125
+-nc	azul	125
+-c	125
+=	30	125
+-nc	mare	127
+-nc	neou	127
+-nc	clio	127
+-c	127
+=	30	127
++	neou	kado
++nc	kado	30
++	mare	floki
++nc	mare	30
++	mare	kado
++	zazi	mare
++	zazi	floki
+#20001205
+-	pol	mis
+-nc	pol	57
+-nc	laso	57
+-nc	mis	57
+-c	57
++	lune	doly
+-	tif	julie
++	titou	doly
++	titou	lune
++c	129
++nc	titou	129
++nc	lune	129
++nc	doly	129
+#20001208
++	ity	cloe
++c	130
++nc	cloe	130
++nc	ity	130
++nc	gabi	130
++	safo	gamba
++	laou	fan
++nc	fan	30
+-	laou	azul
++	saxa	laou
+-	saxa	azul
++	mare	fan
++	gamba	diva
++c	131
++nc	diva	131
++nc	gamba	131
++nc	safo	131
++	floki	fan
+#20001210
+-	pol	laso
++	lune	bule
++nc	bule	129
++nc	lune	53
+-nc	titou	129
+-nc	bule	129
+-nc	lune	129
+-nc	doly	129
+-c	129
+=	53	129
+#20001211
++	fan	ecu
++	ecu	clio
++c	132
++nc	ecu	132
++nc	fan	132
++nc	clio	132
++	ecu	azul
++nc	azul	132
++	clio	blak
++c	133
++nc	blak	133
++nc	azul	133
++nc	clio	133
+-	blak	azul
+-nc	blak	133
+-nc	clio	133
+-nc	azul	133
+-c	133
+#20001213
++	mega	ecu
++nc	mega	132
+-nc	mega	132
+-nc	ecu	132
+-nc	fan	132
+-nc	azul	132
+-nc	clio	132
+-c	132
+=	30	132
+-	mega	azul
++	lou	igor
++	kado	ecu
++c	134
++nc	mega	134
++nc	ecu	134
++nc	kado	134
++c	135
++nc	ecu	135
++nc	fan	135
++nc	kado	135
++c	136
++nc	ecu	136
++nc	azul	136
++nc	kado	136
++c	137
++nc	ecu	137
++nc	kado	137
++nc	clio	137
++nc	fan	134
+-nc	ecu	135
+-nc	fan	135
+-nc	kado	135
+-c	135
+=	134	135
++nc	clio	134
+-nc	ecu	137
+-nc	kado	137
+-nc	clio	137
+-c	137
+=	134	137
++nc	azul	134
+-nc	ecu	136
+-nc	azul	136
+-nc	kado	136
+-c	136
+=	134	136
+-nc	mega	134
+-nc	ecu	134
+-nc	fan	134
+-nc	azul	134
+-nc	kado	134
+-nc	clio	134
+-c	134
+=	30	134
+-	kado	azul
+-nc	azul	30
+-	fan	azul
+-	ecu	azul
+-	clio	azul
++	saxa	cloe
++c	138
++nc	saxa	138
++nc	cloe	138
++nc	gabi	138
++c	139
++nc	saxa	139
++nc	cloe	139
++nc	laou	139
++c	140
++nc	saxa	140
++nc	cloe	140
++nc	floki	140
++c	141
++nc	saxa	141
++nc	cloe	141
++nc	neou	141
++nc	gabi	139
+-nc	saxa	138
+-nc	cloe	138
+-nc	gabi	138
+-c	138
+=	139	138
+-nc	saxa	139
+-nc	cloe	139
+-nc	laou	139
+-nc	gabi	139
+-c	139
+=	130	139
+-nc	saxa	140
+-nc	cloe	140
+-nc	floki	140
+-c	140
+=	30	140
+-nc	saxa	141
+-nc	cloe	141
+-nc	neou	141
+-c	141
+=	30	141
+-	neou	azul
++	neou	ecu
++c	142
++nc	neou	142
++nc	ecu	142
++nc	fan	142
++c	143
++nc	neou	143
++nc	mega	143
++nc	ecu	143
++c	144
++nc	neou	144
++nc	ecu	144
++nc	clio	144
++c	145
++nc	neou	145
++nc	ecu	145
++nc	kado	145
++nc	fan	143
+-nc	neou	142
+-nc	ecu	142
+-nc	fan	142
+-c	142
+=	143	142
++nc	kado	143
+-nc	neou	145
+-nc	ecu	145
+-nc	kado	145
+-c	145
+=	143	145
++nc	clio	143
+-nc	neou	144
+-nc	ecu	144
+-nc	clio	144
+-c	144
+=	143	144
+-nc	neou	143
+-nc	mega	143
+-nc	ecu	143
+-nc	fan	143
+-nc	kado	143
+-nc	clio	143
+-c	143
+=	30	143
+-	mare	azul
++	mare	ecu
++nc	ecu	30
++	floki	ecu
+-	floki	azul
+#20001214
+-	mis	laso
+#20001217
++	samba	luc
++	luc	karo
++c	146
++nc	samba	146
++nc	karo	146
++nc	luc	146
++	luc	igor
++nc	igor	146
+#20001218
++	yaho	kali
++c	147
++nc	kali	147
++nc	diva	147
++nc	yaho	147
++c	148
++nc	kali	148
++nc	safo	148
++nc	yaho	148
++nc	diva	148
+-nc	kali	147
+-nc	diva	147
+-nc	yaho	147
+-c	147
+=	148	147
+-nc	kali	148
+-nc	diva	148
+-nc	safo	148
+-nc	yaho	148
+-c	148
+=	4	148
++	yaho	narcis
++c	149
++nc	diva	149
++nc	yaho	149
++nc	narcis	149
++c	150
++nc	kali	150
++nc	yaho	150
++nc	narcis	150
++c	151
++nc	safo	151
++nc	yaho	151
++nc	narcis	151
++nc	diva	151
+-nc	diva	149
+-nc	yaho	149
+-nc	narcis	149
+-c	149
+=	151	149
++nc	diva	150
++nc	safo	150
+-nc	diva	151
+-nc	safo	151
+-nc	yaho	151
+-nc	narcis	151
+-c	151
+=	150	151
+-nc	kali	150
+-nc	diva	150
+-nc	safo	150
+-nc	yaho	150
+-nc	narcis	150
+-c	150
+=	4	150
++	yaho	samba
++c	152
++nc	samba	152
++nc	safo	152
++nc	yaho	152
++c	153
++nc	samba	153
++nc	diva	153
++nc	yaho	153
++c	154
++nc	samba	154
++nc	yaho	154
++nc	narcis	154
++c	155
++nc	kali	155
++nc	samba	155
++nc	yaho	155
++nc	safo	155
+-nc	samba	152
+-nc	safo	152
+-nc	yaho	152
+-c	152
+=	155	152
+-nc	kali	155
+-nc	samba	155
+-nc	safo	155
+-nc	yaho	155
+-c	155
+=	4	155
+-nc	samba	153
+-nc	diva	153
+-nc	yaho	153
+-c	153
+=	4	153
+-nc	samba	154
+-nc	yaho	154
+-nc	narcis	154
+-c	154
+=	4	154
++	luz	floki
++c	156
++nc	mare	156
++nc	luz	156
++nc	floki	156
++c	157
++nc	luz	157
++nc	floki	157
++nc	clio	157
++c	158
++nc	luz	158
++nc	floki	158
++nc	laou	158
++nc	mare	158
+-nc	mare	156
+-nc	luz	156
+-nc	floki	156
+-c	156
+=	158	156
++nc	clio	158
+-nc	luz	157
+-nc	floki	157
+-nc	clio	157
+-c	157
+=	158	157
+-nc	mare	158
+-nc	luz	158
+-nc	floki	158
+-nc	clio	158
+-nc	laou	158
+-c	158
+=	30	158
++	neou	luz
++c	159
++nc	neou	159
++nc	luz	159
++nc	laou	159
++c	160
++nc	neou	160
++nc	luz	160
++nc	floki	160
++c	161
++nc	neou	161
++nc	luz	161
++nc	clio	161
++c	162
++nc	mare	162
++nc	neou	162
++nc	luz	162
++nc	floki	161
+-nc	neou	160
+-nc	luz	160
+-nc	floki	160
+-c	160
+=	161	160
+-nc	neou	161
+-nc	luz	161
+-nc	floki	161
+-nc	clio	161
+-c	161
+=	30	161
++nc	mare	159
+-nc	mare	162
+-nc	neou	162
+-nc	luz	162
+-c	162
+=	159	162
+-nc	mare	159
+-nc	neou	159
+-nc	luz	159
+-nc	laou	159
+-c	159
+=	30	159
+#20001222
++	neou	gabi
++c	163
++nc	neou	163
++nc	mega	163
++nc	gabi	163
++c	164
++nc	saxa	164
++nc	neou	164
++nc	gabi	164
++c	165
++nc	pek	165
++nc	neou	165
++nc	gabi	165
++c	166
++nc	neou	166
++nc	gabi	166
++nc	clio	166
++c	167
++nc	bug	167
++nc	neou	167
++nc	gabi	167
++c	168
++nc	cloe	168
++nc	neou	168
++nc	gabi	168
++nc	clio	164
+-nc	neou	166
+-nc	gabi	166
+-nc	clio	166
+-c	166
+=	164	166
++nc	mega	164
+-nc	neou	163
+-nc	mega	163
+-nc	gabi	163
+-c	163
+=	164	163
+-nc	saxa	164
+-nc	neou	164
+-nc	mega	164
+-nc	gabi	164
+-nc	clio	164
+-c	164
+=	30	164
++nc	bug	165
+-nc	bug	167
+-nc	neou	167
+-nc	gabi	167
+-c	167
+=	165	167
+-nc	bug	165
+-nc	pek	165
+-nc	neou	165
+-nc	gabi	165
+-c	165
+=	30	165
+-nc	cloe	168
+-nc	neou	168
+-nc	gabi	168
+-c	168
+=	130	168
++	gabi	floki
++c	169
++nc	bug	169
++nc	floki	169
++nc	gabi	169
++c	170
++nc	saxa	170
++nc	floki	170
++nc	gabi	170
++c	171
++nc	cloe	171
++nc	floki	171
++nc	gabi	171
++c	172
++nc	neou	172
++nc	floki	172
++nc	gabi	172
++c	173
++nc	pek	173
++nc	floki	173
++nc	gabi	173
++c	174
++nc	mega	174
++nc	floki	174
++nc	gabi	174
++c	175
++nc	floki	175
++nc	gabi	175
++nc	clio	175
++nc	saxa	171
+-nc	saxa	170
+-nc	floki	170
+-nc	gabi	170
+-c	170
+=	171	170
++nc	neou	171
+-nc	neou	172
+-nc	floki	172
+-nc	gabi	172
+-c	172
+=	171	172
++nc	pek	171
+-nc	pek	173
+-nc	floki	173
+-nc	gabi	173
+-c	173
+=	171	173
+-nc	cloe	171
+-nc	saxa	171
+-nc	neou	171
+-nc	pek	171
+-nc	floki	171
+-nc	gabi	171
+-c	171
+=	30	171
+-nc	mega	174
+-nc	floki	174
+-nc	gabi	174
+-c	174
+=	30	174
+-nc	bug	169
+-nc	floki	169
+-nc	gabi	169
+-c	169
+=	30	169
+-nc	floki	175
+-nc	gabi	175
+-nc	clio	175
+-c	175
+=	30	175
+#20001227
++	vega	titou
++	kado	gabi
++nc	gabi	30
++	narcis	gamba
++nc	narcis	131
+-	yaho	tati
++	gabi	ecu
++	gabi	fan
+#20010103
++	vega	lune
++c	176
++nc	titou	176
++nc	vega	176
++nc	lune	176
+#20010104
++	clio	ade
++c	177
++nc	ade	177
++nc	gabi	177
++nc	clio	177
++c	178
++nc	saxa	178
++nc	ade	178
++nc	clio	178
++nc	gabi	178
+-nc	ade	177
+-nc	gabi	177
+-nc	clio	177
+-c	177
+=	178	177
+-nc	saxa	178
+-nc	ade	178
+-nc	gabi	178
+-nc	clio	178
+-c	178
+=	30	178
+-	gabi	fan
+#20010110
++	lune	gat
+-	titou	gat
+#20010112
++	cloe	bug
++c	179
++nc	bug	179
++nc	cloe	179
++nc	floki	179
++c	180
++nc	bug	180
++nc	cloe	180
++nc	saxa	180
++c	181
++nc	bug	181
++nc	cloe	181
++nc	gabi	181
++c	182
++nc	bug	182
++nc	cloe	182
++nc	laou	182
++c	183
++nc	bug	183
++nc	cloe	183
++nc	neou	183
++nc	floki	183
+-nc	bug	179
+-nc	cloe	179
+-nc	floki	179
+-c	179
+=	183	179
++nc	neou	182
++nc	floki	182
+-nc	bug	183
+-nc	cloe	183
+-nc	neou	183
+-nc	floki	183
+-c	183
+=	182	183
+-nc	bug	181
+-nc	cloe	181
+-nc	gabi	181
+-c	181
+=	130	181
++nc	saxa	182
+-nc	bug	180
+-nc	cloe	180
+-nc	saxa	180
+-c	180
+=	182	180
+-nc	bug	182
+-nc	cloe	182
+-nc	saxa	182
+-nc	neou	182
+-nc	laou	182
+-nc	floki	182
+-c	182
+=	30	182
+-	saxa	blek
++	mare	dahu
+#20010116
++	mega	lise
++c	184
++nc	mare	184
++nc	mega	184
++nc	lise	184
++	twig	gamba
++	twig	narcis
++nc	twig	131
++	laou	ecu
++	laou	kado
++	zora	mare
++nc	zora	184
++	zora	luz
++nc	luz	184
++	zora	kado
++c	185
++nc	mare	185
++nc	zora	185
++nc	kado	185
+-nc	mare	185
+-nc	zora	185
+-nc	kado	185
+-c	185
+=	184	185
++	lise	kado
++nc	kado	184
+#20010117
+-	mega	lise
+-nc	mega	184
+#20010118
+-	yop	ade
+-nc	yop	27
++	lise	dahu
++c	186
++nc	mare	186
++nc	dahu	186
++nc	lise	186
+#20010119
++	twig	samba
++nc	samba	131
+-	gat	bule
+#20010120
++	zen	gamba
++	zen	kali
++	zen	karo
++c	187
++nc	kali	187
++nc	karo	187
++nc	zen	187
++	zen	narcis
++nc	narcis	187
+-nc	kali	187
+-nc	karo	187
+-nc	narcis	187
+-nc	zen	187
+-c	187
+=	4	187
++	zen	safo
++c	188
++nc	gamba	188
++nc	safo	188
++nc	zen	188
++c	189
++nc	narcis	189
++nc	safo	189
++nc	zen	189
++c	190
++nc	karo	190
++nc	safo	190
++nc	zen	190
++c	191
++nc	kali	191
++nc	safo	191
++nc	zen	191
++nc	gamba	189
+-nc	gamba	188
+-nc	safo	188
+-nc	zen	188
+-c	188
+=	189	188
++nc	karo	189
+-nc	karo	190
+-nc	safo	190
+-nc	zen	190
+-c	190
+=	189	190
++nc	kali	189
+-nc	kali	191
+-nc	safo	191
+-nc	zen	191
+-c	191
+=	189	191
++	zen	twig
++nc	twig	189
++nc	zen	131
++nc	kali	131
++nc	karo	131
+-nc	kali	189
+-nc	karo	189
+-nc	twig	189
+-nc	narcis	189
+-nc	gamba	189
+-nc	safo	189
+-nc	zen	189
+-c	189
+=	131	189
+-nc	kali	131
+-nc	diva	131
+-nc	karo	131
+-nc	twig	131
+-nc	samba	131
+-nc	gamba	131
+-nc	zen	131
+-nc	safo	131
+-nc	narcis	131
+-c	131
+=	4	131
++	zen	lety
++	safo	lety
++c	192
++nc	lety	192
++nc	safo	192
++nc	zen	192
++	narcis	lety
++nc	narcis	192
++	luc	diva
++nc	diva	146
+-nc	samba	146
+-nc	karo	146
+-nc	igor	146
+-nc	diva	146
+-nc	luc	146
+-c	146
+=	4	146
++	karo	gamba
++c	193
++nc	diva	193
++nc	karo	193
++nc	gamba	193
++c	194
++nc	karo	194
++nc	gamba	194
++nc	narcis	194
++c	195
++nc	karo	195
++nc	gamba	195
++nc	safo	195
++c	196
++nc	karo	196
++nc	gamba	196
++nc	zen	196
++nc	diva	195
+-nc	diva	193
+-nc	karo	193
+-nc	gamba	193
+-c	193
+=	195	193
++nc	narcis	195
+-nc	karo	194
+-nc	gamba	194
+-nc	narcis	194
+-c	194
+=	195	194
+-nc	diva	195
+-nc	karo	195
+-nc	gamba	195
+-nc	safo	195
+-nc	narcis	195
+-c	195
+=	4	195
++	twig	kali
++c	197
++nc	kali	197
++nc	twig	197
++nc	zen	197
++c	198
++nc	kali	198
++nc	samba	198
++nc	twig	198
++c	199
++nc	kali	199
++nc	twig	199
++nc	narcis	199
++nc	zen	199
+-nc	kali	197
+-nc	twig	197
+-nc	zen	197
+-c	197
+=	199	197
++nc	samba	199
+-nc	kali	198
+-nc	samba	198
+-nc	twig	198
+-c	198
+=	199	198
++	twig	karo
++nc	karo	199
++nc	twig	196
++nc	gamba	199
+-nc	karo	196
+-nc	twig	196
+-nc	gamba	196
+-nc	zen	196
+-c	196
+=	199	196
++	twig	safo
++nc	safo	199
++	twig	lety
++nc	lety	199
++nc	twig	192
+-nc	twig	192
+-nc	narcis	192
+-nc	lety	192
+-nc	safo	192
+-nc	zen	192
+-c	192
+=	199	192
++	kali	gamba
++	lety	gamba
++	lety	kali
++	lety	karo
+#20010122
+-	ity	cloe
+-nc	ity	130
+-nc	gabi	130
+-nc	cloe	130
+-c	130
++	zen	samba
++	zen	diva
++nc	diva	199
++	zazi	ecu
+#20010123
++	nice	gamba
++nc	gamba	4
++nc	nice	199
++nc	zen	4
+-nc	kali	199
+-nc	samba	199
+-nc	nice	199
+-nc	karo	199
+-nc	twig	199
+-nc	lety	199
+-nc	gamba	199
+-nc	zen	199
+-nc	safo	199
+-nc	diva	199
+-nc	narcis	199
+-c	199
+=	4	199
++	vega	doly
++nc	doly	176
++nc	vega	53
+-nc	titou	176
+-nc	vega	176
+-nc	lune	176
+-nc	doly	176
+-c	176
+=	53	176
++	zazi	laou
+#20010124
++	pom	clio
++nc	clio	107
+-nc	bug	107
+-nc	pek	107
+-nc	pom	107
+-nc	gabi	107
+-nc	clio	107
+-c	107
+=	30	107
++	pom	neou
++c	200
++nc	neou	200
++nc	pom	200
++nc	clio	200
++c	201
++nc	bug	201
++nc	neou	201
++nc	pom	201
++c	202
++nc	neou	202
++nc	pom	202
++nc	gabi	202
++c	203
++nc	pek	203
++nc	neou	203
++nc	pom	203
++nc	clio	203
+-nc	neou	200
+-nc	pom	200
+-nc	clio	200
+-c	200
+=	203	200
++nc	bug	203
+-nc	bug	201
+-nc	neou	201
+-nc	pom	201
+-c	201
+=	203	201
+-nc	bug	203
+-nc	pek	203
+-nc	neou	203
+-nc	pom	203
+-nc	clio	203
+-c	203
+=	30	203
++	pom	laou
++nc	laou	202
++	pom	floki
++nc	floki	202
+-nc	neou	202
+-nc	laou	202
+-nc	pom	202
+-nc	floki	202
+-nc	gabi	202
+-c	202
+=	30	202
++	pom	kado
++nc	pom	30
+-	kado	fan
++	kado	bug
+-	laou	fan
+-	laou	ecu
+-	neou	fan
+-nc	fan	30
+-	floki	fan
+-	zazi	fan
+-	zazi	ecu
++	zazi	pom
+#20010125
+-	mega	fan
+-	fan	clio
+-	fan	ecu
+-	yaho	narcis
++	yaho	lety
++c	204
++nc	kali	204
++nc	lety	204
++nc	yaho	204
++c	205
++nc	lety	205
++nc	safo	205
++nc	yaho	205
++nc	kali	205
+-nc	kali	204
+-nc	lety	204
+-nc	yaho	204
+-c	204
+=	205	204
+-	mare	fan
+-	mare	ecu
+-nc	ecu	30
+#20010131
++	zen	nice
+#20010203
++	nice	karo
+#20010206
+-	timy	atos
++	yama	mare
++	yama	lise
++c	206
++nc	yama	206
++nc	mare	206
++nc	lise	206
+-	yaho	lety
+-nc	yaho	205
++	zora	yama
++nc	yama	184
++nc	zora	206
+-nc	yama	206
+-nc	mare	206
+-nc	lise	206
+-nc	zora	206
+-c	206
+=	184	206
+#20010208
++	samba	ana
++	zen	ana
++c	207
++nc	samba	207
++nc	ana	207
++nc	zen	207
+#20010209
++	twig	ana
++nc	twig	207
++	lety	ana
++nc	lety	207
+#20010213
++	samba	lety
++nc	lety	4
++nc	samba	205
+-nc	kali	205
+-nc	samba	205
+-nc	lety	205
+-nc	safo	205
+-c	205
+=	4	205
++	karo	ana
++nc	karo	207
++nc	twig	4
+-nc	samba	207
+-nc	karo	207
+-nc	twig	207
+-nc	ana	207
+-nc	lety	207
+-nc	zen	207
+-c	207
+=	4	207
+#20010216
++	lou	fine
++	vega	bule
++	twig	luc
++c	208
++nc	samba	208
++nc	twig	208
++nc	luc	208
++c	209
++nc	karo	209
++nc	twig	209
++nc	luc	209
++nc	karo	208
+-nc	karo	209
+-nc	twig	209
+-nc	luc	209
+-c	209
+=	208	209
+-nc	samba	208
+-nc	karo	208
+-nc	twig	208
+-nc	luc	208
+-c	208
+=	4	208
++	twig	igor
+-	yop	saxa
+-	yop	fine
+-	zora	mare
+#20010217
++	pom	mega
+-	ecu	clio
+-	gabi	ecu
+#20010220
+-	mega	ecu
++	zen	igor
+-	kado	ecu
++	igor	ana
++c	210
++nc	igor	210
++nc	ana	210
++nc	zen	210
++c	211
++nc	samba	211
++nc	igor	211
++nc	ana	211
++c	212
++nc	igor	212
++nc	twig	212
++nc	ana	212
++c	213
++nc	igor	213
++nc	ana	213
++nc	karo	213
++nc	zen	211
+-nc	igor	210
+-nc	ana	210
+-nc	zen	210
+-c	210
+=	211	210
+-nc	igor	212
+-nc	twig	212
+-nc	ana	212
+-c	212
+=	4	212
+-nc	samba	211
+-nc	igor	211
+-nc	ana	211
+-nc	zen	211
+-c	211
+=	4	211
+-	neou	ecu
++	pek	kado
+-	floki	ecu
+#20010221
+-	mega	mare
+-nc	mare	30
+-	yeti	mega
+-nc	yeti	123
+-nc	zazi	123
+-nc	mega	123
+-c	123
++	yeti	mare
++c	214
++nc	zazi	214
++nc	mare	214
++nc	yeti	214
+#20010223
++	yama	dahu
++nc	dahu	184
++nc	yama	186
+-nc	yama	186
+-nc	mare	186
+-nc	dahu	186
+-nc	lise	186
+-c	186
+=	184	186
+#20010225
+-	samba	luc
+-	samba	ana
++	narcis	luc
++c	215
++nc	diva	215
++nc	luc	215
++nc	narcis	215
++c	216
++nc	karo	216
++nc	luc	216
++nc	narcis	216
++c	217
++nc	twig	217
++nc	luc	217
++nc	narcis	217
++c	218
++nc	igor	218
++nc	luc	218
++nc	narcis	218
++nc	igor	215
+-nc	igor	218
+-nc	luc	218
+-nc	narcis	218
+-c	218
+=	215	218
+-nc	diva	215
+-nc	igor	215
+-nc	luc	215
+-nc	narcis	215
+-c	215
+=	4	215
++nc	twig	216
+-nc	twig	217
+-nc	luc	217
+-nc	narcis	217
+-c	217
+=	216	217
+-nc	karo	216
+-nc	twig	216
+-nc	luc	216
+-nc	narcis	216
+-c	216
+=	4	216
+-	luc	karo
+-	luc	igor
+-	luc	diva
+-	karo	ana
+-nc	karo	213
+-nc	igor	213
+-nc	ana	213
+-c	213
+-	twig	luc
+-	twig	ana
++	twig	diva
++	lety	igor
++	lety	diva
+-	lety	ana
+#20010226
++	sol	gamba
+-	saxa	fiz
++	zazi	gabi
+-	lise	dahu
+-nc	dahu	184
+#20010301
+-	zen	ana
+-	igor	ana
+#20010304
++	zora	azor
+-	zora	lise
+#20010305
++	zen	aziz
++	karo	jozi
++	twig	aziz
++	saxa	kado
++	kali	jozi
++c	219
++nc	kali	219
++nc	karo	219
++nc	jozi	219
+-	titou	bule
+#20010307
++	jozi	aziz
++nc	aziz	219
+-	julie	bos
++	laou	gabi
+#20010308
+-	pom	neou
+-	yama	dahu
++	yeti	yama
++nc	yama	214
+-	mare	dahu
+#20010309
++	yama	lou
++nc	lou	184
+#20010313
++	nice	jozi
++nc	nice	219
+-nc	kali	219
+-nc	nice	219
+-nc	karo	219
+-nc	aziz	219
+-nc	jozi	219
+-c	219
+=	4	219
++	nice	lety
++	samba	jozi
++c	220
++nc	samba	220
++nc	nice	220
++nc	jozi	220
++c	221
++nc	samba	221
++nc	karo	221
++nc	jozi	221
++c	222
++nc	kali	222
++nc	samba	222
++nc	jozi	222
++nc	karo	222
+-nc	samba	221
+-nc	karo	221
+-nc	jozi	221
+-c	221
+=	222	221
++nc	kali	220
++nc	karo	220
+-nc	kali	222
+-nc	samba	222
+-nc	karo	222
+-nc	jozi	222
+-c	222
+=	220	222
+-nc	kali	220
+-nc	samba	220
+-nc	nice	220
+-nc	karo	220
+-nc	jozi	220
+-c	220
+=	4	220
++	samba	gamba
++	samba	aziz
++	jozi	gamba
++c	223
++nc	nice	223
++nc	jozi	223
++nc	gamba	223
++c	224
++nc	samba	224
++nc	jozi	224
++nc	gamba	224
++c	225
++nc	kali	225
++nc	jozi	225
++nc	gamba	225
++c	226
++nc	karo	226
++nc	jozi	226
++nc	gamba	226
++nc	nice	225
+-nc	nice	223
+-nc	jozi	223
+-nc	gamba	223
+-c	223
+=	225	223
++nc	karo	224
+-nc	karo	226
+-nc	jozi	226
+-nc	gamba	226
+-c	226
+=	224	226
+-nc	samba	224
+-nc	karo	224
+-nc	jozi	224
+-nc	gamba	224
+-c	224
+=	4	224
+-nc	kali	225
+-nc	nice	225
+-nc	jozi	225
+-nc	gamba	225
+-c	225
+=	4	225
++	jozi	igor
++c	227
++nc	samba	227
++nc	igor	227
++nc	jozi	227
++c	228
++nc	igor	228
++nc	aziz	228
++nc	jozi	228
++c	229
++nc	kali	229
++nc	igor	229
++nc	jozi	229
++c	230
++nc	igor	230
++nc	jozi	230
++nc	karo	230
+-nc	igor	228
+-nc	aziz	228
+-nc	jozi	228
+-c	228
+=	4	228
+-nc	samba	227
+-nc	igor	227
+-nc	jozi	227
+-c	227
+=	4	227
+-nc	kali	229
+-nc	igor	229
+-nc	jozi	229
+-c	229
+=	4	229
+-nc	igor	230
+-nc	jozi	230
+-nc	karo	230
+-c	230
+=	4	230
++	jozi	diva
++nc	jozi	4
++	zen	jozi
+-	zen	nice
++	zen	sol
++	safo	jozi
+-	igor	aziz
+-	igor	diva
++	narcis	jozi
+-	narcis	igor
+-	narcis	aziz
++	twig	jozi
++	twig	nice
++	twig	sol
++	sol	jozi
+-	sol	igor
++	sol	lety
++	lety	jozi
++	lety	aziz
+#20010314
+-	jozi	igor
+-nc	igor	4
+-	zen	igor
+-	safo	igor
+-	karo	igor
+-	kali	igor
+#20010315
+-	zora	lou
+-nc	zora	184
+#20010317
+-	pom	pek
+-	pom	laou
+-	pom	gabi
+-	pom	floki
+-nc	pom	30
+-	pom	bug
+#20010320
+-	safo	aziz
+-	zora	azor
++	sky	floki
+#20010322
+-	blek	ade
+-nc	blek	27
+-	saxa	fine
+-nc	saxa	27
+-nc	ade	27
+-nc	fine	27
+-c	27
++	sky	cloe
++c	231
++nc	cloe	231
++nc	floki	231
++nc	sky	231
+#20010323
+-	cloe	bug
+-	karo	aziz
+-	sky	cloe
+-nc	sky	231
+-nc	floki	231
+-nc	cloe	231
+-c	231
+-	sky	floki
++	zazi	lou
+-	diva	aziz
+-nc	aziz	4
+#20010324
+-	nice	karo
+-	mega	laou
+-	mega	gabi
+-	mega	floki
+-	mega	bug
+-	samba	aziz
+-	cloe	blak
+-	jozi	aziz
+-	zen	aziz
+-	kado	bug
+-	twig	aziz
+-	clio	bug
+-	laou	bug
+-	saxa	mega
+-nc	mega	30
+-	saxa	bug
+-	saxa	kado
+-	neou	mega
+-	neou	bug
+-nc	bug	30
+-	pek	mega
+-	pek	bug
+-	pek	kado
+-	kali	aziz
+-	gabi	bug
+-	floki	bug
+-	zazi	saxa
+-	zazi	bug
+-	lety	aziz
+#20010325
+-	samba	karo
+-	zen	gamba
+-	zen	karo
+-	zen	narcis
+-	zen	samba
+-	zen	sol
+-nc	zen	4
+-	zen	safo
+-	zen	lety
+-	safo	karo
++	kado	ika
+-	narcis	lety
+-	narcis	karo
+-	karo	gamba
+-	karo	jozi
+-nc	karo	4
+-	karo	kali
+-	karo	diva
+-	twig	karo
+-	sol	karo
++	zazi	ika
++c	232
++nc	zazi	232
++nc	ika	232
++nc	kado	232
+-	lety	jozi
+-	lety	karo
+#20010326
+-	pom	clio
+-	pom	mega
+-	pom	kado
+-	mega	clio
+-	mega	kado
+-	zazi	mega
+-	zazi	pom
+#20011201
++	kado	eva
++	clio	chip
+-	clio	blak
++	ika	eva
++nc	eva	232
++	zora	zazi
++c	233
++nc	zazi	233
++nc	zora	233
++nc	kado	233
++	zazi	yama
++nc	yama	233
++nc	zazi	184
+#20011202
++	jobi	floki
++	jobi	eva
+-	saxa	gabi
++	neou	jobi
++c	234
++nc	neou	234
++nc	floki	234
++nc	jobi	234
++	neou	eva
++nc	eva	234
++	mare	ika
++c	235
++nc	zazi	235
++nc	mare	235
++nc	ika	235
++c	236
++nc	mare	236
++nc	ika	236
++nc	kado	236
++nc	mare	232
+-nc	zazi	235
+-nc	mare	235
+-nc	ika	235
+-c	235
+=	232	235
+-nc	mare	236
+-nc	ika	236
+-nc	kado	236
+-c	236
+=	232	236
++	fany	blak
++	floki	eva
++nc	floki	232
+#20011204
+-	kado	gabi
++	kado	jobi
++nc	kado	234
++nc	neou	232
++nc	jobi	232
+-nc	eva	234
+-nc	neou	234
+-nc	floki	234
+-nc	jobi	234
+-nc	kado	234
+-c	234
+=	232	234
++	fun	cloe
+-	yaho	safo
++	laou	jobi
++nc	laou	232
++	laou	eva
++	gabi	eva
++c	237
++nc	eva	237
++nc	neou	237
++nc	gabi	237
++c	238
++nc	eva	238
++nc	laou	238
++nc	gabi	238
++c	239
++nc	eva	239
++nc	floki	239
++nc	gabi	239
+-nc	eva	237
+-nc	neou	237
+-nc	gabi	237
+-c	237
+=	232	237
+-nc	eva	239
+-nc	floki	239
+-nc	gabi	239
+-c	239
+=	232	239
+-nc	eva	238
+-nc	laou	238
+-nc	gabi	238
+-c	238
+=	232	238
+#20011205
++	laou	chip
++c	240
++nc	laou	240
++nc	chip	240
++nc	clio	240
++	neou	chip
++nc	neou	240
+#20011207
+-	yaho	diva
++	ika	fuji
++	zora	fuji
++	zora	ika
++nc	ika	233
+-nc	zazi	233
+-nc	yama	233
+-nc	ika	233
+-nc	zora	233
+-nc	kado	233
+-c	233
+=	232	233
++	zazi	fuji
++c	241
++nc	zazi	241
++nc	fuji	241
++nc	zora	241
++c	242
++nc	zazi	242
++nc	fuji	242
++nc	ika	242
++nc	zora	242
+-nc	zazi	241
+-nc	fuji	241
+-nc	zora	241
+-c	241
+=	242	241
+#20011208
++	eva	clio
++nc	clio	232
++nc	eva	30
++nc	mare	30
+-nc	zazi	232
+-nc	eva	232
+-nc	mare	232
+-nc	neou	232
+-nc	laou	232
+-nc	ika	232
+-nc	jobi	232
+-nc	floki	232
+-nc	kado	232
+-nc	clio	232
+-c	232
+=	30	232
++	eva	chip
++nc	eva	240
+-nc	eva	240
+-nc	neou	240
+-nc	laou	240
+-nc	chip	240
+-nc	clio	240
+-c	240
+=	30	240
+-	kado	clio
+-	kado	floki
+-nc	kado	30
+-	kado	jobi
+-	narcis	luc
+-	yaho	kali
+-	yaho	samba
+-	laou	jobi
+-	laou	kado
+-	jobi	floki
+-	jobi	eva
+-	neou	jobi
+-	neou	kado
++	floki	chip
++nc	chip	30
+#20011210
++	yama	fuji
++nc	yama	242
++	yama	ika
++	yeti	ika
++nc	ika	214
+-	yeti	yama
+-	kado	eva
++	fun	eva
++	zora	yeti
++nc	zora	214
+-nc	zazi	214
+-nc	mare	214
+-nc	yama	214
+-nc	yeti	214
+-nc	ika	214
+-nc	zora	214
+-c	214
+=	242	214
+-	zora	ika
++	mare	eva
++	mare	fun
++c	243
++nc	eva	243
++nc	mare	243
++nc	fun	243
+-	fany	blak
+-	zazi	fuji
+#20011212
++	yeti	lou
++c	244
++nc	zazi	244
++nc	lou	244
++nc	yeti	244
+-nc	zazi	244
+-nc	lou	244
+-nc	yeti	244
+-c	244
+=	184	244
++	mis	aura
+-	zazi	yama
+-nc	zazi	242
+-nc	zazi	184
+#20011213
++	cloe	clio
++nc	cloe	30
++	cloe	chip
+-	zora	kado
+#20011216
+-	nice	lety
+-	safo	lety
+-	sol	lety
+-nc	lety	4
+-	gat	doly
+-nc	gat	53
+-	lety	gamba
+-	lety	kali
+-	lety	diva
+#20011219
+-	vega	bule
+-nc	bule	53
++	nut	neou
++	nut	floki
++c	245
++nc	nut	245
++nc	neou	245
++nc	floki	245
+#20011220
++	eva	cloe
++nc	cloe	243
++	yeti	lise
++nc	yeti	184
+-	yeti	mare
+-nc	yeti	184
+-	yeti	ika
++	toy	mis
++	toy	aura
++c	246
++nc	mis	246
++nc	aura	246
++nc	toy	246
+-	mare	ika
+-	mare	kado
+-nc	kado	184
++	zazi	lise
++nc	zazi	184
++	lise	ika
++nc	ika	184
+#20011221
++	fun	floki
++nc	floki	243
+-nc	eva	243
+-nc	cloe	243
+-nc	mare	243
+-nc	fun	243
+-nc	floki	243
+-c	243
+=	30	243
+#20011224
++	samba	ika
++	samba	kado
++c	247
++nc	samba	247
++nc	ika	247
++nc	kado	247
+#20011225
+-	samba	lety
+-	lou	igor
+-	twig	igor
+-	twig	lety
+-	lety	igor
+#20011227
++	toy	doly
++	toy	bule
++c	248
++nc	bule	248
++nc	doly	248
++nc	toy	248
+#20020101
++	twig	ika
++c	249
++nc	samba	249
++nc	twig	249
++nc	ika	249
+-nc	samba	249
+-nc	twig	249
+-nc	ika	249
+-c	249
+=	247	249
+#20020103
++	cloe	ade
++c	250
++nc	cloe	250
++nc	saxa	250
++nc	ade	250
++c	251
++nc	cloe	251
++nc	ade	251
++nc	gabi	251
++c	252
++nc	cloe	252
++nc	ade	252
++nc	clio	252
++nc	saxa	252
+-nc	cloe	250
+-nc	saxa	250
+-nc	ade	250
+-c	250
+=	252	250
++nc	gabi	252
+-nc	cloe	251
+-nc	ade	251
+-nc	gabi	251
+-c	251
+=	252	251
+-nc	cloe	252
+-nc	saxa	252
+-nc	ade	252
+-nc	gabi	252
+-nc	clio	252
+-c	252
+=	30	252
++	bule	alex
++	fun	clio
++c	253
++nc	mare	253
++nc	fun	253
++nc	clio	253
++c	254
++nc	eva	254
++nc	fun	254
++nc	clio	254
++c	255
++nc	fun	255
++nc	floki	255
++nc	clio	255
++c	256
++nc	cloe	256
++nc	fun	256
++nc	clio	256
++nc	eva	253
+-nc	eva	254
+-nc	fun	254
+-nc	clio	254
+-c	254
+=	253	254
++nc	cloe	253
+-nc	cloe	256
+-nc	fun	256
+-nc	clio	256
+-c	256
+=	253	256
+-nc	eva	253
+-nc	cloe	253
+-nc	mare	253
+-nc	fun	253
+-nc	clio	253
+-c	253
+=	30	253
++	fun	chip
++nc	chip	255
+-nc	fun	255
+-nc	chip	255
+-nc	floki	255
+-nc	clio	255
+-c	255
+=	30	255
++	chip	ade
++c	257
++nc	chip	257
++nc	ade	257
++nc	clio	257
++c	258
++nc	cloe	258
++nc	chip	258
++nc	ade	258
+-nc	cloe	258
+-nc	chip	258
+-nc	ade	258
+-c	258
+=	30	258
+-nc	chip	257
+-nc	ade	257
+-nc	clio	257
+-c	257
+=	30	257
++	laou	ade
++nc	ade	30
++	laou	fun
++nc	fun	30
++	neou	ade
++	neou	fun
++	gabi	chip
++	gabi	fun
++	floki	ade
+#20020105
+-	saxa	ade
+-nc	saxa	30
+-nc	pek	30
+-nc	zazi	30
+-	gabi	fun
+-	zazi	kado
+-	lise	ika
+-nc	ika	184
+-	lise	kado
+#20020106
+-	ity	gabi
++	luz	chip
++c	259
++nc	luz	259
++nc	chip	259
++nc	clio	259
++c	260
++nc	luz	260
++nc	chip	260
++nc	laou	260
++c	261
++nc	neou	261
++nc	luz	261
++nc	chip	261
++c	262
++nc	luz	262
++nc	floki	262
++nc	chip	262
++nc	clio	262
+-nc	luz	259
+-nc	chip	259
+-nc	clio	259
+-c	259
+=	262	259
++nc	floki	260
++nc	clio	260
+-nc	luz	262
+-nc	floki	262
+-nc	chip	262
+-nc	clio	262
+-c	262
+=	260	262
++nc	floki	261
++nc	clio	261
++nc	laou	261
+-nc	luz	260
+-nc	floki	260
+-nc	chip	260
+-nc	clio	260
+-nc	laou	260
+-c	260
+=	261	260
+-nc	laou	261
+-nc	neou	261
+-nc	luz	261
+-nc	floki	261
+-nc	chip	261
+-nc	clio	261
+-c	261
+=	30	261
+-	neou	luz
++	mare	chip
++	kali	ika
++c	263
++nc	kali	263
++nc	twig	263
++nc	ika	263
++c	264
++nc	kali	264
++nc	samba	264
++nc	ika	264
+-nc	kali	264
+-nc	samba	264
+-nc	ika	264
+-c	264
+=	247	264
+-nc	kali	263
+-nc	twig	263
+-nc	ika	263
+-c	263
+=	4	263
++	kali	kado
++nc	kali	247
+#20020107
+-	bule	alex
++	mis	alex
+#20020110
+-	zazi	yeti
+#20020114
++	nut	clio
++nc	clio	245
+-	nut	neou
+-nc	neou	245
++	nut	chip
++nc	chip	245
++	nut	laou
++nc	laou	245
+-nc	nut	245
+-nc	laou	245
+-nc	floki	245
+-nc	chip	245
+-nc	clio	245
+-c	245
+=	30	245
++	nut	gabi
++c	265
++nc	nut	265
++nc	floki	265
++nc	gabi	265
++c	266
++nc	nut	266
++nc	gabi	266
++nc	clio	266
++c	267
++nc	nut	267
++nc	chip	267
++nc	gabi	267
++c	268
++nc	nut	268
++nc	laou	268
++nc	gabi	268
++nc	chip	266
+-nc	nut	267
+-nc	chip	267
+-nc	gabi	267
+-c	267
+=	266	267
++nc	laou	266
+-nc	nut	268
+-nc	laou	268
+-nc	gabi	268
+-c	268
+=	266	268
++nc	floki	266
+-nc	nut	265
+-nc	floki	265
+-nc	gabi	265
+-c	265
+=	266	265
+-nc	nut	266
+-nc	laou	266
+-nc	floki	266
+-nc	chip	266
+-nc	gabi	266
+-nc	clio	266
+-c	266
+=	30	266
++	toy	lune
++nc	lune	248
+-	chip	ade
+-	clio	ade
+-nc	ade	30
+-	laou	ade
++	luz	fuji
++nc	luz	242
+-	neou	ade
++	mare	fuji
++nc	mare	242
+-	gabi	ade
+-	floki	ade
+#20020117
++	nut	eva
++nc	nut	30
+-	mare	luz
+-nc	luz	184
+#20020122
++	jozi	ika
++c	269
++nc	kali	269
++nc	jozi	269
++nc	ika	269
++c	270
++nc	twig	270
++nc	jozi	270
++nc	ika	270
++c	271
++nc	samba	271
++nc	jozi	271
++nc	ika	271
++nc	samba	270
+-nc	samba	271
+-nc	jozi	271
+-nc	ika	271
+-c	271
+=	270	271
+-nc	samba	270
+-nc	twig	270
+-nc	jozi	270
+-nc	ika	270
+-c	270
+=	247	270
+-nc	kali	269
+-nc	jozi	269
+-nc	ika	269
+-c	269
+=	247	269
++	safo	ika
++c	272
++nc	kali	272
++nc	ika	272
++nc	safo	272
++c	273
++nc	twig	273
++nc	ika	273
++nc	safo	273
++c	274
++nc	jozi	274
++nc	ika	274
++nc	safo	274
++c	275
++nc	samba	275
++nc	ika	275
++nc	safo	275
+-nc	kali	272
+-nc	ika	272
+-nc	safo	272
+-c	272
+=	247	272
++nc	twig	275
+-nc	twig	273
+-nc	ika	273
+-nc	safo	273
+-c	273
+=	275	273
+-nc	samba	275
+-nc	twig	275
+-nc	ika	275
+-nc	safo	275
+-c	275
+=	4	275
+-nc	jozi	274
+-nc	ika	274
+-nc	safo	274
+-c	274
+=	4	274
++	safo	kado
++nc	safo	247
++	kado	jozi
++nc	jozi	247
+-nc	kali	247
+-nc	samba	247
+-nc	jozi	247
+-nc	ika	247
+-nc	safo	247
+-nc	kado	247
+-c	247
+=	4	247
++	kado	diva
++c	276
++nc	diva	276
++nc	safo	276
++nc	kado	276
++c	277
++nc	diva	277
++nc	jozi	277
++nc	kado	277
++c	278
++nc	diva	278
++nc	samba	278
++nc	kado	278
++c	279
++nc	kali	279
++nc	diva	279
++nc	kado	279
+-nc	kali	279
+-nc	diva	279
+-nc	kado	279
+-c	279
+=	4	279
+-nc	diva	278
+-nc	samba	278
+-nc	kado	278
+-c	278
+=	4	278
+-nc	diva	276
+-nc	safo	276
+-nc	kado	276
+-c	276
+=	4	276
+-nc	diva	277
+-nc	jozi	277
+-nc	kado	277
+-c	277
+=	4	277
++	narcis	ika
++nc	ika	4
++	narcis	kado
++nc	kado	4
++	sol	ika
++	sol	kado
++	ika	gamba
++	ika	diva
+-	zora	zazi
+-	zora	luz
+-nc	luz	242
+#20020125
+-	toy	bule
+#20020130
++	nice	ika
+-	twig	ika
+-	neou	gabi
+#20020131
+-	ika	gamba
+#20020205
+-	saxa	pek
++	saxa	eva
++nc	saxa	30
++	pek	eva
++c	280
++nc	eva	280
++nc	pek	280
++nc	floki	280
++c	281
++nc	eva	281
++nc	pek	281
++nc	clio	281
++c	282
++nc	eva	282
++nc	pek	282
++nc	laou	282
++c	283
++nc	eva	283
++nc	pek	283
++nc	gabi	283
++c	284
++nc	eva	284
++nc	pek	284
++nc	neou	284
++nc	laou	281
+-nc	eva	282
+-nc	pek	282
+-nc	laou	282
+-c	282
+=	281	282
++nc	floki	281
+-nc	eva	280
+-nc	pek	280
+-nc	floki	280
+-c	280
+=	281	280
++nc	gabi	281
+-nc	eva	283
+-nc	pek	283
+-nc	gabi	283
+-c	283
+=	281	283
+-nc	eva	281
+-nc	pek	281
+-nc	laou	281
+-nc	floki	281
+-nc	gabi	281
+-nc	clio	281
+-c	281
+=	30	281
+-nc	eva	284
+-nc	pek	284
+-nc	neou	284
+-c	284
+=	30	284
+#20020211
++	nice	aida
++	jozi	aida
++c	285
++nc	nice	285
++nc	jozi	285
++nc	aida	285
++	twig	aida
++nc	twig	285
++	sol	aida
++nc	sol	285
+-nc	nice	285
+-nc	twig	285
+-nc	sol	285
+-nc	jozi	285
+-nc	aida	285
+-c	285
+=	4	285
++	kali	aida
++c	286
++nc	kali	286
++nc	sol	286
++nc	aida	286
++c	287
++nc	kali	287
++nc	nice	287
++nc	aida	287
++c	288
++nc	kali	288
++nc	twig	288
++nc	aida	288
++c	289
++nc	kali	289
++nc	jozi	289
++nc	aida	289
++nc	jozi	288
+-nc	kali	289
+-nc	jozi	289
+-nc	aida	289
+-c	289
+=	288	289
++nc	sol	288
+-nc	kali	286
+-nc	sol	286
+-nc	aida	286
+-c	286
+=	288	286
++nc	nice	288
+-nc	kali	287
+-nc	nice	287
+-nc	aida	287
+-c	287
+=	288	287
+-nc	kali	288
+-nc	nice	288
+-nc	twig	288
+-nc	sol	288
+-nc	jozi	288
+-nc	aida	288
+-c	288
+=	4	288
+#20020213
+-	toy	aura
+-nc	toy	246
+-nc	mis	246
+-nc	aura	246
+-c	246
+#20020226
+-	mis	aura
+#20020227
+-	nice	ika
++	spot	lise
++	samba	aida
++c	290
++nc	samba	290
++nc	jozi	290
++nc	aida	290
++c	291
++nc	samba	291
++nc	sol	291
++nc	aida	291
++c	292
++nc	samba	292
++nc	nice	292
++nc	aida	292
++c	293
++nc	kali	293
++nc	samba	293
++nc	aida	293
++c	294
++nc	samba	294
++nc	twig	294
++nc	aida	294
++nc	sol	294
+-nc	samba	291
+-nc	sol	291
+-nc	aida	291
+-c	291
+=	294	291
++nc	jozi	294
+-nc	samba	290
+-nc	jozi	290
+-nc	aida	290
+-c	290
+=	294	290
++nc	nice	294
+-nc	samba	292
+-nc	nice	292
+-nc	aida	292
+-c	292
+=	294	292
+-nc	samba	294
+-nc	nice	294
+-nc	twig	294
+-nc	sol	294
+-nc	jozi	294
+-nc	aida	294
+-c	294
+=	4	294
+-	samba	ika
+-	samba	kado
+-	jozi	ika
++	nut	cloe
++	safo	aida
++nc	aida	4
++nc	safo	293
+-nc	kali	293
+-nc	samba	293
+-nc	safo	293
+-nc	aida	293
+-c	293
+=	4	293
+-	safo	ika
+-nc	ika	4
+-	safo	kado
+-nc	kado	4
+-	kado	jozi
+-	kado	ika
+-	kado	diva
++	narcis	aida
+-	narcis	ika
+-	narcis	kado
+-	sol	ika
+-	sol	kado
+-	ika	diva
+-	saxa	clio
+-nc	saxa	30
++	pek	mare
++nc	pek	30
+-	kali	ika
+-	kali	kado
++	diva	aida
++	lise	fuji
++nc	fuji	184
++nc	lise	242
+-nc	fuji	242
+-nc	mare	242
+-nc	yama	242
+-nc	ika	242
+-nc	lise	242
+-nc	zora	242
+-c	242
+=	184	242
+#20020302
++	yama	luz
++nc	luz	184
++	luz	lou
+#20020304
+-	zen	jozi
+-	zen	kali
+-	zen	twig
+-	zen	diva
++	zazi	eva
++nc	zazi	30
+#20020305
++	spot	gamba
+#20020308
++	spot	kali
++c	295
++nc	kali	295
++nc	gamba	295
++nc	spot	295
++	spot	samba
++nc	samba	295
+-nc	kali	295
+-nc	samba	295
+-nc	gamba	295
+-nc	spot	295
+-c	295
+=	4	295
++	spot	sol
++c	296
++nc	sol	296
++nc	gamba	296
++nc	spot	296
++c	297
++nc	samba	297
++nc	sol	297
++nc	spot	297
++c	298
++nc	kali	298
++nc	sol	298
++nc	spot	298
++nc	samba	296
+-nc	samba	297
+-nc	sol	297
+-nc	spot	297
+-c	297
+=	296	297
++nc	samba	298
++nc	gamba	298
+-nc	samba	296
+-nc	sol	296
+-nc	gamba	296
+-nc	spot	296
+-c	296
+=	298	296
+-nc	kali	298
+-nc	samba	298
+-nc	sol	298
+-nc	gamba	298
+-nc	spot	298
+-c	298
+=	4	298
+-	lune	gat
++	mare	cloe
+#20020309
++	twig	spot
++c	299
++nc	kali	299
++nc	twig	299
++nc	spot	299
++c	300
++nc	twig	300
++nc	sol	300
++nc	spot	300
++c	301
++nc	samba	301
++nc	twig	301
++nc	spot	301
++c	302
++nc	twig	302
++nc	gamba	302
++nc	spot	302
++nc	samba	299
+-nc	samba	301
+-nc	twig	301
+-nc	spot	301
+-c	301
+=	299	301
++nc	sol	299
+-nc	twig	300
+-nc	sol	300
+-nc	spot	300
+-c	300
+=	299	300
+-nc	kali	299
+-nc	samba	299
+-nc	twig	299
+-nc	sol	299
+-nc	spot	299
+-c	299
+=	4	299
+-nc	twig	302
+-nc	gamba	302
+-nc	spot	302
+-c	302
+=	4	302
++	gamba	aida
+#20020310
+-	spot	lise
+#20020311
+-	lou	fine
++	zazi	chip
+#20020313
++	spot	jozi
++nc	spot	4
++	spot	nice
++	spot	safo
++	spot	narcis
++	spot	aida
++	spot	diva
++	pek	chip
++	zebra	sol
+#20020315
++	vega	toy
++nc	toy	53
++nc	vega	248
+-nc	vega	248
+-nc	bule	248
+-nc	lune	248
+-nc	doly	248
+-nc	toy	248
+-c	248
+=	53	248
++	toy	titou
++	zebra	gamba
++c	303
++nc	sol	303
++nc	zebra	303
++nc	gamba	303
++	zebra	kali
++nc	kali	303
++	zebra	narcis
++nc	narcis	303
+-nc	kali	303
+-nc	sol	303
+-nc	zebra	303
+-nc	gamba	303
+-nc	narcis	303
+-c	303
+=	4	303
++	zebra	aida
++c	304
++nc	zebra	304
++nc	gamba	304
++nc	aida	304
++c	305
++nc	zebra	305
++nc	aida	305
++nc	narcis	305
++c	306
++nc	kali	306
++nc	zebra	306
++nc	aida	306
++c	307
++nc	sol	307
++nc	zebra	307
++nc	aida	307
++nc	narcis	307
+-nc	zebra	305
+-nc	aida	305
+-nc	narcis	305
+-c	305
+=	307	305
++nc	gamba	307
+-nc	zebra	304
+-nc	gamba	304
+-nc	aida	304
+-c	304
+=	307	304
++nc	kali	307
+-nc	kali	306
+-nc	zebra	306
+-nc	aida	306
+-c	306
+=	307	306
+-nc	kali	307
+-nc	sol	307
+-nc	zebra	307
+-nc	gamba	307
+-nc	aida	307
+-nc	narcis	307
+-c	307
+=	4	307
++	zebra	samba
++c	308
++nc	samba	308
++nc	zebra	308
++nc	aida	308
++c	309
++nc	samba	309
++nc	zebra	309
++nc	gamba	309
++c	310
++nc	samba	310
++nc	sol	310
++nc	zebra	310
++c	311
++nc	samba	311
++nc	zebra	311
++nc	narcis	311
++c	312
++nc	kali	312
++nc	samba	312
++nc	zebra	312
++nc	aida	312
+-nc	samba	308
+-nc	zebra	308
+-nc	aida	308
+-c	308
+=	312	308
++nc	sol	312
+-nc	samba	310
+-nc	sol	310
+-nc	zebra	310
+-c	310
+=	312	310
+-nc	kali	312
+-nc	samba	312
+-nc	sol	312
+-nc	zebra	312
+-nc	aida	312
+-c	312
+=	4	312
++nc	gamba	311
+-nc	samba	309
+-nc	zebra	309
+-nc	gamba	309
+-c	309
+=	311	309
+-nc	samba	311
+-nc	zebra	311
+-nc	gamba	311
+-nc	narcis	311
+-c	311
+=	4	311
++	zebra	safo
++nc	zebra	4
+#20020317
+-	toy	lune
+#20020318
++	spot	dazi
++	samba	dazi
++c	313
++nc	samba	313
++nc	dazi	313
++nc	spot	313
+-	cloe	ade
++	dazi	aida
++nc	aida	313
++	jozi	dazi
++nc	jozi	313
+-nc	samba	313
+-nc	dazi	313
+-nc	jozi	313
+-nc	aida	313
+-nc	spot	313
+-c	313
+=	4	313
++	safo	dazi
++c	314
++nc	dazi	314
++nc	safo	314
++nc	jozi	314
++c	315
++nc	samba	315
++nc	dazi	315
++nc	safo	315
++c	316
++nc	dazi	316
++nc	safo	316
++nc	aida	316
++c	317
++nc	dazi	317
++nc	safo	317
++nc	spot	317
++nc	spot	316
+-nc	dazi	317
+-nc	safo	317
+-nc	spot	317
+-c	317
+=	316	317
++nc	aida	315
++nc	spot	315
+-nc	dazi	316
+-nc	safo	316
+-nc	aida	316
+-nc	spot	316
+-c	316
+=	315	316
+-nc	samba	315
+-nc	dazi	315
+-nc	safo	315
+-nc	aida	315
+-nc	spot	315
+-c	315
+=	4	315
++	mare	gabi
++	kali	dazi
++nc	kali	314
+-nc	kali	314
+-nc	dazi	314
+-nc	safo	314
+-nc	jozi	314
+-c	314
+=	4	314
++	zebra	nice
++	zebra	twig
++	zebra	diva
++	titou	mis
++c	318
++nc	titou	318
++nc	mis	318
++nc	toy	318
+-nc	titou	318
+-nc	mis	318
+-nc	toy	318
+-c	318
+=	53	318
++	zazi	cloe
+#20020319
+-	nut	clio
+-	nut	chip
+-nc	nut	30
++	nut	mare
++c	319
++nc	mare	319
++nc	nut	319
++nc	gabi	319
++c	320
++nc	mare	320
++nc	nut	320
++nc	laou	320
++c	321
++nc	cloe	321
++nc	mare	321
++nc	nut	321
++c	322
++nc	mare	322
++nc	nut	322
++nc	floki	322
++c	323
++nc	eva	323
++nc	mare	323
++nc	nut	323
++nc	cloe	320
+-nc	cloe	321
+-nc	mare	321
+-nc	nut	321
+-c	321
+=	320	321
++nc	cloe	323
++nc	laou	323
+-nc	cloe	320
+-nc	mare	320
+-nc	nut	320
+-nc	laou	320
+-c	320
+=	323	320
++nc	gabi	323
+-nc	mare	319
+-nc	nut	319
+-nc	gabi	319
+-c	319
+=	323	319
++nc	floki	323
+-nc	mare	322
+-nc	nut	322
+-nc	floki	322
+-c	322
+=	323	322
+-nc	eva	323
+-nc	cloe	323
+-nc	mare	323
+-nc	nut	323
+-nc	laou	323
+-nc	floki	323
+-nc	gabi	323
+-c	323
+=	30	323
+-	nut	gabi
+-	nut	floki
+-	yeti	lise
+-	laou	gabi
+-	pek	clio
+-	pek	chip
+-	pek	mare
+-	pek	gabi
+-nc	pek	30
+-	pek	floki
+-	mare	gabi
+-	mare	cloe
+-	gabi	clio
+-nc	gabi	30
+-	gabi	chip
+-	gabi	eva
+-	gabi	cloe
+-	gabi	floki
+-	floki	cloe
+-	zazi	pek
++	zazi	nut
++c	324
++nc	zazi	324
++nc	eva	324
++nc	nut	324
++c	325
++nc	zazi	325
++nc	nut	325
++nc	laou	325
++c	326
++nc	zazi	326
++nc	mare	326
++nc	nut	326
++c	327
++nc	zazi	327
++nc	cloe	327
++nc	nut	327
++nc	cloe	325
+-nc	zazi	327
+-nc	cloe	327
+-nc	nut	327
+-c	327
+=	325	327
++nc	mare	325
+-nc	zazi	326
+-nc	mare	326
+-nc	nut	326
+-c	326
+=	325	326
++nc	eva	325
+-nc	zazi	324
+-nc	eva	324
+-nc	nut	324
+-c	324
+=	325	324
+-nc	zazi	325
+-nc	eva	325
+-nc	cloe	325
+-nc	mare	325
+-nc	nut	325
+-nc	laou	325
+-c	325
+=	30	325
+-	zazi	gabi
+#20020320
+-	neou	fun
+#20020325
++	nice	dazi
++nc	dazi	4
+-	spot	samba
+-	spot	safo
+-	spot	aida
+-	nut	laou
+-	nut	mare
++	narcis	dazi
+-	twig	gamba
+-	twig	jozi
+-	twig	nice
+-	twig	narcis
+-	twig	spot
+-	twig	sol
+-nc	twig	4
++	sol	dazi
++	gamba	dazi
+-	zazi	mare
+-nc	zazi	184
++	diva	dazi
+#20020326
+-	pek	neou
+-	pek	laou
+-	pek	eva
++	zazi	fun
+#20020329
+-	spot	jozi
+-	spot	kali
+-	spot	nice
+-nc	spot	4
+-	spot	gamba
+-	spot	narcis
+-	spot	sol
+-	spot	dazi
+-	spot	diva
+-	cloe	chip
+-	fun	clio
+-	fun	chip
+-	neou	mare
+#20020330
+-	lune	bule
+-	fun	cloe
+-	twig	kali
+-	twig	aida
+-	twig	samba
+-	twig	safo
+-	twig	diva
+-	zebra	twig
+-	zazi	lou
+#20021211
++	timy	adax
++	timy	nut
++	timy	cloe
++c	328
++nc	cloe	328
++nc	nut	328
++nc	timy	328
++	timy	gisa
++	cloe	adax
++nc	adax	328
++	nut	adax
++	nut	gisa
++c	329
++nc	gisa	329
++nc	nut	329
++nc	timy	329
+-	ika	fuji
++	tuga	adax
++	tuga	nut
++c	330
++nc	adax	330
++nc	nut	330
++nc	tuga	330
++	tuga	timy
++nc	timy	330
++nc	tuga	328
+-nc	adax	330
+-nc	nut	330
+-nc	tuga	330
+-nc	timy	330
+-c	330
+=	328	330
++	tuga	cloe
++	tuga	saxa
++c	331
++nc	saxa	331
++nc	cloe	331
++nc	tuga	331
+-nc	saxa	331
+-nc	cloe	331
+-nc	tuga	331
+-c	331
+=	328	331
++	tuga	gisa
++nc	gisa	328
++nc	tuga	329
++nc	cloe	329
++nc	adax	329
+-nc	gisa	328
+-nc	cloe	328
+-nc	adax	328
+-nc	nut	328
+-nc	tuga	328
+-nc	timy	328
+-c	328
+=	329	328
++	saxa	adax
++c	332
++nc	saxa	332
++nc	adax	332
++nc	tuga	332
++c	333
++nc	saxa	333
++nc	adax	333
++nc	cloe	333
+-nc	saxa	332
+-nc	adax	332
+-nc	tuga	332
+-c	332
+=	329	332
+-nc	saxa	333
+-nc	adax	333
+-nc	cloe	333
+-c	333
+=	329	333
++	saxa	nut
++nc	saxa	329
++	saxa	gisa
++	mis	doly
++nc	mis	53
+-	mare	laou
+-	mare	fun
+-nc	mare	30
+-nc	fun	30
++	zazi	fado
++	gisa	adax
++	gisa	cloe
+#20021213
++	nieva	neou
++	nieva	eva
++c	334
++nc	eva	334
++nc	neou	334
++nc	nieva	334
++	nieva	cloe
++nc	cloe	334
++	nieva	gisa
++nc	gisa	334
+-	samba	gamba
+-	jozi	gamba
+-	narcis	gamba
+-	sol	jozi
+-	sol	nice
+-	sol	safo
+-	sol	gamba
+-	sol	dazi
+-	sol	diva
+-nc	sol	4
++	tuga	neou
++c	335
++nc	saxa	335
++nc	tuga	335
++nc	neou	335
++c	336
++nc	cloe	336
++nc	tuga	336
++nc	neou	336
+-nc	cloe	336
+-nc	tuga	336
+-nc	neou	336
+-c	336
+=	334	336
+-nc	saxa	335
+-nc	tuga	335
+-nc	neou	335
+-c	335
+=	329	335
++	tuga	nieva
++nc	tuga	334
++	neou	gisa
+-	gamba	aida
+-	titou	lune
+-nc	lune	53
++	gisa	eva
+#20021215
++	nieva	laou
++nc	laou	334
+-	nice	gamba
++	lou	fuji
++	saxa	nieva
++nc	saxa	334
+-nc	eva	334
+-nc	cloe	334
+-nc	gisa	334
+-nc	neou	334
+-nc	laou	334
+-nc	saxa	334
+-nc	nieva	334
+-nc	tuga	334
+-c	334
+=	329	334
++	zazi	nieva
++nc	nieva	30
++	zazi	saxa
++nc	saxa	30
+#20021222
+-	nut	eva
+#20021225
++	nieva	atos
++	neou	atos
++c	337
++nc	neou	337
++nc	nieva	337
++nc	atos	337
+#20030102
+-	eva	cloe
+-	kali	gamba
+-nc	gamba	4
+-	gamba	dazi
+-	zebra	gamba
++	zebra	dazi
+#20030108
++	igor	aida
++c	338
++nc	samba	338
++nc	igor	338
++nc	aida	338
++	narcis	igor
++nc	narcis	338
++	zebra	igor
++nc	zebra	338
+-nc	samba	338
+-nc	igor	338
+-nc	zebra	338
+-nc	aida	338
+-nc	narcis	338
+-c	338
+=	4	338
+#20030109
+-	fine	ade
+#20030110
++	kali	igor
++c	339
++nc	kali	339
++nc	igor	339
++nc	zebra	339
++c	340
++nc	kali	340
++nc	igor	340
++nc	aida	340
++c	341
++nc	kali	341
++nc	samba	341
++nc	igor	341
++c	342
++nc	kali	342
++nc	igor	342
++nc	narcis	342
++nc	zebra	340
+-nc	kali	339
+-nc	igor	339
+-nc	zebra	339
+-c	339
+=	340	339
++nc	samba	340
+-nc	kali	341
+-nc	samba	341
+-nc	igor	341
+-c	341
+=	340	341
++nc	narcis	340
+-nc	kali	342
+-nc	igor	342
+-nc	narcis	342
+-c	342
+=	340	342
+-nc	kali	340
+-nc	samba	340
+-nc	igor	340
+-nc	zebra	340
+-nc	aida	340
+-nc	narcis	340
+-c	340
+=	4	340
+#20030112
++	vega	mis
+-	vega	titou
+#20030115
++	nieva	clio
++	nieva	chip
++	nieva	floki
+#20030116
+-	cloe	adax
++	sig	saxa
++	sig	adax
++c	343
++nc	saxa	343
++nc	adax	343
++nc	sig	343
++	sig	gisa
++nc	gisa	343
+-nc	gisa	343
+-nc	saxa	343
+-nc	adax	343
+-nc	sig	343
+-c	343
+=	329	343
++	sol	igor
++c	344
++nc	igor	344
++nc	sol	344
++nc	aida	344
++c	345
++nc	igor	345
++nc	sol	345
++nc	narcis	345
++c	346
++nc	samba	346
++nc	igor	346
++nc	sol	346
++c	347
++nc	kali	347
++nc	igor	347
++nc	sol	347
++c	348
++nc	igor	348
++nc	sol	348
++nc	zebra	348
++nc	aida	347
+-nc	igor	344
+-nc	sol	344
+-nc	aida	344
+-c	344
+=	347	344
++nc	kali	348
++nc	aida	348
+-nc	kali	347
+-nc	igor	347
+-nc	sol	347
+-nc	aida	347
+-c	347
+=	348	347
++nc	samba	348
+-nc	samba	346
+-nc	igor	346
+-nc	sol	346
+-c	346
+=	348	346
++nc	narcis	348
+-nc	igor	345
+-nc	sol	345
+-nc	narcis	345
+-c	345
+=	348	345
+-nc	kali	348
+-nc	samba	348
+-nc	igor	348
+-nc	sol	348
+-nc	zebra	348
+-nc	aida	348
+-nc	narcis	348
+-c	348
+=	4	348
++	tuga	sig
++nc	sig	329
+#20030117
++	timy	atos
+-	sig	adax
+-nc	sig	329
++	nokia	jozi
++	nokia	dazi
++c	349
++nc	nokia	349
++nc	dazi	349
++nc	jozi	349
++	nokia	diva
++nc	diva	349
+-	saxa	adax
+-	zora	yeti
+#20030118
++	chip	atos
++nc	chip	337
+-nc	neou	337
+-nc	nieva	337
+-nc	chip	337
+-nc	atos	337
+-c	337
+=	30	337
++	clio	atos
++c	350
++nc	atos	350
++nc	neou	350
++nc	clio	350
++c	351
++nc	atos	351
++nc	nieva	351
++nc	clio	351
++c	352
++nc	atos	352
++nc	chip	352
++nc	clio	352
++nc	nieva	352
+-nc	atos	351
+-nc	nieva	351
+-nc	clio	351
+-c	351
+=	352	351
+-nc	atos	352
+-nc	nieva	352
+-nc	chip	352
+-nc	clio	352
+-c	352
+=	30	352
+-	nokia	jozi
+-nc	jozi	349
+-	nokia	dazi
+-nc	nokia	349
+-nc	diva	349
+-nc	dazi	349
+-c	349
+-	nokia	diva
+-	sol	kali
+-	sol	igor
+-	sol	samba
+-	sol	narcis
+-	sol	aida
+-	zebra	sol
+-	titou	mis
++	floki	atos
++nc	atos	30
++nc	floki	350
+-nc	atos	350
+-nc	neou	350
+-nc	floki	350
+-nc	clio	350
+-c	350
+=	30	350
+-	fine	blek
+#20030122
+-	timy	adax
++	timy	fado
++	nut	fado
++c	353
++nc	zazi	353
++nc	nut	353
++nc	fado	353
++c	354
++nc	nut	354
++nc	timy	354
++nc	fado	354
++nc	zazi	354
+-nc	zazi	353
+-nc	nut	353
+-nc	fado	353
+-c	353
+=	354	353
++	fado	adax
++nc	adax	354
++nc	fado	329
+-nc	zazi	354
+-nc	adax	354
+-nc	nut	354
+-nc	timy	354
+-nc	fado	354
+-c	354
+=	329	354
++	tuga	fado
++	gisa	fado
+#20030124
+-	toy	titou
+-nc	titou	53
++	zora	lou
++nc	zora	184
++	zora	lise
+-	titou	doly
+#20030125
+-	nut	adax
+-nc	adax	329
+-	fado	adax
+-	gisa	adax
+#20030128
+-	tuga	adax
+-	zazi	fun
+#20030204
++	eva	dahu
++	eva	atos
+-	saxa	nut
+-nc	saxa	329
+-	saxa	cloe
++	doki	aida
++	dahu	atos
++c	355
++nc	eva	355
++nc	dahu	355
++nc	atos	355
+#20030206
++	nice	doki
++c	356
++nc	nice	356
++nc	doki	356
++nc	aida	356
++	laou	gisa
++nc	gisa	30
++	kali	doki
++nc	kali	356
++	zebra	doki
++nc	zebra	356
+-nc	kali	356
+-nc	nice	356
+-nc	doki	356
+-nc	zebra	356
+-nc	aida	356
+-c	356
+=	4	356
++	gisa	clio
+#20030209
++	nieva	ika
++c	357
++nc	eva	357
++nc	ika	357
++nc	nieva	357
++c	358
++nc	zazi	358
++nc	ika	358
++nc	nieva	358
++nc	eva	358
+-nc	eva	357
+-nc	ika	357
+-nc	nieva	357
+-c	357
+=	358	357
++	laou	ika
++nc	laou	358
+-nc	zazi	358
+-nc	eva	358
+-nc	laou	358
+-nc	ika	358
+-nc	nieva	358
+-c	358
+=	30	358
++	neou	ika
++c	359
++nc	neou	359
++nc	laou	359
++nc	ika	359
++c	360
++nc	eva	360
++nc	neou	360
++nc	ika	360
++c	361
++nc	neou	361
++nc	nieva	361
++nc	ika	361
++c	362
++nc	zazi	362
++nc	neou	362
++nc	ika	362
++nc	nieva	360
+-nc	neou	361
+-nc	nieva	361
+-nc	ika	361
+-c	361
+=	360	361
+-nc	eva	360
+-nc	neou	360
+-nc	nieva	360
+-nc	ika	360
+-c	360
+=	30	360
++nc	zazi	359
+-nc	zazi	362
+-nc	neou	362
+-nc	ika	362
+-c	362
+=	359	362
+-nc	zazi	359
+-nc	neou	359
+-nc	laou	359
+-nc	ika	359
+-c	359
+=	30	359
+-	mare	eva
++	lise	eva
++c	363
++nc	zazi	363
++nc	eva	363
++nc	lise	363
+-nc	zazi	363
+-nc	eva	363
+-nc	lise	363
+-c	363
+=	30	363
++	lise	floki
++c	364
++nc	eva	364
++nc	floki	364
++nc	lise	364
++c	365
++nc	mare	365
++nc	floki	365
++nc	lise	365
++c	366
++nc	luz	366
++nc	floki	366
++nc	lise	366
++c	367
++nc	zazi	367
++nc	floki	367
++nc	lise	367
++nc	eva	367
+-nc	eva	364
+-nc	floki	364
+-nc	lise	364
+-c	364
+=	367	364
++nc	mare	367
+-nc	mare	365
+-nc	floki	365
+-nc	lise	365
+-c	365
+=	367	365
+-nc	luz	366
+-nc	floki	366
+-nc	lise	366
+-c	366
+=	367	366
+-nc	zazi	367
+-nc	eva	367
+-nc	mare	367
+-nc	floki	367
+-nc	lise	367
+-c	367
+=	184	367
+#20030211
+-	safo	gamba
++	safo	doki
++c	368
++nc	kali	368
++nc	doki	368
++nc	safo	368
++c	369
++nc	nice	369
++nc	doki	369
++nc	safo	369
++c	370
++nc	doki	370
++nc	zebra	370
++nc	safo	370
++c	371
++nc	doki	371
++nc	safo	371
++nc	aida	371
++nc	nice	370
+-nc	nice	369
+-nc	doki	369
+-nc	safo	369
+-c	369
+=	370	369
++nc	aida	370
+-nc	doki	371
+-nc	safo	371
+-nc	aida	371
+-c	371
+=	370	371
++nc	kali	370
+-nc	kali	368
+-nc	doki	368
+-nc	safo	368
+-c	368
+=	370	368
+-nc	kali	370
+-nc	nice	370
+-nc	doki	370
+-nc	zebra	370
+-nc	safo	370
+-nc	aida	370
+-c	370
+=	4	370
++	doki	diva
++nc	doki	4
+-	gamba	diva
+#20030213
++	safo	igor
++nc	igor	4
++	igor	doki
++	igor	dazi
++	igor	diva
++	narcis	doki
++	saxa	lise
++c	372
++nc	zazi	372
++nc	saxa	372
++nc	lise	372
++c	373
++nc	eva	373
++nc	saxa	373
++nc	lise	373
++c	374
++nc	saxa	374
++nc	floki	374
++nc	lise	374
++nc	eva	372
+-nc	eva	373
+-nc	saxa	373
+-nc	lise	373
+-c	373
+=	372	373
+-nc	saxa	374
+-nc	floki	374
+-nc	lise	374
+-c	374
+=	30	374
+-nc	zazi	372
+-nc	eva	372
+-nc	saxa	372
+-nc	lise	372
+-c	372
+=	30	372
++	doki	dazi
++	lise	laou
++c	375
++nc	eva	375
++nc	laou	375
++nc	lise	375
++c	376
++nc	luz	376
++nc	laou	376
++nc	lise	376
++c	377
++nc	saxa	377
++nc	laou	377
++nc	lise	377
++c	378
++nc	laou	378
++nc	floki	378
++nc	lise	378
++c	379
++nc	zazi	379
++nc	laou	379
++nc	lise	379
++nc	saxa	379
+-nc	saxa	377
+-nc	laou	377
+-nc	lise	377
+-c	377
+=	379	377
++nc	floki	379
+-nc	laou	378
+-nc	floki	378
+-nc	lise	378
+-c	378
+=	379	378
++nc	luz	379
+-nc	luz	376
+-nc	laou	376
+-nc	lise	376
+-c	376
+=	379	376
++nc	eva	379
+-nc	eva	375
+-nc	laou	375
+-nc	lise	375
+-c	375
+=	379	375
+-nc	zazi	379
+-nc	eva	379
+-nc	saxa	379
+-nc	luz	379
+-nc	laou	379
+-nc	floki	379
+-nc	lise	379
+-c	379
+=	30	379
+-	lise	eva
+-	lise	floki
+#20030217
+-	timy	atos
++	ika	clio
++nc	ika	30
++	ika	chip
+-	mare	fuji
+-nc	mare	184
++	zazi	atos
+#20030218
++	kady	dazi
++	kady	diva
++c	380
++nc	diva	380
++nc	dazi	380
++nc	kady	380
++	narcis	kady
++nc	narcis	380
++	kali	kady
++nc	kali	380
+-nc	kali	380
+-nc	diva	380
+-nc	dazi	380
+-nc	kady	380
+-nc	narcis	380
+-c	380
+=	4	380
+#20030221
++	lou	floki
++c	381
++nc	luz	381
++nc	lou	381
++nc	floki	381
+-nc	luz	381
+-nc	lou	381
+-nc	floki	381
+-c	381
+=	184	381
++	kady	doki
++c	382
++nc	diva	382
++nc	doki	382
++nc	kady	382
++c	383
++nc	doki	383
++nc	kady	383
++nc	narcis	383
++c	384
++nc	kali	384
++nc	doki	384
++nc	kady	384
++c	385
++nc	doki	385
++nc	dazi	385
++nc	kady	385
++nc	narcis	384
+-nc	doki	383
+-nc	kady	383
+-nc	narcis	383
+-c	383
+=	384	383
++nc	dazi	382
+-nc	doki	385
+-nc	dazi	385
+-nc	kady	385
+-c	385
+=	382	385
++nc	diva	384
++nc	dazi	384
+-nc	diva	382
+-nc	doki	382
+-nc	dazi	382
+-nc	kady	382
+-c	382
+=	384	382
+-nc	kali	384
+-nc	diva	384
+-nc	doki	384
+-nc	dazi	384
+-nc	kady	384
+-nc	narcis	384
+-c	384
+=	4	384
+-	luz	fuji
+-nc	luz	184
+-	luz	floki
++	fuji	floki
++c	386
++nc	fuji	386
++nc	lou	386
++nc	floki	386
+-nc	fuji	386
+-nc	lou	386
+-nc	floki	386
+-c	386
+=	184	386
+-	saxa	lise
+-	zora	yama
+-	lise	laou
+#20030223
++	fado	cloe
+-	chip	atos
+-	clio	atos
+-nc	atos	30
+-	laou	ika
++	ika	atos
++nc	atos	30
++	ika	floki
+-	floki	atos
+-nc	atos	30
+-	zazi	nut
+-	zazi	cloe
+-nc	cloe	30
++	zazi	gisa
+-	zazi	fado
+#20030301
++	samba	doki
+#20030302
++	nice	kady
++c	387
++nc	kali	387
++nc	nice	387
++nc	kady	387
++c	388
++nc	diva	388
++nc	nice	388
++nc	kady	388
++c	389
++nc	nice	389
++nc	doki	389
++nc	kady	389
++c	390
++nc	nice	390
++nc	dazi	390
++nc	kady	390
++c	391
++nc	nice	391
++nc	kady	391
++nc	narcis	391
++nc	narcis	387
+-nc	nice	391
+-nc	kady	391
+-nc	narcis	391
+-c	391
+=	387	391
++nc	diva	387
+-nc	diva	388
+-nc	nice	388
+-nc	kady	388
+-c	388
+=	387	388
++nc	doki	387
+-nc	nice	389
+-nc	doki	389
+-nc	kady	389
+-c	389
+=	387	389
+-nc	kali	387
+-nc	diva	387
+-nc	nice	387
+-nc	doki	387
+-nc	kady	387
+-nc	narcis	387
+-c	387
+=	4	387
+-nc	nice	390
+-nc	dazi	390
+-nc	kady	390
+-c	390
+=	4	390
++	kady	aida
++nc	kady	4
+#20030306
++	spot	neou
+-	igor	dazi
+-	luz	clio
+-	luz	chip
+-	luz	laou
++	saxa	ika
++	zazi	spot
++c	392
++nc	zazi	392
++nc	neou	392
++nc	spot	392
+-	zazi	saxa
+-	zazi	ika
+#20030308
++	samba	kady
++	zebra	kady
+#20030309
+-	yama	fuji
+-nc	yama	184
+#20030310
+-	nieva	ika
+-	ika	floki
+-	neou	ika
+-nc	ika	30
+#20030315
+-	lou	fuji
+-	lou	floki
+-	eva	atos
+-nc	eva	355
+-nc	dahu	355
+-nc	atos	355
+-c	355
+-	fuji	floki
+-	ika	atos
++	ika	dahu
++c	393
++nc	eva	393
++nc	ika	393
++nc	dahu	393
+-	zora	lou
+-nc	lou	184
+-	dahu	atos
+#20030317
+-	ika	clio
+-	ika	chip
+#20030318
++	nice	igor
++	kady	igor
+#20030320
+-	nieva	atos
+-	eva	dahu
+-nc	eva	393
+-nc	ika	393
+-nc	dahu	393
+-c	393
+-	ika	dahu
++	saxa	fado
++c	394
++nc	gisa	394
++nc	saxa	394
++nc	fado	394
++c	395
++nc	saxa	395
++nc	tuga	395
++nc	fado	395
+-nc	saxa	395
+-nc	tuga	395
+-nc	fado	395
+-c	395
+=	329	395
+-nc	gisa	394
+-nc	saxa	394
+-nc	fado	394
+-c	394
+=	329	394
+-	neou	atos
+-	zazi	atos
+#20030321
+-	zora	fuji
+-nc	zora	184
+-nc	lise	184
+-nc	fuji	184
+-c	184
+-	zora	lise
+-	lise	fuji
+#20030323
++	jozi	doki
+-	zazi	gisa
+-	doly	bule
+#20030327
++	safo	kady
++	kady	jozi
+#20030329
+-	samba	igor
+-	safo	igor
+-	igor	diva
+-	mare	clio
+-	mare	chip
+-	kali	igor
+-	zazi	nieva
+-	zazi	neou
+-nc	zazi	392
+-nc	spot	392
+-nc	neou	392
+-c	392
+#20031202
++	mare	luz
++c	396
++nc	mare	396
++nc	luz	396
++nc	lise	396
++c	397
++nc	yama	397
++nc	mare	397
++nc	luz	397
++nc	yama	396
+-nc	yama	397
+-nc	mare	397
+-nc	luz	397
+-c	397
+=	396	397
++	zebra	jozi
+#20031204
++	vigo	jozi
++	vigo	aida
++c	398
++nc	jozi	398
++nc	aida	398
++nc	vigo	398
++	vigo	samba
++nc	samba	398
+-	fun	eva
+-	laou	fun
++	mare	lou
++nc	lou	396
++	zazi	yama
++c	399
++nc	zazi	399
++nc	yama	399
++nc	lise	399
+-nc	zazi	399
+-nc	yama	399
+-nc	lise	399
+-c	399
+=	396	399
+#20031206
++	vigo	kali
++nc	kali	398
+-nc	kali	398
+-nc	samba	398
+-nc	jozi	398
+-nc	aida	398
+-nc	vigo	398
+-c	398
+=	4	398
++	vigo	nice
++c	400
++nc	samba	400
++nc	nice	400
++nc	vigo	400
++c	401
++nc	nice	401
++nc	aida	401
++nc	vigo	401
++c	402
++nc	kali	402
++nc	nice	402
++nc	vigo	402
++c	403
++nc	nice	403
++nc	jozi	403
++nc	vigo	403
++nc	kali	400
+-nc	kali	402
+-nc	nice	402
+-nc	vigo	402
+-c	402
+=	400	402
++nc	jozi	400
+-nc	nice	403
+-nc	jozi	403
+-nc	vigo	403
+-c	403
+=	400	403
+-nc	kali	400
+-nc	samba	400
+-nc	nice	400
+-nc	jozi	400
+-nc	vigo	400
+-c	400
+=	4	400
++	vigo	dazi
++nc	dazi	401
+-nc	nice	401
+-nc	dazi	401
+-nc	aida	401
+-nc	vigo	401
+-c	401
+=	4	401
++	zazi	titus
+#20031213
++	sika	floki
++	sika	clio
++c	404
++nc	sika	404
++nc	floki	404
++nc	clio	404
++	sika	neou
++nc	neou	404
+#20031215
++	nieva	jupi
++	vigo	kady
++nc	vigo	4
++	vigo	narcis
++	vigo	doki
++	titus	lou
++	titus	mare
++c	405
++nc	mare	405
++nc	titus	405
++nc	lou	405
++	yeti	titus
++nc	yeti	405
++	yeti	mare
++	laou	jupi
++c	406
++nc	jupi	406
++nc	laou	406
++nc	nieva	406
+-	laou	gisa
++	jupi	floki
++nc	floki	406
++	jupi	gisa
++nc	gisa	406
+-nc	gisa	406
+-nc	jupi	406
+-nc	laou	406
+-nc	nieva	406
+-nc	floki	406
+-c	406
+=	30	406
++	tuga	floki
++c	407
++nc	saxa	407
++nc	tuga	407
++nc	floki	407
++c	408
++nc	tuga	408
++nc	floki	408
++nc	neou	408
++c	409
++nc	tuga	409
++nc	nieva	409
++nc	floki	409
++nc	neou	407
+-nc	tuga	408
+-nc	floki	408
+-nc	neou	408
+-c	408
+=	407	408
+-nc	saxa	407
+-nc	tuga	407
+-nc	floki	407
+-nc	neou	407
+-c	407
+=	30	407
+-nc	tuga	409
+-nc	nieva	409
+-nc	floki	409
+-c	409
+=	30	409
++	neou	jupi
++c	410
++nc	gisa	410
++nc	jupi	410
++nc	neou	410
++c	411
++nc	jupi	411
++nc	neou	411
++nc	laou	411
++c	412
++nc	jupi	412
++nc	neou	412
++nc	nieva	412
++c	413
++nc	jupi	413
++nc	neou	413
++nc	floki	413
++nc	laou	413
+-nc	jupi	411
+-nc	neou	411
+-nc	laou	411
+-c	411
+=	413	411
++nc	laou	410
++nc	floki	410
+-nc	jupi	413
+-nc	neou	413
+-nc	laou	413
+-nc	floki	413
+-c	413
+=	410	413
++nc	gisa	412
++nc	laou	412
++nc	floki	412
+-nc	gisa	410
+-nc	jupi	410
+-nc	neou	410
+-nc	laou	410
+-nc	floki	410
+-c	410
+=	412	410
+-nc	gisa	412
+-nc	jupi	412
+-nc	neou	412
+-nc	laou	412
+-nc	nieva	412
+-nc	floki	412
+-c	412
+=	30	412
+-	neou	gisa
+-nc	gisa	30
++	zebra	vigo
+#20031217
++	yeti	lise
++nc	lise	405
+#20031220
++	panda	fado
++	panda	gisa
++c	414
++nc	gisa	414
++nc	fado	414
++nc	panda	414
+-	vigo	nice
+-	vigo	aida
+-	vigo	samba
++	yeti	luz
++nc	luz	405
++nc	yeti	396
+-nc	mare	405
+-nc	luz	405
+-nc	titus	405
+-nc	lou	405
+-nc	yeti	405
+-nc	lise	405
+-c	405
+=	396	405
++	jupi	clio
++nc	jupi	30
++	sika	jupi
++nc	jupi	404
+-nc	sika	404
+-nc	jupi	404
+-nc	neou	404
+-nc	floki	404
+-nc	clio	404
+-c	404
+=	30	404
++	saxa	panda
++nc	saxa	414
+-	zebra	vigo
+-nc	vigo	4
+#20031225
+-	saxa	neou
+-nc	saxa	30
++	saxa	chip
++nc	saxa	30
+#20031228
++	titus	lise
++nc	titus	396
++	zazi	luz
++nc	zazi	396
++	zazi	lou
++	zazi	mare
+#20040103
++	soda	kady
++	soda	samba
++c	415
++nc	samba	415
++nc	kady	415
++nc	soda	415
++	soda	kali
++nc	kali	415
++	soda	aida
++nc	aida	415
+-nc	kali	415
+-nc	samba	415
+-nc	kady	415
+-nc	soda	415
+-nc	aida	415
+-c	415
+=	4	415
+#20040107
+-	yama	ika
+#20040108
++	sika	eva
++c	416
++nc	eva	416
++nc	sika	416
++nc	floki	416
++c	417
++nc	eva	417
++nc	sika	417
++nc	clio	417
++c	418
++nc	eva	418
++nc	sika	418
++nc	neou	418
++nc	neou	416
+-nc	eva	418
+-nc	sika	418
+-nc	neou	418
+-c	418
+=	416	418
+-nc	eva	416
+-nc	sika	416
+-nc	neou	416
+-nc	floki	416
+-c	416
+=	30	416
+#20040112
++	soda	doki
++c	419
++nc	doki	419
++nc	kady	419
++nc	soda	419
++c	420
++nc	samba	420
++nc	doki	420
++nc	soda	420
++c	421
++nc	doki	421
++nc	aida	421
++nc	soda	421
++c	422
++nc	kali	422
++nc	doki	422
++nc	soda	422
++nc	samba	421
+-nc	samba	420
+-nc	doki	420
+-nc	soda	420
+-c	420
+=	421	420
++nc	kady	422
+-nc	doki	419
+-nc	kady	419
+-nc	soda	419
+-c	419
+=	422	419
+-nc	kali	422
+-nc	doki	422
+-nc	kady	422
+-nc	soda	422
+-c	422
+=	4	422
+-nc	samba	421
+-nc	doki	421
+-nc	aida	421
+-nc	soda	421
+-c	421
+=	4	421
++	soda	narcis
++c	423
++nc	aida	423
++nc	soda	423
++nc	narcis	423
++c	424
++nc	kady	424
++nc	soda	424
++nc	narcis	424
++c	425
++nc	doki	425
++nc	soda	425
++nc	narcis	425
++c	426
++nc	samba	426
++nc	soda	426
++nc	narcis	426
++c	427
++nc	kali	427
++nc	soda	427
++nc	narcis	427
++nc	kady	426
+-nc	kady	424
+-nc	soda	424
+-nc	narcis	424
+-c	424
+=	426	424
++nc	kali	426
+-nc	kali	427
+-nc	soda	427
+-nc	narcis	427
+-c	427
+=	426	427
++nc	doki	426
+-nc	doki	425
+-nc	soda	425
+-nc	narcis	425
+-c	425
+=	426	425
++nc	aida	426
+-nc	aida	423
+-nc	soda	423
+-nc	narcis	423
+-c	423
+=	426	423
+-nc	kali	426
+-nc	samba	426
+-nc	doki	426
+-nc	kady	426
+-nc	soda	426
+-nc	narcis	426
+-nc	aida	426
+-c	426
+=	4	426
+-	saxa	ika
+#20040113
++	panda	nut
++nc	nut	414
+-nc	gisa	414
+-nc	saxa	414
+-nc	nut	414
+-nc	fado	414
+-nc	panda	414
+-c	414
+=	329	414
++	timy	clio
++c	428
++nc	cloe	428
++nc	timy	428
++nc	clio	428
++c	429
++nc	gisa	429
++nc	timy	429
++nc	clio	429
+-nc	gisa	429
+-nc	timy	429
+-nc	clio	429
+-c	429
+=	329	429
+-nc	cloe	428
+-nc	timy	428
+-nc	clio	428
+-c	428
+=	329	428
+-	jupi	gisa
++	tuga	panda
++nc	panda	329
+#20040115
++	soda	dazi
++nc	soda	4
++	jupi	chip
++	jupi	eva
++nc	jupi	417
++nc	sika	30
+-nc	eva	417
+-nc	sika	417
+-nc	jupi	417
+-nc	clio	417
+-c	417
+=	30	417
++	sika	chip
++	sika	laou
+-	zazi	floki
+-nc	zazi	30
+#20040128
++	jozi	igor
+#20040131
+-	vigo	kady
+-	vigo	jozi
+-	vigo	kali
+-	vigo	narcis
+-	vigo	dazi
+#20040201
++	panda	cloe
+#20040202
++	samba	lou
++	lou	kali
++c	430
++nc	kali	430
++nc	samba	430
++nc	lou	430
+-nc	kali	430
+-nc	samba	430
+-nc	lou	430
+-c	430
+=	4	430
++	narcis	lou
++c	431
++nc	samba	431
++nc	lou	431
++nc	narcis	431
++c	432
++nc	kali	432
++nc	lou	432
++nc	narcis	432
+-nc	kali	432
+-nc	lou	432
+-nc	narcis	432
+-c	432
+=	4	432
+-nc	samba	431
+-nc	lou	431
+-nc	narcis	431
+-c	431
+=	4	431
+#20040203
++	nieva	fado
++c	433
++nc	gisa	433
++nc	fado	433
++nc	nieva	433
++c	434
++nc	saxa	434
++nc	fado	434
++nc	nieva	434
++c	435
++nc	tuga	435
++nc	fado	435
++nc	nieva	435
++c	436
++nc	cloe	436
++nc	fado	436
++nc	nieva	436
++nc	saxa	433
+-nc	saxa	434
+-nc	fado	434
+-nc	nieva	434
+-c	434
+=	433	434
++nc	saxa	329
++nc	nieva	329
+-nc	gisa	433
+-nc	saxa	433
+-nc	fado	433
+-nc	nieva	433
+-c	433
+=	329	433
++nc	tuga	436
+-nc	tuga	435
+-nc	fado	435
+-nc	nieva	435
+-c	435
+=	436	435
+-nc	cloe	436
+-nc	tuga	436
+-nc	fado	436
+-nc	nieva	436
+-c	436
+=	329	436
++	panda	nieva
+-	panda	nut
+-	panda	fado
+-	timy	cloe
+-	timy	fado
+-nc	timy	329
+-	nut	cloe
+-nc	nut	329
+-	nut	fado
+-	nut	gisa
+-	fado	cloe
+-	tuga	nut
+#20040204
+-	panda	nieva
+#20040208
+-	vigo	doki
++	soda	nice
+-	sika	floki
+-	sika	laou
+-	sika	jupi
+-nc	sika	30
++	zebra	soda
++	zazi	yeti
+#20040213
++	zazi	narcis
++c	437
++nc	zazi	437
++nc	lou	437
++nc	narcis	437
+-nc	zazi	437
+-nc	lou	437
+-nc	narcis	437
+-c	437
+=	396	437
+#20040214
++	sika	nieva
++nc	sika	30
++	zazi	kali
++c	438
++nc	zazi	438
++nc	kali	438
++nc	narcis	438
++c	439
++nc	zazi	439
++nc	kali	439
++nc	lou	439
++nc	lou	438
+-nc	zazi	439
+-nc	kali	439
+-nc	lou	439
+-c	439
+=	438	439
+-nc	zazi	438
+-nc	kali	438
+-nc	lou	438
+-nc	narcis	438
+-c	438
+=	396	438
++	zazi	aida
++c	440
++nc	zazi	440
++nc	aida	440
++nc	narcis	440
++c	441
++nc	zazi	441
++nc	kali	441
++nc	aida	441
+-nc	zazi	441
+-nc	kali	441
+-nc	aida	441
+-c	441
+=	4	441
+-nc	zazi	440
+-nc	aida	440
+-nc	narcis	440
+-c	440
+=	4	440
++	zazi	samba
++c	442
++nc	zazi	442
++nc	samba	442
++nc	lou	442
++c	443
++nc	zazi	443
++nc	samba	443
++nc	kali	443
++c	444
++nc	zazi	444
++nc	samba	444
++nc	narcis	444
++c	445
++nc	zazi	445
++nc	samba	445
++nc	aida	445
++nc	narcis	443
+-nc	zazi	444
+-nc	samba	444
+-nc	narcis	444
+-c	444
+=	443	444
+-nc	zazi	442
+-nc	samba	442
+-nc	lou	442
+-c	442
+=	396	442
+-nc	zazi	443
+-nc	samba	443
+-nc	kali	443
+-nc	narcis	443
+-c	443
+=	4	443
+-nc	zazi	445
+-nc	samba	445
+-nc	aida	445
+-c	445
+=	4	445
++	zazi	kady
++c	446
++nc	zazi	446
++nc	samba	446
++nc	kady	446
++c	447
++nc	zazi	447
++nc	kali	447
++nc	kady	447
++c	448
++nc	zazi	448
++nc	kady	448
++nc	narcis	448
++c	449
++nc	zazi	449
++nc	kady	449
++nc	aida	449
++nc	aida	446
+-nc	zazi	449
+-nc	kady	449
+-nc	aida	449
+-c	449
+=	446	449
++nc	kali	446
+-nc	zazi	447
+-nc	kali	447
+-nc	kady	447
+-c	447
+=	446	447
+-nc	zazi	446
+-nc	samba	446
+-nc	kali	446
+-nc	kady	446
+-nc	aida	446
+-c	446
+=	4	446
+-nc	zazi	448
+-nc	kady	448
+-nc	narcis	448
+-c	448
+=	4	448
+#20040216
++	soda	safo
++	yogi	kady
++	yogi	doki
++c	450
++nc	doki	450
++nc	yogi	450
++nc	kady	450
++	yogi	nice
++nc	nice	450
++	yogi	narcis
++nc	narcis	450
+-nc	nice	450
+-nc	doki	450
+-nc	yogi	450
+-nc	kady	450
+-nc	narcis	450
+-c	450
+=	4	450
++	yogi	aida
++c	451
++nc	kady	451
++nc	yogi	451
++nc	aida	451
++c	452
++nc	nice	452
++nc	yogi	452
++nc	aida	452
++c	453
++nc	yogi	453
++nc	aida	453
++nc	narcis	453
++c	454
++nc	doki	454
++nc	yogi	454
++nc	aida	454
++nc	narcis	452
+-nc	yogi	453
+-nc	aida	453
+-nc	narcis	453
+-c	453
+=	452	453
++nc	kady	452
+-nc	kady	451
+-nc	yogi	451
+-nc	aida	451
+-c	451
+=	452	451
++nc	kady	454
++nc	nice	454
++nc	narcis	454
+-nc	kady	452
+-nc	nice	452
+-nc	yogi	452
+-nc	aida	452
+-nc	narcis	452
+-c	452
+=	454	452
+-nc	kady	454
+-nc	nice	454
+-nc	doki	454
+-nc	yogi	454
+-nc	aida	454
+-nc	narcis	454
+-c	454
+=	4	454
+-	toy	mis
+-	sika	nieva
+-nc	sika	30
+-	sika	neou
+-	mare	floki
++	zebra	yogi
++c	455
++nc	yogi	455
++nc	zebra	455
++nc	kady	455
++c	456
++nc	yogi	456
++nc	zebra	456
++nc	aida	456
++c	457
++nc	nice	457
++nc	yogi	457
++nc	zebra	457
++c	458
++nc	doki	458
++nc	yogi	458
++nc	zebra	458
++c	459
++nc	yogi	459
++nc	zebra	459
++nc	narcis	459
++nc	aida	458
+-nc	yogi	456
+-nc	zebra	456
+-nc	aida	456
+-c	456
+=	458	456
++nc	narcis	458
+-nc	yogi	459
+-nc	zebra	459
+-nc	narcis	459
+-c	459
+=	458	459
++nc	nice	458
+-nc	nice	457
+-nc	yogi	457
+-nc	zebra	457
+-c	457
+=	458	457
+-nc	nice	458
+-nc	doki	458
+-nc	yogi	458
+-nc	zebra	458
+-nc	aida	458
+-nc	narcis	458
+-c	458
+=	4	458
++	floki	cloe
++nc	cloe	30
+#20040217
+-	nieva	cloe
+-nc	cloe	30
+-	vega	toy
+-nc	toy	53
++	soda	diva
++	jupi	cloe
++nc	cloe	30
+#20040218
+-	toy	doly
+-	sika	chip
+-	sika	eva
+#20040225
+-	vega	lune
+-	sika	clio
++	doly	alex
++nc	alex	53
+#20040227
+-	nice	diva
++	soda	jozi
+-	zebra	diva
+#20040302
+-	nice	jozi
++	titus	kady
++c	460
++nc	zazi	460
++nc	titus	460
++nc	kady	460
+-nc	zazi	460
+-nc	titus	460
+-nc	kady	460
+-c	460
+=	396	460
+#20040303
+-	nice	igor
+-nc	igor	4
+-	yogi	kady
+-nc	yogi	455
+-nc	zebra	455
+-nc	kady	455
+-c	455
+-	yogi	doki
+-	yogi	nice
+-	yogi	narcis
+-	yogi	aida
+-	narcis	igor
+-	zebra	igor
+-	zebra	yogi
+#20040305
+-	zebra	dazi
+#20040309
+-	titus	lise
+#20040310
+-	soda	diva
+-	jupi	cloe
+-nc	cloe	30
+#20040311
+-	vega	doly
+-nc	vega	53
+-	vega	mis
+-	sig	saxa
+-	doly	alex
+-nc	doly	53
+-nc	mis	53
+-nc	alex	53
+-c	53
+#20040314
+-	zebra	nice
+#20040316
+-	soda	jozi
+-	yama	lou
+-	yama	luz
+-nc	yama	396
+-	yama	lise
+-	luz	lou
+-	zebra	soda
+-	zebra	kady
+-	zebra	jozi
+-nc	zebra	4
+-	zebra	kali
+-	zebra	doki
+-	zebra	narcis
+-	zebra	aida
+-	zebra	samba
+-	zebra	safo
+-	zazi	luz
+#20040317
+-	nieva	jupi
+-	laou	floki
+-	laou	jupi
+-	jupi	clio
+-	jupi	floki
+-nc	jupi	30
+#20040320
+-	nice	kady
+-	nice	doki
+-	nice	dazi
+-	samba	nice
+-nc	nice	4
+-	soda	kady
+-	soda	samba
+-	soda	safo
+-nc	soda	4
+-	soda	kali
+-	soda	nice
+-	soda	dazi
+-	soda	doki
+-	soda	narcis
+-	soda	aida
+-	safo	nice
+-	yama	mare
+-	mis	alex
+-	zazi	yama
+#20040325
+-	nice	narcis
+-	nice	aida
+#20040328
+-	nice	kali
++	volga	kali
++	volga	lise
++	lise	kali
++c	461
++nc	kali	461
++nc	volga	461
++nc	lise	461
++c	462
++nc	kali	462
++nc	zazi	462
++nc	lise	462
++c	463
++nc	kali	463
++nc	lou	463
++nc	lise	463
+-nc	kali	462
+-nc	zazi	462
+-nc	lise	462
+-c	462
+=	461	462
+-nc	kali	463
+-nc	lou	463
+-nc	lise	463
+-c	463
+=	461	463
+#20041201
++	nieva	kaki
++	nieva	nets
++	vigi	nieva
++	vigi	azar
++	vigi	saxa
++c	464
++nc	vigi	464
++nc	saxa	464
++nc	nieva	464
++	vigi	gisa
++nc	gisa	464
+-nc	vigi	464
+-nc	saxa	464
+-nc	gisa	464
+-nc	nieva	464
+-c	464
+=	329	464
++	vigi	kaki
++c	465
++nc	vigi	465
++nc	kaki	465
++nc	nieva	465
++	vigi	nets
++c	466
++nc	vigi	466
++nc	nieva	466
++nc	nets	466
++	maja	falfa
++	spam	chip
++	spam	jupi
++c	467
++nc	jupi	467
++nc	spam	467
++nc	chip	467
++	nets	azar
++nc	azar	466
++	nets	fado
++c	468
++nc	fado	468
++nc	nieva	468
++nc	nets	468
+-nc	fado	468
+-nc	nieva	468
+-nc	nets	468
+-c	468
+=	329	468
++	nets	gisa
++c	469
++nc	gisa	469
++nc	vigi	469
++nc	nets	469
++c	470
++nc	gisa	470
++nc	nieva	470
++nc	nets	470
++c	471
++nc	gisa	471
++nc	fado	471
++nc	nets	471
+-nc	gisa	471
+-nc	fado	471
+-nc	nets	471
+-c	471
+=	329	471
++nc	vigi	470
+-nc	gisa	469
+-nc	vigi	469
+-nc	nets	469
+-c	469
+=	470	469
++nc	gisa	466
+-nc	gisa	470
+-nc	vigi	470
+-nc	nieva	470
+-nc	nets	470
+-c	470
+=	466	470
++	nets	kaki
++nc	kaki	466
++nc	nets	465
++nc	gisa	465
+-nc	azar	466
+-nc	vigi	466
+-nc	gisa	466
+-nc	kaki	466
+-nc	nieva	466
+-nc	nets	466
+-c	466
+=	465	466
++	rumbo	bule
++	saxa	kaki
++nc	saxa	465
++	saxa	nets
++	kaki	azar
++nc	azar	465
++	kaki	fado
++nc	fado	465
++	kaki	gisa
++	gisa	azar
+#20041202
++	lune	falfa
++	maja	lune
++c	472
++nc	maja	472
++nc	lune	472
++nc	falfa	472
++	spam	eva
++nc	eva	467
++	volga	kady
++nc	kady	461
++	volga	jozi
++nc	jozi	461
++	volga	doki
++nc	doki	461
+-nc	kali	461
+-nc	doki	461
+-nc	jozi	461
+-nc	volga	461
+-nc	kady	461
+-nc	lise	461
+-c	461
+=	4	461
++	volga	samba
++c	473
++nc	samba	473
++nc	volga	473
++nc	kady	473
++c	474
++nc	samba	474
++nc	doki	474
++nc	volga	474
++c	475
++nc	kali	475
++nc	samba	475
++nc	volga	475
++c	476
++nc	samba	476
++nc	jozi	476
++nc	volga	476
++nc	jozi	474
+-nc	samba	476
+-nc	jozi	476
+-nc	volga	476
+-c	476
+=	474	476
++nc	kali	474
+-nc	kali	475
+-nc	samba	475
+-nc	volga	475
+-c	475
+=	474	475
++nc	kady	474
+-nc	samba	473
+-nc	volga	473
+-nc	kady	473
+-c	473
+=	474	473
+-nc	kali	474
+-nc	samba	474
+-nc	doki	474
+-nc	jozi	474
+-nc	volga	474
+-nc	kady	474
+-c	474
+=	4	474
++	yaho	desy
+-	rumbo	bule
+-	jupi	eva
++	tuga	kaki
++nc	kaki	329
++nc	tuga	465
++nc	nets	329
+-nc	azar	465
+-nc	vigi	465
+-nc	saxa	465
+-nc	gisa	465
+-nc	tuga	465
+-nc	fado	465
+-nc	kaki	465
+-nc	nieva	465
+-nc	nets	465
+-c	465
+=	329	465
++	tuga	nets
+-	neou	jupi
+#20041203
+-	vigi	azar
++	vigi	tuga
++nc	vigi	329
+-	vigi	kaki
++	sig	azar
++c	477
++nc	gisa	477
++nc	azar	477
++nc	sig	477
++	sig	kaki
++nc	kaki	477
++	sig	nets
++nc	nets	477
++	tuga	azar
++nc	tuga	477
++	mis	falfa
++	mis	maja
++nc	mis	472
+#20041204
++	volga	narcis
++nc	volga	4
++	volga	aida
+#20041205
++	titus	safo
++c	478
++nc	titus	478
++nc	safo	478
++nc	kady	478
+-nc	titus	478
+-nc	safo	478
+-nc	kady	478
+-c	478
+=	4	478
++	yeti	samba
++c	479
++nc	zazi	479
++nc	samba	479
++nc	yeti	479
++c	480
++nc	samba	480
++nc	lou	480
++nc	yeti	480
+-nc	zazi	479
+-nc	samba	479
+-nc	yeti	479
+-c	479
+=	396	479
+-nc	samba	480
+-nc	lou	480
+-nc	yeti	480
+-c	480
+=	396	480
++	yeti	kady
++c	481
++nc	zazi	481
++nc	yeti	481
++nc	kady	481
++c	482
++nc	samba	482
++nc	yeti	482
++nc	kady	482
++c	483
++nc	titus	483
++nc	yeti	483
++nc	kady	483
+-nc	titus	483
+-nc	yeti	483
+-nc	kady	483
+-c	483
+=	396	483
++nc	samba	481
+-nc	samba	482
+-nc	yeti	482
+-nc	kady	482
+-c	482
+=	481	482
+-nc	zazi	481
+-nc	samba	481
+-nc	yeti	481
+-nc	kady	481
+-c	481
+=	396	481
++	yeti	volga
++c	484
++nc	samba	484
++nc	volga	484
++nc	yeti	484
++c	485
++nc	volga	485
++nc	yeti	485
++nc	kady	485
++c	486
++nc	volga	486
++nc	yeti	486
++nc	lise	486
+-nc	volga	486
+-nc	yeti	486
+-nc	lise	486
+-c	486
+=	396	486
+-nc	volga	485
+-nc	yeti	485
+-nc	kady	485
+-c	485
+=	4	485
+-nc	samba	484
+-nc	volga	484
+-nc	yeti	484
+-c	484
+=	4	484
++	yeti	aida
++c	487
++nc	zazi	487
++nc	yeti	487
++nc	aida	487
++c	488
++nc	samba	488
++nc	yeti	488
++nc	aida	488
++c	489
++nc	volga	489
++nc	yeti	489
++nc	aida	489
++c	490
++nc	kady	490
++nc	yeti	490
++nc	aida	490
+-nc	zazi	487
+-nc	yeti	487
+-nc	aida	487
+-c	487
+=	396	487
++nc	samba	490
+-nc	samba	488
+-nc	yeti	488
+-nc	aida	488
+-c	488
+=	490	488
++nc	volga	490
+-nc	volga	489
+-nc	yeti	489
+-nc	aida	489
+-c	489
+=	490	489
+-nc	kady	490
+-nc	samba	490
+-nc	volga	490
+-nc	yeti	490
+-nc	aida	490
+-c	490
+=	4	490
++	yeti	dazi
++c	491
++nc	samba	491
++nc	dazi	491
++nc	yeti	491
++c	492
++nc	dazi	492
++nc	yeti	492
++nc	kady	492
++c	493
++nc	dazi	493
++nc	yeti	493
++nc	aida	493
++nc	kady	491
+-nc	dazi	492
+-nc	yeti	492
+-nc	kady	492
+-c	492
+=	491	492
++nc	aida	491
+-nc	dazi	493
+-nc	yeti	493
+-nc	aida	493
+-c	493
+=	491	493
+-nc	samba	491
+-nc	dazi	491
+-nc	yeti	491
+-nc	kady	491
+-nc	aida	491
+-c	491
+=	4	491
++	volga	dazi
++	mare	aida
++c	494
++nc	zazi	494
++nc	mare	494
++nc	aida	494
++c	495
++nc	mare	495
++nc	yeti	495
++nc	aida	495
+-nc	zazi	494
+-nc	mare	494
+-nc	aida	494
+-c	494
+=	396	494
+-nc	mare	495
+-nc	yeti	495
+-nc	aida	495
+-c	495
+=	396	495
++	zazi	volga
++c	496
++nc	zazi	496
++nc	samba	496
++nc	volga	496
++c	497
++nc	zazi	497
++nc	volga	497
++nc	kady	497
++c	498
++nc	zazi	498
++nc	kali	498
++nc	volga	498
++c	499
++nc	zazi	499
++nc	volga	499
++nc	lise	499
++c	500
++nc	zazi	500
++nc	volga	500
++nc	narcis	500
++c	501
++nc	zazi	501
++nc	volga	501
++nc	aida	501
++c	502
++nc	zazi	502
++nc	volga	502
++nc	yeti	502
++nc	samba	502
+-nc	zazi	496
+-nc	samba	496
+-nc	volga	496
+-c	496
+=	502	496
++nc	narcis	498
+-nc	zazi	500
+-nc	volga	500
+-nc	narcis	500
+-c	500
+=	498	500
++nc	aida	498
+-nc	zazi	501
+-nc	volga	501
+-nc	aida	501
+-c	501
+=	498	501
+-nc	zazi	502
+-nc	samba	502
+-nc	volga	502
+-nc	yeti	502
+-c	502
+=	4	502
+-nc	zazi	498
+-nc	kali	498
+-nc	volga	498
+-nc	aida	498
+-nc	narcis	498
+-c	498
+=	4	498
+-nc	zazi	497
+-nc	volga	497
+-nc	kady	497
+-c	497
+=	4	497
+-nc	zazi	499
+-nc	volga	499
+-nc	lise	499
+-c	499
+=	396	499
++	zazi	dazi
++nc	zazi	4
+#20041207
+-	spam	jupi
+-nc	spam	467
+-nc	eva	467
+-nc	chip	467
+-nc	jupi	467
+-c	467
+-	nets	fado
+-nc	fado	329
++	toy	falfa
+-	jupi	chip
+#20041208
+-	titus	mare
+-nc	titus	396
+-	yeti	titus
++	mare	igor
++c	503
++nc	mare	503
++nc	aida	503
++nc	igor	503
+-	zazi	spot
+-	zazi	titus
++	zazi	igor
++nc	zazi	503
+#20041209
+-	yeti	mare
+-	fun	floki
+-	yaho	desy
++	falfa	doly
++nc	doly	472
+#20041210
+-	nieva	fado
+-	spot	neou
+-	titus	safo
+-	titus	kady
+-	yeti	luz
+-nc	yeti	396
+-	tuga	saxa
+-	tuga	fado
+-	saxa	kaki
+-nc	kaki	329
+-	saxa	fado
+-	kaki	fado
+#20041213
+-	toy	falfa
+-	mare	igor
+-nc	mare	503
+-	zazi	igor
+-nc	zazi	503
+-nc	aida	503
+-nc	igor	503
+-c	503
+#20041214
++	ika	desy
+#20041216
+-	gisa	fado
+#20041218
++	samba	igor
++c	504
++nc	samba	504
++nc	igor	504
++nc	kady	504
++c	505
++nc	samba	505
++nc	igor	505
++nc	aida	505
++c	506
++nc	samba	506
++nc	igor	506
++nc	jozi	506
++c	507
++nc	samba	507
++nc	igor	507
++nc	doki	507
++nc	jozi	505
+-nc	samba	506
+-nc	igor	506
+-nc	jozi	506
+-c	506
+=	505	506
++nc	kady	505
+-nc	samba	504
+-nc	igor	504
+-nc	kady	504
+-c	504
+=	505	504
+-nc	kady	505
+-nc	samba	505
+-nc	igor	505
+-nc	jozi	505
+-nc	aida	505
+-c	505
+=	4	505
+-	ika	desy
++	mis	lune
+#20041230
++	igor	dazi
++nc	dazi	507
++nc	igor	4
+-nc	samba	507
+-nc	igor	507
+-nc	doki	507
+-nc	dazi	507
+-c	507
+=	4	507
++	volga	igor
+#20041231
++	vigi	panda
+#20050101
++	timy	kaki
++c	508
++nc	tuga	508
++nc	timy	508
++nc	kaki	508
++c	509
++nc	gisa	509
++nc	timy	509
++nc	kaki	509
++nc	tuga	509
+-nc	tuga	508
+-nc	timy	508
+-nc	kaki	508
+-c	508
+=	509	508
+-nc	gisa	509
+-nc	tuga	509
+-nc	timy	509
+-nc	kaki	509
+-c	509
+=	477	509
++	timy	nets
++nc	timy	477
+#20050102
+-	timy	kaki
+-nc	timy	477
+-	timy	nets
+-	sig	azar
+-	sig	gisa
+-	sig	kaki
+-nc	sig	477
++	ika	chip
++c	510
++nc	eva	510
++nc	ika	510
++nc	chip	510
++	saxa	cloe
++nc	cloe	30
+-	kaki	azar
+#20050105
++	perdiz	floki
++	perdiz	joly
+#20050108
++	volga	safo
++	volga	tomas
++	falfa	alex
++	tomas	narcis
++c	511
++nc	volga	511
++nc	tomas	511
++nc	narcis	511
++	tomas	aida
++nc	aida	511
++	tomas	safo
++nc	safo	511
+-nc	volga	511
+-nc	safo	511
+-nc	tomas	511
+-nc	aida	511
+-nc	narcis	511
+-c	511
+=	4	511
+#20050112
++	maja	alex
++c	512
++nc	maja	512
++nc	alex	512
++nc	falfa	512
+#20050113
+-	nieva	kaki
++	mare	luc
++	tomas	samba
++c	513
++nc	samba	513
++nc	volga	513
++nc	tomas	513
++c	514
++nc	samba	514
++nc	tomas	514
++nc	narcis	514
++c	515
++nc	samba	515
++nc	tomas	515
++nc	aida	515
++c	516
++nc	samba	516
++nc	safo	516
++nc	tomas	516
++nc	volga	514
+-nc	samba	513
+-nc	volga	513
+-nc	tomas	513
+-c	513
+=	514	513
++nc	volga	516
++nc	narcis	516
+-nc	samba	514
+-nc	volga	514
+-nc	tomas	514
+-nc	narcis	514
+-c	514
+=	516	514
++nc	aida	516
+-nc	samba	515
+-nc	tomas	515
+-nc	aida	515
+-c	515
+=	516	515
+-nc	samba	516
+-nc	volga	516
+-nc	safo	516
+-nc	tomas	516
+-nc	aida	516
+-nc	narcis	516
+-c	516
+=	4	516
+#20050115
++	maja	doly
+#20050118
+-	samba	lou
++	lou	jozi
++c	517
++nc	jozi	517
++nc	lou	517
++nc	narcis	517
++c	518
++nc	kali	518
++nc	jozi	518
++nc	lou	518
+-nc	jozi	517
+-nc	lou	517
+-nc	narcis	517
+-c	517
+=	4	517
+-nc	kali	518
+-nc	jozi	518
+-nc	lou	518
+-c	518
+=	4	518
++	lou	doki
++c	519
++nc	kali	519
++nc	doki	519
++nc	lou	519
++c	520
++nc	doki	520
++nc	jozi	520
++nc	lou	520
++c	521
++nc	doki	521
++nc	lou	521
++nc	narcis	521
++nc	jozi	521
+-nc	doki	520
+-nc	jozi	520
+-nc	lou	520
+-c	520
+=	521	520
+-nc	doki	521
+-nc	jozi	521
+-nc	lou	521
+-nc	narcis	521
+-c	521
+=	4	521
+-nc	kali	519
+-nc	doki	519
+-nc	lou	519
+-c	519
+=	4	519
++	lou	aida
++c	522
++nc	zazi	522
++nc	lou	522
++nc	aida	522
++c	523
++nc	mare	523
++nc	lou	523
++nc	aida	523
++c	524
++nc	kali	524
++nc	lou	524
++nc	aida	524
++c	525
++nc	doki	525
++nc	lou	525
++nc	aida	525
++c	526
++nc	jozi	526
++nc	lou	526
++nc	aida	526
++c	527
++nc	lou	527
++nc	yeti	527
++nc	aida	527
++c	528
++nc	lou	528
++nc	aida	528
++nc	narcis	528
++nc	jozi	522
+-nc	jozi	526
+-nc	lou	526
+-nc	aida	526
+-c	526
+=	522	526
+-nc	zazi	522
+-nc	jozi	522
+-nc	lou	522
+-nc	aida	522
+-c	522
+=	396	522
+-nc	kali	524
+-nc	lou	524
+-nc	aida	524
+-c	524
+=	523	524
+-nc	lou	527
+-nc	yeti	527
+-nc	aida	527
+-c	527
+=	523	527
+-nc	lou	528
+-nc	aida	528
+-nc	narcis	528
+-c	528
+=	523	528
+-nc	mare	523
+-nc	lou	523
+-nc	aida	523
+-c	523
+=	396	523
+-nc	doki	525
+-nc	lou	525
+-nc	aida	525
+-c	525
+=	4	525
+-	narcis	lou
+-	spam	chip
+-	spam	eva
++	zazi	jozi
++	zazi	doki
+#20050122
+-	nieva	nets
+-	kaki	gisa
+-nc	kaki	477
+#20050131
++	safo	igor
+-	igor	aida
++	igor	diva
+-	volga	igor
++	volga	diva
+#20050208
++	vigi	eva
++c	529
++nc	vigi	529
++nc	eva	529
++nc	nieva	529
++c	530
++nc	vigi	530
++nc	saxa	530
++nc	eva	530
++c	531
++nc	vigi	531
++nc	gisa	531
++nc	eva	531
++nc	nieva	531
+-nc	vigi	529
+-nc	eva	529
+-nc	nieva	529
+-c	529
+=	531	529
+-nc	vigi	531
+-nc	gisa	531
+-nc	eva	531
+-nc	nieva	531
+-c	531
+=	329	531
+-nc	vigi	530
+-nc	saxa	530
+-nc	eva	530
+-c	530
+=	329	530
+-	saxa	nieva
+-nc	nieva	329
+#20050210
++	vigi	neou
++c	532
++nc	vigi	532
++nc	neou	532
++nc	nieva	532
++c	533
++nc	vigi	533
++nc	neou	533
++nc	tuga	533
++c	534
++nc	vigi	534
++nc	neou	534
++nc	eva	534
++nc	eva	532
+-nc	vigi	534
+-nc	neou	534
+-nc	eva	534
+-c	534
+=	532	534
+-nc	vigi	533
+-nc	neou	533
+-nc	tuga	533
+-c	533
+=	329	533
+-nc	vigi	532
+-nc	neou	532
+-nc	eva	532
+-nc	nieva	532
+-c	532
+=	30	532
++	vigi	laou
++nc	vigi	30
+-	nets	kaki
+-	tuga	kaki
+#20050211
++	timy	chip
++c	535
++nc	timy	535
++nc	chip	535
++nc	clio	535
+#20050212
+-	mare	luc
++	gisa	chip
++nc	gisa	30
++nc	gisa	535
+-nc	gisa	535
+-nc	timy	535
+-nc	chip	535
+-nc	clio	535
+-c	535
+=	30	535
+#20050213
+-	samba	igor
+-	jozi	igor
+-nc	igor	4
+-	safo	igor
+-	igor	diva
+#20050218
++	volga	lou
++c	536
++nc	volga	536
++nc	lou	536
++nc	lise	536
++c	537
++nc	volga	537
++nc	lou	537
++nc	yeti	537
++c	538
++nc	jozi	538
++nc	volga	538
++nc	lou	538
++c	539
++nc	doki	539
++nc	volga	539
++nc	lou	539
++c	540
++nc	kali	540
++nc	volga	540
++nc	lou	540
++c	541
++nc	volga	541
++nc	lou	541
++nc	aida	541
++c	542
++nc	zazi	542
++nc	volga	542
++nc	lou	542
+-nc	zazi	542
+-nc	volga	542
+-nc	lou	542
+-c	542
+=	396	542
++nc	yeti	536
+-nc	volga	537
+-nc	lou	537
+-nc	yeti	537
+-c	537
+=	536	537
+-nc	jozi	538
+-nc	volga	538
+-nc	lou	538
+-c	538
+=	536	538
+-nc	doki	539
+-nc	volga	539
+-nc	lou	539
+-c	539
+=	536	539
++nc	aida	536
+-nc	volga	541
+-nc	lou	541
+-nc	aida	541
+-c	541
+=	536	541
++nc	kali	536
+-nc	kali	540
+-nc	volga	540
+-nc	lou	540
+-c	540
+=	536	540
+-	neou	cloe
+-nc	cloe	30
+#20050225
+-	cloe	clio
+#20050228
+-	timy	nut
++	safo	lou
++nc	lou	4
++nc	safo	536
+-nc	kali	536
+-nc	volga	536
+-nc	lou	536
+-nc	safo	536
+-nc	yeti	536
+-nc	aida	536
+-nc	lise	536
+-c	536
+=	4	536
++	zazi	safo
+#20050303
++	nieva	ika
++nc	nieva	510
++	vigi	clio
++	vigi	chip
++	neou	ika
++nc	neou	510
+-nc	eva	510
+-nc	neou	510
+-nc	nieva	510
+-nc	ika	510
+-nc	chip	510
+-c	510
+=	30	510
+-	zazi	clio
+-	zazi	chip
+-	zazi	eva
+-	zazi	laou
+#20050307
++	ika	clio
++nc	ika	30
+-	ika	chip
+-nc	ika	30
++	tuga	clio
++nc	tuga	30
+-	tuga	neou
+-nc	tuga	30
+#20050308
+-	lou	jozi
+-nc	lou	4
+-	lou	doki
+-	safo	lou
+-	ika	clio
+#20050310
+-	lou	aida
+-	nets	azar
+-nc	nets	477
+-	nets	gisa
+-nc	nets	329
++	nets	cloe
++nc	nets	329
+-	tuga	azar
+-nc	tuga	477
+-nc	gisa	477
+-nc	azar	477
+-c	477
++	lise	aida
++nc	aida	396
+#20050312
+-	panda	gisa
+-	tuga	panda
+#20050315
++	yeti	kali
++nc	yeti	4
++	yeti	safo
+-	yeti	kady
++	yeti	doki
+-	yeti	aida
+-	yeti	dazi
+-nc	yeti	4
+-	volga	lise
+-	zazi	jozi
+-	zazi	volga
+-	lise	kali
+-	lise	aida
+-nc	aida	396
+#20050316
++	tomas	jozi
++c	543
++nc	jozi	543
++nc	safo	543
++nc	tomas	543
++c	544
++nc	jozi	544
++nc	tomas	544
++nc	narcis	544
++c	545
++nc	jozi	545
++nc	volga	545
++nc	tomas	545
++c	546
++nc	samba	546
++nc	jozi	546
++nc	tomas	546
++c	547
++nc	jozi	547
++nc	tomas	547
++nc	aida	547
++nc	samba	547
+-nc	samba	546
+-nc	jozi	546
+-nc	tomas	546
+-c	546
+=	547	546
++nc	samba	543
++nc	aida	543
+-nc	samba	547
+-nc	jozi	547
+-nc	tomas	547
+-nc	aida	547
+-c	547
+=	543	547
+-nc	samba	543
+-nc	jozi	543
+-nc	safo	543
+-nc	tomas	543
+-nc	aida	543
+-c	543
+=	4	543
+-nc	jozi	544
+-nc	tomas	544
+-nc	narcis	544
+-c	544
+=	4	544
+-nc	jozi	545
+-nc	volga	545
+-nc	tomas	545
+-c	545
+=	4	545
++	tomas	kali
++nc	tomas	4
+#20050317
++	vigi	titus
+-	gisa	azar
+#20050321
+-	samba	dazi
+-	vigi	titus
++	titus	neou
+-	sig	nets
++	sig	cloe
++c	548
++nc	cloe	548
++nc	tuga	548
++nc	sig	548
+-	ika	eva
+-	tuga	sig
+-nc	tuga	548
+-nc	cloe	548
+-nc	sig	548
+-c	548
++	neou	gisa
+-	kali	dazi
+#20050322
++	vigi	floki
++	gisa	floki
++nc	floki	329
+#20050323
+-	tomas	safo
+#20050325
+-	nieva	ika
+-	titus	neou
+-	volga	tomas
+-nc	tomas	4
+-	neou	ika
+-	tomas	jozi
+-	tomas	kali
+-	tomas	narcis
+-	tomas	aida
+-	tomas	samba
+#20050327
+-	titus	lou
+#20050328
+-	samba	jozi
+-	samba	diva
+-	panda	cloe
+-nc	panda	329
+-	vigi	panda
++	vigi	cloe
+-	safo	diva
+-	narcis	jozi
+-	narcis	diva
+-	nets	cloe
+-	volga	diva
+-	saxa	panda
+-	saxa	nets
+-nc	nets	329
+-	doki	diva
+-nc	diva	4
+-	kali	diva
+-	diva	aida
+#20050330
+-	jozi	dazi
+-	jozi	diva
+-	kady	diva
+-	falfa	alex
+-nc	falfa	512
+-nc	maja	512
+-nc	alex	512
+-c	512
+-	zazi	aida
+-	zazi	samba
+-	zazi	doki
+-	diva	dazi
+#20051203
+-	kady	igor
+-	igor	doki
+#20051212
++	vigo	kali
++	vigo	aida
++c	549
++nc	kali	549
++nc	aida	549
++nc	vigo	549
++	maja	gaza
++	mis	gaza
++c	550
++nc	maja	550
++nc	gaza	550
++nc	mis	550
+#20051213
+-	igor	dazi
+#20051216
+-	vigi	nets
++	vega	falfa
++	vega	mis
++c	551
++nc	mis	551
++nc	vega	551
++nc	falfa	551
++	vega	maja
++nc	maja	551
++nc	vega	472
+-nc	maja	551
+-nc	mis	551
+-nc	vega	551
+-nc	falfa	551
+-c	551
+=	472	551
++	maja	fax
++	rumbo	falfa
++	rumbo	mis
++c	552
++nc	mis	552
++nc	rumbo	552
++nc	falfa	552
++	rumbo	maja
++nc	maja	552
+-nc	maja	552
+-nc	mis	552
+-nc	rumbo	552
+-nc	falfa	552
+-c	552
+=	472	552
++	rumbo	fax
++c	553
++nc	maja	553
++nc	fax	553
++nc	rumbo	553
+#20051218
++	ozon	falfa
++	ozon	mis
++c	554
++nc	ozon	554
++nc	mis	554
++nc	falfa	554
++	ozon	maja
++nc	maja	554
+-nc	maja	554
+-nc	ozon	554
+-nc	mis	554
+-nc	falfa	554
+-c	554
+=	472	554
++	maja	figue
+-	rumbo	falfa
+-	rumbo	mis
++	rumbo	ozon
++c	555
++nc	maja	555
++nc	ozon	555
++nc	rumbo	555
+-nc	maja	555
+-nc	ozon	555
+-nc	rumbo	555
+-c	555
+=	553	555
+-	rumbo	maja
+-nc	rumbo	553
+-nc	fax	553
+-nc	maja	553
+-c	553
+#20051219
+-	dazi	aida
++	laou	floki
++nc	laou	329
+-nc	tuga	329
+-nc	saxa	329
+-nc	cloe	329
+-nc	laou	329
+-nc	vigi	329
+-nc	gisa	329
+-nc	floki	329
+-c	329
+=	30	329
+#20051220
+-	zazi	narcis
+-nc	zazi	4
+-	zazi	kady
+-	zazi	dazi
+#20051224
++	ozon	ibex
++	vega	doly
++	rebec	ozon
++	rebec	ibex
++c	556
++nc	ozon	556
++nc	rebec	556
++nc	ibex	556
++	rumbo	ibex
++nc	rumbo	556
++	rumbo	rebec
+#20051225
++	ozon	lune
++nc	ozon	472
++	timy	eva
++c	557
++nc	eva	557
++nc	timy	557
++nc	clio	557
++c	558
++nc	eva	558
++nc	timy	558
++nc	chip	558
++c	559
++nc	eva	559
++nc	gisa	559
++nc	timy	559
++nc	clio	558
+-nc	eva	557
+-nc	timy	557
+-nc	clio	557
+-c	557
+=	558	557
++nc	chip	559
++nc	clio	559
+-nc	eva	558
+-nc	timy	558
+-nc	chip	558
+-nc	clio	558
+-c	558
+=	559	558
+-nc	eva	559
+-nc	gisa	559
+-nc	timy	559
+-nc	chip	559
+-nc	clio	559
+-c	559
+=	30	559
++	vigi	timy
++c	560
++nc	vigi	560
++nc	timy	560
++nc	chip	560
++c	561
++nc	vigi	561
++nc	timy	561
++nc	eva	561
++c	562
++nc	vigi	562
++nc	gisa	562
++nc	timy	562
++c	563
++nc	vigi	563
++nc	tuga	563
++nc	timy	563
++c	564
++nc	vigi	564
++nc	timy	564
++nc	clio	564
++nc	chip	561
+-nc	vigi	560
+-nc	timy	560
+-nc	chip	560
+-c	560
+=	561	560
++nc	clio	561
+-nc	vigi	564
+-nc	timy	564
+-nc	clio	564
+-c	564
+=	561	564
++nc	gisa	561
+-nc	vigi	562
+-nc	gisa	562
+-nc	timy	562
+-c	562
+=	561	562
++nc	tuga	561
+-nc	vigi	563
+-nc	tuga	563
+-nc	timy	563
+-c	563
+=	561	563
+-nc	vigi	561
+-nc	gisa	561
+-nc	tuga	561
+-nc	timy	561
+-nc	eva	561
+-nc	chip	561
+-nc	clio	561
+-c	561
+=	30	561
+#20051228
++	vega	ozon
+#20051229
++	vega	lune
+#20051231
+-	yeti	kali
+-	yeti	samba
+-	yeti	volga
+-	yeti	doki
+#20060103
+-	jozi	doki
+-	jozi	aida
+-nc	jozi	4
+-	safo	jozi
+-	kady	jozi
+-	volga	jozi
+-	kali	jozi
+#20060113
++	nieva	cloe
++nc	cloe	30
+#20060116
++	ozon	gaza
++nc	ozon	550
+-nc	maja	550
+-nc	ozon	550
+-nc	gaza	550
+-nc	mis	550
+-c	550
+=	472	550
+#20060117
++	timy	laou
++nc	timy	30
++	timy	nieva
++	timy	floki
++	dazi	aster
++	saiga	aster
++	saiga	dazi
++c	565
++nc	saiga	565
++nc	aster	565
++nc	dazi	565
++	sig	saxa
++c	566
++nc	saxa	566
++nc	cloe	566
++nc	sig	566
++	volga	aster
++c	567
++nc	aster	567
++nc	dazi	567
++nc	volga	567
+-nc	aster	567
+-nc	dazi	567
+-nc	volga	567
+-c	567
+=	565	567
++	laou	gisa
++	doki	aster
++c	568
++nc	doki	568
++nc	aster	568
++nc	dazi	568
++c	569
++nc	doki	569
++nc	aster	569
++nc	volga	569
++nc	volga	568
+-nc	doki	569
+-nc	aster	569
+-nc	volga	569
+-c	569
+=	568	569
+-nc	doki	568
+-nc	aster	568
+-nc	dazi	568
+-nc	volga	568
+-c	568
+=	4	568
+-	mare	aida
+-	zazi	kali
+-	zazi	safo
+#20060121
++	desy	daly
++	maja	joly
++	joly	falfa
++c	570
++nc	maja	570
++nc	joly	570
++nc	falfa	570
+-	saxa	cloe
+-nc	cloe	30
+-nc	saxa	566
+-nc	sig	566
+-nc	cloe	566
+-c	566
+#20060126
++	ozon	fax
++c	571
++nc	maja	571
++nc	ozon	571
++nc	fax	571
++c	572
++nc	ozon	572
++nc	fax	572
++nc	rumbo	572
++nc	maja	572
+-nc	maja	571
+-nc	ozon	571
+-nc	fax	571
+-c	571
+=	572	571
++	ozon	alex
++c	573
++nc	maja	573
++nc	ozon	573
++nc	alex	573
++	fax	alex
++nc	alex	572
++nc	fax	573
+-nc	maja	573
+-nc	ozon	573
+-nc	fax	573
+-nc	alex	573
+-c	573
+=	572	573
++	volga	nyala
+-	rumbo	ibex
++	rumbo	alex
++	ibex	fax
++c	574
++nc	ozon	574
++nc	ibex	574
++nc	fax	574
++nc	fax	556
+-nc	ozon	574
+-nc	ibex	574
+-nc	fax	574
+-c	574
+=	556	574
++	ibex	alex
++nc	alex	556
++nc	ibex	572
+-nc	maja	572
+-nc	ozon	572
+-nc	fax	572
+-nc	rumbo	572
+-nc	alex	572
+-nc	ibex	572
+-c	572
+=	556	572
+#20060131
++	nyala	afra
+#20060203
+-	ozon	fax
++	safo	nyala
++c	575
++nc	volga	575
++nc	safo	575
++nc	nyala	575
++	rebec	fax
++	rebec	alex
+-	rumbo	ozon
+-	rumbo	fax
+-nc	rumbo	556
+-	rumbo	rebec
+-	rumbo	alex
++	nyala	kali
++nc	kali	575
+-nc	kali	575
+-nc	volga	575
+-nc	safo	575
+-nc	nyala	575
+-c	575
+=	4	575
++	nyala	doki
++c	576
++nc	doki	576
++nc	volga	576
++nc	nyala	576
++c	577
++nc	kali	577
++nc	doki	577
++nc	nyala	577
++c	578
++nc	doki	578
++nc	safo	578
++nc	nyala	578
++nc	volga	578
+-nc	doki	576
+-nc	volga	576
+-nc	nyala	576
+-c	576
+=	578	576
++nc	volga	577
++nc	safo	577
+-nc	doki	578
+-nc	volga	578
+-nc	safo	578
+-nc	nyala	578
+-c	578
+=	577	578
+-nc	kali	577
+-nc	doki	577
+-nc	volga	577
+-nc	safo	577
+-nc	nyala	577
+-c	577
+=	4	577
++	nyala	narcis
++nc	nyala	4
+#20060206
++	lune	alex
++c	579
++nc	maja	579
++nc	lune	579
++nc	alex	579
++c	580
++nc	ozon	580
++nc	lune	580
++nc	alex	580
+-nc	maja	579
+-nc	lune	579
+-nc	alex	579
+-c	579
+=	472	579
+-nc	ozon	580
+-nc	lune	580
+-nc	alex	580
+-c	580
+=	556	580
+#20060210
++	aster	aida
++c	581
++nc	aster	581
++nc	volga	581
++nc	aida	581
++c	582
++nc	doki	582
++nc	aster	582
++nc	aida	582
+-nc	doki	582
+-nc	aster	582
+-nc	aida	582
+-c	582
+=	4	582
+-nc	aster	581
+-nc	volga	581
+-nc	aida	581
+-c	581
+=	4	581
++	vigo	doki
++nc	doki	549
+#20060213
++	vigo	aster
++nc	aster	549
++	eva	cloe
++nc	cloe	30
+#20060215
+-	vigi	timy
++	safo	aster
++nc	safo	549
+-nc	kali	549
+-nc	doki	549
+-nc	aster	549
+-nc	safo	549
+-nc	aida	549
+-nc	vigo	549
+-c	549
+=	4	549
+-	sig	saxa
++	yeti	afra
++	narcis	aster
++nc	aster	4
++	saxa	nut
++	nyala	aster
++	kali	aster
++	zazi	afra
++c	583
++nc	zazi	583
++nc	afra	583
++nc	yeti	583
+#20060218
+-	timy	floki
+-	sig	cloe
+-	tuga	floki
+#20060220
+-	nieva	clio
+-	lou	kali
+-	timy	clio
+-nc	timy	30
+-	timy	nieva
+-	timy	eva
+-	volga	lou
++	luz	afra
++	plum	bule
+#20060224
++	run	falfa
++	run	maja
++c	584
++nc	maja	584
++nc	run	584
++nc	falfa	584
++	run	lune
++nc	lune	584
+#20060226
++	nyala	aida
+#20060228
+-	nieva	floki
+-	timy	gisa
++	rebec	maja
++nc	maja	556
+-	rebec	fax
+-	tuga	nets
+#20060310
++	samba	nyala
++	samba	aster
++	vigo	nyala
++c	585
++nc	aida	585
++nc	vigo	585
++nc	nyala	585
++c	586
++nc	aster	586
++nc	vigo	586
++nc	nyala	586
++c	587
++nc	doki	587
++nc	vigo	587
++nc	nyala	587
++c	588
++nc	kali	588
++nc	vigo	588
++nc	nyala	588
++nc	doki	586
+-nc	doki	587
+-nc	vigo	587
+-nc	nyala	587
+-c	587
+=	586	587
++nc	doki	588
++nc	aster	588
+-nc	doki	586
+-nc	aster	586
+-nc	vigo	586
+-nc	nyala	586
+-c	586
+=	588	586
++nc	aida	588
+-nc	aida	585
+-nc	vigo	585
+-nc	nyala	585
+-c	585
+=	588	585
+-nc	kali	588
+-nc	doki	588
+-nc	aster	588
+-nc	aida	588
+-nc	vigo	588
+-nc	nyala	588
+-c	588
+=	4	588
++	vigo	narcis
++nc	vigo	4
++	vigo	samba
++	vigo	safo
+-	yeti	lou
++	yeti	mare
++nc	mare	583
++nc	yeti	396
+-nc	zazi	583
+-nc	afra	583
+-nc	mare	583
+-nc	yeti	583
+-c	583
+=	396	583
+-	narcis	kali
+-	volga	kali
++	volga	vigo
++	luz	lou
+-	luz	lise
+-nc	luz	396
++	saxa	clio
+-	doki	aster
+-	mare	lou
++	mare	afra
++nc	afra	396
+-	kali	doki
++	zazi	luz
++nc	luz	396
+-	zazi	afra
+-nc	afra	396
++	lise	afra
++nc	afra	396
+#20060317
++	vigo	kady
++	nyala	kady
++	nyala	dazi
+-	doki	dazi
+#20060318
++	kady	aster
+#20060319
+-	samba	doki
+-	doki	aida
+#20060320
+-	vigi	saxa
+-	perdiz	floki
+#20060321
++	aster	afra
++c	589
++nc	afra	589
++nc	aster	589
++nc	nyala	589
+-	vigo	doki
+-nc	doki	4
+-	safo	narcis
+-	safo	doki
+-	kady	doki
+-	narcis	doki
+-	volga	doki
+-	volga	safo
+-	nyala	doki
+-	kali	aster
+-	gisa	cloe
+#20060323
+-	timy	chip
+-	timy	laou
++	run	ozon
++nc	ozon	584
+-nc	maja	584
+-nc	ozon	584
+-nc	lune	584
+-nc	run	584
+-nc	falfa	584
+-c	584
+=	472	584
++	run	mis
++nc	run	472
+-	maja	fax
++	maja	ibex
+-	fax	alex
+-nc	fax	556
+-	ibex	fax
+-	gisa	floki
+-	gisa	clio
+#20060324
+-	aster	aida
++	vigo	afra
++nc	vigo	589
+-nc	afra	589
+-nc	aster	589
+-nc	vigo	589
+-nc	nyala	589
+-c	589
+=	4	589
+-	vigi	clio
+-	vigi	floki
++	safo	afra
++c	590
++nc	afra	590
++nc	aster	590
++nc	safo	590
++c	591
++nc	afra	591
++nc	yeti	591
++nc	safo	591
++c	592
++nc	afra	592
++nc	safo	592
++nc	vigo	592
++c	593
++nc	afra	593
++nc	safo	593
++nc	nyala	593
++nc	vigo	591
+-nc	afra	592
+-nc	safo	592
+-nc	vigo	592
+-c	592
+=	591	592
++nc	nyala	591
+-nc	afra	593
+-nc	safo	593
+-nc	nyala	593
+-c	593
+=	591	593
++nc	aster	591
+-nc	afra	590
+-nc	aster	590
+-nc	safo	590
+-c	590
+=	591	590
+-nc	afra	591
+-nc	aster	591
+-nc	yeti	591
+-nc	safo	591
+-nc	vigo	591
+-nc	nyala	591
+-c	591
+=	4	591
+-	yeti	safo
+-	yeti	afra
+-	narcis	aida
+-	volga	aida
+#20060326
+-	samba	kali
+-	samba	aida
+-	vigo	kali
+-nc	kali	4
+-nc	aida	4
+-	vigo	aida
+-	vigo	safo
+-	safo	kali
+-	safo	aida
+-	kady	aida
+-	luz	afra
+-nc	afra	396
+-	tuga	timy
+-	saxa	eva
+-	nyala	kali
+-	nyala	aida
+-	mare	luz
+-nc	luz	396
+-nc	lou	396
+-	kali	kady
+-	kali	aida
+-	floki	eva
+#20060327
+-	laou	clio
+-	laou	floki
+-nc	floki	30
+-nc	cloe	30
+-	luz	lou
+-	saxa	clio
+-nc	saxa	30
+-nc	clio	30
+-	saxa	chip
+-	saxa	floki
+-	mare	afra
+-	lise	afra
+#20061201
++	kurd	chip
++	joly	bule
++	plum	joly
++c	594
++nc	joly	594
++nc	bule	594
++nc	plum	594
+#20061204
++	run	gaza
++c	595
++nc	gaza	595
++nc	mis	595
++nc	run	595
++c	596
++nc	maja	596
++nc	gaza	596
++nc	run	596
++c	597
++nc	ozon	597
++nc	gaza	597
++nc	run	597
++nc	maja	595
+-nc	maja	596
+-nc	gaza	596
+-nc	run	596
+-c	596
+=	595	596
+-nc	maja	595
+-nc	gaza	595
+-nc	mis	595
+-nc	run	595
+-c	595
+=	472	595
+-nc	ozon	597
+-nc	gaza	597
+-nc	run	597
+-c	597
+=	472	597
++	run	alex
++c	598
++nc	maja	598
++nc	alex	598
++nc	run	598
++c	599
++nc	lune	599
++nc	alex	599
++nc	run	599
++c	600
++nc	ozon	600
++nc	alex	600
++nc	run	600
+-nc	lune	599
+-nc	alex	599
+-nc	run	599
+-c	599
+=	472	599
+-nc	maja	598
+-nc	alex	598
+-nc	run	598
+-c	598
+=	556	598
+-nc	ozon	600
+-nc	alex	600
+-nc	run	600
+-c	600
+=	556	600
++	thar	neou
++	gaza	alex
++c	601
++nc	ozon	601
++nc	gaza	601
++nc	alex	601
++c	602
++nc	maja	602
++nc	gaza	602
++nc	alex	602
++c	603
++nc	gaza	603
++nc	alex	603
++nc	run	603
+-nc	maja	602
+-nc	gaza	602
+-nc	alex	602
+-c	602
+=	556	602
++nc	run	601
+-nc	gaza	603
+-nc	alex	603
+-nc	run	603
+-c	603
+=	601	603
++	tuga	laou
++nc	tuga	30
++	skina	desy
++	skina	daly
++c	604
++nc	desy	604
++nc	daly	604
++nc	skina	604
+#20061205
++	thar	nieva
++c	605
++nc	thar	605
++nc	neou	605
++nc	nieva	605
++	thar	laou
++nc	laou	605
++	thar	gisa
++nc	gisa	605
+-nc	thar	605
+-nc	gisa	605
+-nc	neou	605
+-nc	laou	605
+-nc	nieva	605
+-c	605
+=	30	605
+#20061212
++	ozon	bule
++	bule	alex
++c	606
++nc	ozon	606
++nc	bule	606
++nc	alex	606
++	toy	maja
++	plum	ozon
++nc	ozon	594
++nc	plum	606
+-nc	ozon	606
+-nc	bule	606
+-nc	plum	606
+-nc	alex	606
+-c	606
+=	594	606
++	plum	alex
++nc	alex	594
+#20061213
++	lune	bule
++c	607
++nc	ozon	607
++nc	bule	607
++nc	lune	607
++c	608
++nc	bule	608
++nc	lune	608
++nc	alex	608
++nc	alex	607
+-nc	bule	608
+-nc	lune	608
+-nc	alex	608
+-c	608
+=	607	608
+-nc	ozon	607
+-nc	bule	607
+-nc	lune	607
+-nc	alex	607
+-c	607
+=	594	607
++	lune	gaza
++nc	gaza	472
++nc	lune	601
+-nc	ozon	601
+-nc	gaza	601
+-nc	lune	601
+-nc	alex	601
+-nc	run	601
+-c	601
+=	472	601
++	lune	joly
++nc	lune	570
++nc	lune	594
+-nc	maja	570
+-nc	joly	570
+-nc	lune	570
+-nc	falfa	570
+-c	570
+=	472	570
++	narcis	afra
++nc	afra	4
++	volga	afra
++	gaza	bule
++nc	gaza	594
++	plum	gaza
++	plum	mis
++nc	mis	594
++	plum	lune
++	mis	bule
++	mis	joly
+#20061216
++	samba	afra
++	samba	dazi
++	dazi	afra
++	kady	afra
+-	yeti	lise
++	thar	saxa
++c	609
++nc	thar	609
++nc	saxa	609
++nc	laou	609
++c	610
++nc	thar	610
++nc	saxa	610
++nc	gisa	610
++nc	laou	610
+-nc	thar	609
+-nc	saxa	609
+-nc	laou	609
+-c	609
+=	610	609
++	tuga	thar
++nc	thar	30
++nc	tuga	610
+-nc	thar	610
+-nc	saxa	610
+-nc	gisa	610
+-nc	tuga	610
+-nc	laou	610
+-c	610
+=	30	610
++	tuga	saxa
++c	611
++nc	thar	611
++nc	saxa	611
++nc	tuga	611
++c	612
++nc	saxa	612
++nc	tuga	612
++nc	laou	612
++c	613
++nc	gisa	613
++nc	saxa	613
++nc	tuga	613
++nc	thar	613
+-nc	thar	611
+-nc	saxa	611
+-nc	tuga	611
+-c	611
+=	613	611
+-nc	gisa	613
+-nc	saxa	613
+-nc	tuga	613
+-nc	thar	613
+-c	613
+=	30	613
+-nc	saxa	612
+-nc	tuga	612
+-nc	laou	612
+-c	612
+=	30	612
++	saxa	nieva
++nc	saxa	30
+-	nyala	dazi
+-	zazi	yeti
+-nc	yeti	396
+#20061218
++	spot	clio
++	cloe	chip
++nc	cloe	30
++	run	bule
++nc	run	594
+-nc	ozon	594
+-nc	gaza	594
+-nc	mis	594
+-nc	joly	594
+-nc	bule	594
+-nc	plum	594
+-nc	alex	594
+-nc	run	594
+-nc	lune	594
+-c	594
+=	472	594
++	run	plum
++c	614
++nc	ozon	614
++nc	plum	614
++nc	run	614
++c	615
++nc	gaza	615
++nc	plum	615
++nc	run	615
++c	616
++nc	mis	616
++nc	plum	616
++nc	run	616
++c	617
++nc	plum	617
++nc	alex	617
++nc	run	617
++c	618
++nc	bule	618
++nc	plum	618
++nc	run	618
++c	619
++nc	lune	619
++nc	plum	619
++nc	run	619
+-nc	ozon	614
+-nc	plum	614
+-nc	run	614
+-c	614
+=	472	614
++nc	alex	618
+-nc	plum	617
+-nc	alex	617
+-nc	run	617
+-c	617
+=	618	617
+-nc	mis	616
+-nc	plum	616
+-nc	run	616
+-c	616
+=	472	616
+-nc	lune	619
+-nc	plum	619
+-nc	run	619
+-c	619
+=	472	619
+-nc	gaza	615
+-nc	plum	615
+-nc	run	615
+-c	615
+=	472	615
++	run	ibex
++nc	run	556
++	run	joly
++nc	joly	618
++nc	joly	472
++	vigi	thar
++	joly	ibex
++c	620
++nc	maja	620
++nc	ibex	620
++nc	joly	620
++c	621
++nc	ibex	621
++nc	joly	621
++nc	run	621
+-nc	ibex	621
+-nc	joly	621
+-nc	run	621
+-c	621
+=	556	621
+-nc	maja	620
+-nc	ibex	620
+-nc	joly	620
+-c	620
+=	556	620
++	joly	alex
++nc	joly	556
++	plum	ibex
++nc	ibex	618
++nc	plum	556
++nc	bule	556
+-nc	ibex	618
+-nc	joly	618
+-nc	bule	618
+-nc	plum	618
+-nc	alex	618
+-nc	run	618
+-c	618
+=	556	618
++	ibex	bule
+#20061220
+-	run	mis
+-	run	joly
+-nc	joly	472
++	lune	ibex
++nc	lune	556
+-	lune	joly
++	maja	bule
++nc	bule	472
+-	maja	joly
+-nc	joly	556
+-	joly	falfa
+-	joly	ibex
+-	joly	bule
+-	joly	alex
++	plum	falfa
++nc	plum	472
++	plum	maja
+-	plum	joly
++	falfa	alex
++nc	alex	472
++nc	falfa	556
++nc	ibex	472
+-nc	maja	556
+-nc	ozon	556
+-nc	rebec	556
+-nc	ibex	556
+-nc	bule	556
+-nc	plum	556
+-nc	falfa	556
+-nc	alex	556
+-nc	run	556
+-nc	lune	556
+-c	556
+=	472	556
++	mis	ibex
+-	mis	joly
++	mis	alex
++	ibex	falfa
+#20061223
++	lacta	doly
+#20061225
++	ibex	gaza
+#20061226
++	plum	masud
+#20061227
++	vega	ibex
+#20061229
++	tuga	fado
++	zazi	volga
+#20070101
++	ozon	lacta
++	run	lacta
++c	622
++nc	ozon	622
++nc	run	622
++nc	lacta	622
++	lacta	ibex
++nc	ibex	622
+-nc	ozon	622
+-nc	ibex	622
+-nc	run	622
+-nc	lacta	622
+-c	622
+=	472	622
++	maja	lacta
++c	623
++nc	maja	623
++nc	ibex	623
++nc	lacta	623
++c	624
++nc	doly	624
++nc	maja	624
++nc	lacta	624
++c	625
++nc	maja	625
++nc	run	625
++nc	lacta	625
++c	626
++nc	maja	626
++nc	ozon	626
++nc	lacta	626
+-nc	doly	624
+-nc	maja	624
+-nc	lacta	624
+-c	624
+=	472	624
++nc	ibex	625
+-nc	maja	623
+-nc	ibex	623
+-nc	lacta	623
+-c	623
+=	625	623
++nc	ozon	625
+-nc	maja	626
+-nc	ozon	626
+-nc	lacta	626
+-c	626
+=	625	626
+-nc	maja	625
+-nc	ozon	625
+-nc	ibex	625
+-nc	run	625
+-nc	lacta	625
+-c	625
+=	472	625
+#20070114
++	plum	figue
++c	627
++nc	maja	627
++nc	figue	627
++nc	plum	627
++	figue	bule
++nc	bule	627
+#20070116
++	vega	lacta
++c	628
++nc	maja	628
++nc	vega	628
++nc	lacta	628
++c	629
++nc	doly	629
++nc	vega	629
++nc	lacta	629
++c	630
++nc	ibex	630
++nc	vega	630
++nc	lacta	630
++c	631
++nc	ozon	631
++nc	vega	631
++nc	lacta	631
++nc	ibex	629
+-nc	ibex	630
+-nc	vega	630
+-nc	lacta	630
+-c	630
+=	629	630
++nc	maja	629
+-nc	maja	628
+-nc	vega	628
+-nc	lacta	628
+-c	628
+=	629	628
+-nc	doly	629
+-nc	maja	629
+-nc	ibex	629
+-nc	vega	629
+-nc	lacta	629
+-c	629
+=	472	629
+-nc	ozon	631
+-nc	vega	631
+-nc	lacta	631
+-c	631
+=	472	631
++	lacta	falfa
++nc	lacta	472
+#20070119
++	mael	lacta
+#20070201
++	plum	doly
+#20070204
++	ozon	mael
++c	632
++nc	ozon	632
++nc	mael	632
++nc	lacta	632
++	vega	mael
++nc	vega	632
++	mael	ibex
++nc	ibex	632
+-nc	ozon	632
+-nc	ibex	632
+-nc	vega	632
+-nc	mael	632
+-nc	lacta	632
+-c	632
+=	472	632
++	maja	mael
++c	633
++nc	maja	633
++nc	mael	633
++nc	lacta	633
++c	634
++nc	maja	634
++nc	mael	634
++nc	ibex	634
++c	635
++nc	maja	635
++nc	mael	635
++nc	vega	635
++c	636
++nc	maja	636
++nc	mael	636
++nc	ozon	636
++nc	vega	634
+-nc	maja	635
+-nc	mael	635
+-nc	vega	635
+-c	635
+=	634	635
++nc	lacta	634
+-nc	maja	633
+-nc	mael	633
+-nc	lacta	633
+-c	633
+=	634	633
++nc	ozon	634
+-nc	maja	636
+-nc	mael	636
+-nc	ozon	636
+-c	636
+=	634	636
+-nc	maja	634
+-nc	mael	634
+-nc	ibex	634
+-nc	vega	634
+-nc	ozon	634
+-nc	lacta	634
+-c	634
+=	472	634
++	falfa	ara
+#20070205
++	run	mael
++c	637
++nc	maja	637
++nc	mael	637
++nc	run	637
++c	638
++nc	mael	638
++nc	ozon	638
++nc	run	638
++c	639
++nc	mael	639
++nc	ibex	639
++nc	run	639
++c	640
++nc	mael	640
++nc	run	640
++nc	lacta	640
++nc	maja	640
+-nc	maja	637
+-nc	mael	637
+-nc	run	637
+-c	637
+=	640	637
++nc	ozon	640
+-nc	mael	638
+-nc	ozon	638
+-nc	run	638
+-c	638
+=	640	638
++nc	ibex	640
+-nc	mael	639
+-nc	ibex	639
+-nc	run	639
+-c	639
+=	640	639
+-nc	maja	640
+-nc	mael	640
+-nc	ibex	640
+-nc	ozon	640
+-nc	run	640
+-nc	lacta	640
+-c	640
+=	472	640
++	mael	gaza
++c	641
++nc	mael	641
++nc	gaza	641
++nc	run	641
++c	642
++nc	maja	642
++nc	mael	642
++nc	gaza	642
++c	643
++nc	mael	643
++nc	gaza	643
++nc	ibex	643
++c	644
++nc	mael	644
++nc	gaza	644
++nc	ozon	644
++nc	run	642
+-nc	mael	641
+-nc	gaza	641
+-nc	run	641
+-c	641
+=	642	641
+-nc	maja	642
+-nc	mael	642
+-nc	gaza	642
+-nc	run	642
+-c	642
+=	472	642
+-nc	mael	643
+-nc	gaza	643
+-nc	ibex	643
+-c	643
+=	472	643
+-nc	mael	644
+-nc	gaza	644
+-nc	ozon	644
+-c	644
+=	472	644
++	plum	mael
++nc	mael	472
++	mis	lacta
+#20070207
++	samba	saiga
++nc	samba	565
++	saiga	safo
++nc	safo	565
+-nc	saiga	565
+-nc	samba	565
+-nc	aster	565
+-nc	dazi	565
+-nc	safo	565
+-c	565
+=	4	565
++	mael	lune
++	talib	desy
++	talib	skina
++nc	talib	604
++	talib	daly
+#20070213
++	ozon	doly
++	lune	lacta
++	lacta	gaza
++	gaza	falfa
++	gaza	doly
+#20070215
++	kurd	clio
++c	645
++nc	kurd	645
++nc	chip	645
++nc	clio	645
+#20070223
++	joly	figue
++	tuga	eva
+#20070310
++	narcis	clip
+#20070317
++	saiga	afra
++c	646
++nc	saiga	646
++nc	afra	646
++nc	dazi	646
++c	647
++nc	saiga	647
++nc	afra	647
++nc	aster	647
++c	648
++nc	saiga	648
++nc	samba	648
++nc	afra	648
++c	649
++nc	saiga	649
++nc	afra	649
++nc	safo	649
++nc	dazi	649
+-nc	saiga	646
+-nc	afra	646
+-nc	dazi	646
+-c	646
+=	649	646
++nc	samba	649
+-nc	saiga	648
+-nc	samba	648
+-nc	afra	648
+-c	648
+=	649	648
+-nc	saiga	649
+-nc	samba	649
+-nc	afra	649
+-nc	dazi	649
+-nc	safo	649
+-c	649
+=	4	649
+#20071202
++	ozon	gat
++	laura	kurd
+#20071205
++	samba	clip
++c	650
++nc	samba	650
++nc	clip	650
++nc	narcis	650
++	dazi	clip
++nc	dazi	650
++	vigi	saxa
++	saiga	clip
++nc	saiga	650
++	saiga	narcis
++nc	narcis	647
++nc	saiga	4
++nc	afra	650
++nc	aster	650
+-nc	saiga	647
+-nc	afra	647
+-nc	aster	647
+-nc	narcis	647
+-c	647
+=	650	647
++nc	safo	650
++nc	nyala	650
++nc	volga	650
++nc	kady	650
++nc	vigo	650
+-nc	safo	4
+-nc	nyala	4
+-nc	saiga	4
+-nc	afra	4
+-nc	dazi	4
+-nc	volga	4
+-nc	aster	4
+-nc	kady	4
+-nc	vigo	4
+-nc	narcis	4
+-nc	samba	4
+-c	4
+=	650	4
++	clip	afra
+#20071206
++	tuga	kurd
++nc	tuga	645
+#20071208
++	nieva	kurd
++nc	nieva	645
++	vigo	dazi
+#20071209
++	vigo	clip
++	kady	clip
+#20071220
++	spot	floki
++c	651
++nc	floki	651
++nc	spot	651
++nc	clio	651
++	laou	kurd
++nc	laou	645
+-nc	tuga	645
+-nc	laou	645
+-nc	kurd	645
+-nc	nieva	645
+-nc	chip	645
+-nc	clio	645
+-c	645
+=	30	645
++	laura	laou
++c	652
++nc	laou	652
++nc	laura	652
++nc	kurd	652
+#20071225
++	mael	alex
+#20071226
++	saxa	cloe
++	laura	clio
++nc	clio	652
++	laura	chip
++nc	chip	652
++	laura	eva
++nc	eva	652
+#20071231
++	thar	cloe
+#20080102
++	spot	chip
++nc	chip	651
++	spot	laou
++c	653
++nc	laou	653
++nc	chip	653
++nc	spot	653
++nc	laou	651
+-nc	laou	653
+-nc	chip	653
+-nc	spot	653
+-c	653
+=	651	653
++	vigi	clio
++c	654
++nc	vigi	654
++nc	neou	654
++nc	clio	654
++c	655
++nc	vigi	655
++nc	eva	655
++nc	clio	655
++c	656
++nc	vigi	656
++nc	tuga	656
++nc	clio	656
++c	657
++nc	vigi	657
++nc	chip	657
++nc	clio	657
++nc	chip	655
+-nc	vigi	657
+-nc	chip	657
+-nc	clio	657
+-c	657
+=	655	657
++nc	neou	655
+-nc	vigi	654
+-nc	neou	654
+-nc	clio	654
+-c	654
+=	655	654
+-nc	vigi	655
+-nc	neou	655
+-nc	eva	655
+-nc	chip	655
+-nc	clio	655
+-c	655
+=	652	655
+-nc	vigi	656
+-nc	tuga	656
+-nc	clio	656
+-c	656
+=	30	656
++	vigi	spot
++nc	vigi	651
++	laou	clio
+#20080110
++	saxa	chip
+#20080122
++	toy	chip
+#20080125
++	spot	laura
++nc	laura	651
++nc	spot	652
++nc	eva	651
+-nc	eva	652
+-nc	laou	652
+-nc	laura	652
+-nc	kurd	652
+-nc	chip	652
+-nc	spot	652
+-nc	clio	652
+-c	652
+=	651	652
+#20080203
++	nieva	clio
++nc	clio	30
++	nieva	laura
++nc	nieva	651
+-nc	vigi	651
+-nc	nieva	651
+-nc	laou	651
+-nc	eva	651
+-nc	laura	651
+-nc	floki	651
+-nc	chip	651
+-nc	spot	651
+-nc	clio	651
+-c	651
+=	30	651
++	spot	neou
++c	658
++nc	neou	658
++nc	floki	658
++nc	spot	658
++c	659
++nc	neou	659
++nc	spot	659
++nc	clio	659
++c	660
++nc	neou	660
++nc	chip	660
++nc	spot	660
++c	661
++nc	neou	661
++nc	laou	661
++nc	spot	661
++c	662
++nc	vigi	662
++nc	neou	662
++nc	spot	662
++nc	chip	659
+-nc	neou	660
+-nc	chip	660
+-nc	spot	660
+-c	660
+=	659	660
++nc	vigi	659
+-nc	vigi	662
+-nc	neou	662
+-nc	spot	662
+-c	662
+=	659	662
++nc	laou	659
+-nc	neou	661
+-nc	laou	661
+-nc	spot	661
+-c	661
+=	659	661
+-nc	vigi	659
+-nc	neou	659
+-nc	laou	659
+-nc	chip	659
+-nc	spot	659
+-nc	clio	659
+-c	659
+=	30	659
++	spot	nieva
++nc	nieva	658
++	toy	laou
++c	663
++nc	laou	663
++nc	chip	663
++nc	toy	663
++	toy	laura
++nc	laura	663
++	neou	laura
++nc	laura	658
+#20080205
++	saxa	clio
+#20080307
++	saxa	laura
++nc	laura	30

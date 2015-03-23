@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<style>
+
+.axis path {
+  display: none;
+}
+
+.axis line {
+  shape-rendering: crispEdges;
+  stroke: #000;
+}
+
+.axis .minor line {
+  stroke: #777;
+  stroke-dasharray: 2,2;
+}
+
+.input-mini {
+width: 5px;
+}
+
+#leftPart{
+  float:left;
+  width:200px;
+  height:800px;
+  overflow-y: scroll;
+}
+
+#legendC{
+  float:right;
+  width:300px;
+  height:800px;
+}
+#resultSearch { cursor: pointer; }
+
+#chart {
+  height:800px;
+  overflow-y: scroll;
+}
+.node rect {
+  cursor: move;
+  fill-opacity: 1;
+  shape-rendering: crispEdges;
+}
+
+.node text {
+  pointer-events: none;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.link {
+  fill: none;
+  stroke: #000;
+  stroke-opacity: .5;
+}
+
+.link:hover {
+  stroke-opacity: .5;
+}
+
+</style>
+<body>
+<!-- Imports
+-->
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="http://d3js.org/d3.v2.min.js?2.9.1"></script>
+<script src="http://dimplejs.org/dist/dimple.v1.1.5.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+
+<script src="tools/sankey2.js"></script>
+<script src="tools/spin.js"></script>
+
+<script src="tools/generateGraphic.js"></script>
+<script src="tools/analysisDetailed.js"></script>
+
+
+<!-- HTML code of the page, static, filled by functions
+-->
+<div id="leftPart"> 
+  <table class="table table-hover " id="resultSearch">
+  </table>
+</div>
+
+<div id="legendC">
+  <div class="panel panel-primary">
+    <div class="panel-body">
+      <div class="radio">
+        <label>
+          <input type="radio" name="myRadios" id="optionsRadios1" value="option1" onChange="makeByStep();" checked>
+          x axis = step
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="myRadios" id="optionsRadios2" value="option2" onChange="makeByDate();">
+          x axis = time
+        </label>
+      </div>
+      <div class="input-group">
+        <span class="input-group-addon"># displayed nodes:</span>
+        <input style="max-width:60px" type="text" class="form-control input-mini" id="nbNodes" aria-describedby="inputGroupSuccess1Status" value="20">
+        <button class="btn btn-default" type="button" onclick="changeNbNodes();">Go</button>
+
+      </div>
+    </div>
+
+  </div>
+ 
+ 
+  <div id="legend">
+    
+  </div>
+  <div id="graphs">
+    <div class="panel panel-primary">
+      <div id="generalStats" class="panel-body">
+      </div>
+    </div>
+  </div>
+  
+  <div role="tabpanel">
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role="tablist">
+      <li role="presentation" class="active" onclick="setTimeout(function(){updateTopNodeGraph()},10)"><a href="#topNodePlot" aria-controls="topNodePlot" role="tab" data-toggle="tab">Top influencers</a></li>
+      <li role="presentation" ><a href="#byStepPlot" aria-controls="byStepPlot" role="tab" data-toggle="tab" onclick="setTimeout(function(){updateByStepPlot()},10)">Cat. by step</a></li>
+    </ul>
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <div role="tabpanel" class="tab-pane active" id="topNodePlot"><div id="topNodePlotContent"></div> </div>
+      <div role="tabpanel" class="tab-pane" id="byStepPlot"> <div id="byStepPlotContent"></div></div>
+    </div>
+  </div>
+
+</div>
+<p id="chart">
+
+
+
+
+<script>
+
+
+howManyNodesWeWantToDisplay = 20;
+xAxisAsStep = true;
+
+var currentDisplayedTag;
+var videos,links,allTags,allCats,largestNode = -1;
+var sankey;
+var firstDate,lastDate;
+var axisHeight = 0;
+var rOfBiggestNode = 20;
+
+var windowsWidth = $(window).width();
+var margin = {top: 50, right: 10, bottom: 6, left: 50},
+    width = windowsWidth - margin.left - margin.right - 300 - 200 - 50, // remove the width of right and left part, plus intern margin
+    height = 20000 - margin.top - margin.bottom;
+
+var formatNumber = d3.format(",.0f"),
+    format = function(d) { return formatNumber(d) + " TWh"; },
+    
+    color = d3.scale.category20(); //reinitialised when changing the displayed flow
+
+ count = 0;
+
+//just options for the spinner in case of long loading time
+  var opts = {
+  lines: 13, // The number of lines to draw
+  length: 20, // The length of each line
+  width: 10, // The line thickness
+  radius: 30, // The radius of the inner circle
+  corners: 1, // Corner roundness (0..1)
+  rotate: 0, // The rotation offset
+  direction: 1, // 1: clockwise, -1: counterclockwise
+  color: '#000', // #rgb or #rrggbb or array of colors
+  speed: 1, // Rounds per second
+  trail: 60, // Afterglow percentage
+  shadow: false, // Whether to render a shadow
+  hwaccel: false, // Whether to use hardware acceleration
+  className: 'spinner', // The CSS class to assign to the spinner
+  zIndex: 2e9, // The z-index (defaults to 2000000000)
+  top: '50%', // Top position relative to parent
+  left: '50%' // Left position relative to parent
+};
+
+
+ 
+ //load the list of all flows to display
+ jQuery.getJSON("data/flowsToDisplay.json")
+  .done(function(data){
+    
+    allTags=data;
+      
+    //get the argument passed to the address if exist, node to display
+    arg = window.location.search.replace("?","");
+    //console.log("argument:"+arg);
+    if (arg!="") {
+          loadVideoAndLinks(arg);
+    }
+    else{
+      loadVideoAndLinks(allTags[0]);
+    }
+  })
+  .fail(function(a,b,c){
+    console.log(b+"-"+c)
+    
+  }
+  )
+  
+ 
+  
+   
+  
+  //function called to change the cooperation flow displayed
+  function changeToEl(tag){
+    $("#chart").html("");
+    $("#generalStats").empty();
+    
+    loadVideoAndLinks(tag);
+  }
+  
+  
+  //function to load the videos and links
+  //------------------------------------
+  function loadVideoAndLinks(tag){
+  
+
+var target = document.getElementById('chart');
+var spinner = new Spinner(opts).spin(target);
+console.log("et pourtant il tourne");
+
+setTimeout(function(){
+
+    currentDisplayedTag = tag;
+    count = 0;
+    color = d3.scale.category20();
+      jQuery.getJSON("data/"+tag+".json")
+    .done(function(data){
+             
+     //load categories
+    allCats = data.categories;
+    console.log("loaded categories:"+allCats.length);
+    drawLegend(allCats,color);
+  
+    //load nodes
+    videos = data.nodes;
+    console.log("loaded videos:"+videos.length);
+    populatePossibleTags(allTags);
+    
+    //load links
+    links = data.links;
+    console.log("initial nb links:"+videos.length);
+    
+    firstDate = data.firstDate;
+    lastDate = data.lastDate;
+    if (data.hasOwnProperty("largestNode")) {
+          largestNode = data.largestNode;
+    }
+
+    
+    console.log("tourne plus");
+
+   			 spinner.stop()
+    ready();
+}, 100);
+
+    
+        
+        
+
+    })
+    .fail(function(a,b,c){
+      console.log(b+"-"+c)
+      
+    }
+    )
+   
+  }
+    //------------------------------------
+
+
+
+//var test = [1,2,3];
+//var pie = d3.layout.pie()
+  //  .sort(null)
+   // .value(function(d) { return d }); //d.leafs
+    
+var pie = d3.layout.pie()
+.sort(null)
+.value(function(d) { return d.val }); //d.leafs
+    
+    
+var arc = function(sizeOut,sizeIn) { return d3.svg.arc()
+.outerRadius(sizeOut)
+.innerRadius(sizeIn)
+}
+
+    
+
+ 
+
+
+function populatePossibleTags(jsonTags){
+  var resultSearch = "";
+  $("#resultSearch").empty()
+  resultSearch+="<tr><th>Flows:</th></td>";
+  
+  jsonTags.forEach(function(el){
+    if(currentDisplayedTag==el){
+      resultSearch+='<tr class="info">';
+    }
+    else{
+      resultSearch+="<tr>";
+    }
+  
+      resultSearch+="<td><div onclick=\"changeToEl('";
+        
+      resultSearch+=el+"')\">"
+      resultSearch+=el+"</div></tr></td>";
+    
+  
+  
+  });
+    //jQuery("#resultSearch").html(resultSearch);
+    $("#resultSearch").append(resultSearch)
+
+}
+
+function computeScalingForNodeSize(){
+  maxValue = 0;
+  if (largestNode==-1) {
+      maxValue = 0;
+      videos.forEach(function(node){
+	if (node.popularity>maxValue) {
+	  maxValue=node.popularity;
+	}
+      });
+  }
+  else{
+    maxValue=largestNode;
+  }
+  
+  console.log("maximum popularity of node : "+maxValue);
+
+  convertPopularityToNodeR=Math.sqrt(maxValue)/rOfBiggestNode;
+  
+}
+
+function sizeFromPopularity(size){
+ return Math.sqrt(size+1)/convertPopularityToNodeR ;
+}
+
+
+//function to make the legend
+function drawLegend(elts,colors){
+  $("#legend").html("");
+  
+  var legend = d3.select("#legend").append("svg")
+      .attr("class", "legend")
+      .attr("width", 200)
+      .attr("height", elts.length*20)
+    .selectAll("g")
+      .data(elts)
+    .enter().append("g")
+      .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+
+  legend.append("rect")
+      .attr("width", 18)
+      .attr("height", 18)
+      .style("fill", function(d, i) { return colors(d); });
+
+  legend.append("text")
+      .attr("x", 24)
+      .attr("y", 9)
+      .attr("dy", ".35em")
+      .text(function(d) { return d; });
+}
+
+var svg;
+
+function ready() {
+  
+  
+
+    computeScalingForNodeSize();
+
+
+ svg = d3.select("#chart").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+
+
+
+  sankey = d3.sankey()
+      .nodeWidth(5)
+      .nodePadding(1)
+      .size([width, height]);
+  
+ 
+  
+  
+  //initialise sankey
+    sankey
+	.nodes(videos)
+	.links(links)
+	.layout(50);
+  
+  if(xAxisAsStep==true){
+    sankey.setStepAsX();
+  }
+  else{
+    sankey.setDateAsX();
+  }
+    //------------------------------------------
+    //display the links
+    //------------------------------------------
+
+    var link = svg.append("g").selectAll(".link")
+	.data(sankey.getLinks())
+	//.data(sankey.filteredLinks)
+      .enter().append("path")
+	.attr("class", "link")
+	.attr("d", sankey.link())
+	  .style("stroke-width", function(d) { return d.dy; })
+	  .style("stroke-dasharray", function(d) { if(d.target.targetLinks.length>1) { return "3,5";} else{return "1,0";}})
+
+	  .style("stroke", function(d) {return d.color = "Black"})
+	  .style("opacity", function(d) { if(d.target.targetLinks.length>1) { return 0.3} else{return 1} })
+
+
+	.sort(function(a, b) { return b.dy - a.dy; });
+  
+    link.append("title")
+	  .text(function(d) {  return d.target.catN + "\n value:" + d.value ;});
+          //------------------------------------------
+
+                
+                
+  
+      //------------------------------------------
+      //display the nodes
+      //------------------------------------------
+      var node = svg.append("g").selectAll(".node")
+	.data(sankey.getNodes)
+      .enter().append("g")
+	.attr("class", "node")
+	.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; })
+      .call(d3.behavior.drag()
+	.origin(function(d) { return d; })
+	.on("dragstart", function() { this.parentNode.appendChild(this); })
+	.on("drag", dragmove));
+  
+	node.selectAll("path")
+	    .data(function(d,i){return pie(d.leafs);})
+	    .enter()
+	  .append("svg:path")
+	    .attr("d",arc(function(d,i){ return d.data.sizeOut;},function(d,i){return d.data.sizeIn;}))
+	    .attr("fill",function(d,i){return color(d.data.catName)})
+	    
+	    
+    node.append("circle")
+	.attr("r", function(d) {return sizeFromPopularity(d.popularity);})
+	.style("fill", function(d) {return d.color = color(d.catN); })
+	.style("stroke", function(d) { return d3.rgb(d.color).darker(2); })
+	//.style("opacity", function(d) { if(d.targetLinks.length>1) { return 0.5} else{return 0.9} })
+
+        .append("title")
+	.text(function(d) { return "id: " + d.id + "\n" + "name: " + d.name + "\n" +  "author:" + d.author + "\n" +  "node value:" + d.popularity+  "\n" + "paramX: " + d.paramX  + "\n Torus: " + ((d.leafs!=0) ? d.leafs[0].totalSize : "0");});
+  
+  
+            //------------------------------------------
+
+    function dragmove(d) {
+      d3.select(this).attr("transform", "translate(" + d.x + "," + (d.y = Math.max(0, Math.min(height - d.dy, d3.event.y))) + ")");
+      sankey.relayout();
+      link.attr("d", sankey.link());
+    }
+    
+    function doPieChartFromVideo(v) {
+    var pie = d3.layout.pie()
+      .sort(null)
+      .value(function(d) { return d.population; });
+    }
+    
+    console.log("dsfhjdkshfskjlqdhfdjklsfhjkdsqlfhdjksqhfdjskqlfh")
+  displayStats();
+  
+   
+}
+ function transitionToNewPostion(){
+     svg.selectAll(".node")
+	.transition().duration("2000").attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; })
+      
+      svg.selectAll(".link")
+
+	.transition().duration("2000")
+	.attr("d", sankey.link())
+
+	sankey.relayout();
+	
+    }
+    
+    function removeAxis(){
+      svg.selectAll(".axis").remove();
+    }
+    
+    function drawAxis(){
+   //Create the axis
+    //---------------------------------
+
+    xScale = d3.time.scale()
+	      .range([0, width])
+	      .domain([new Date(firstDate),new Date(lastDate)])
+
+	xAxis = d3.svg.axis().scale(xScale).orient("top").tickSize(height)//.ticks(d3.time.year, 6);
+  
+    var gy = svg.append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate("+(0)+"," + (height+axisHeight )+ ")")
+      .call(xAxis);
+      
+      gy.selectAll("g").filter(function(d) { return d; })
+	.classed("minor", true);
+	
+    //---------------------------------
+}
+
+function displayStats(){
+    
+    //write the metric      
+    $("#generalStats").append("Total nodes: "+Object.keys(network).length+"<br>");
+    $("#generalStats").append("Top Node impact: "+computeMetricDiversityTop().toFixed(2)+"<br>");
+    $("#generalStats").append("Top1% impact: "+computeMetricDiversityTops(1).toFixed(2)+"<br>");
+
+    $("#generalStats").append("Recombine ratio: "+computeCombinationRatio().toFixed(2)+"<br>");
+    $("#generalStats").append("Sustainability rate: "+computeSustainRate().toFixed(2)+"<br>");
+    
+
+    
+    console.log("will display stats");
+    initializeScale(0,findMaxGlobalDate());
+        
+   updateTopNodeGraph();
+   
+   updateByStepPlot();
+
+    
+  console.log("finished display "+ currentDisplayedTag);
+
+   }
+   
+   function updateTopNodeGraph(){
+     console.log("mmmmmmmm")
+     var dataForStackedArea = getNodesByImpact();
+
+         var forGraph = [];
+     
+         for(var i = 0;i<dataForStackedArea.length;i++){
+           for(var j = 0; j < dataForStackedArea[i].length;j++){
+       var serie =  "#"+(i+1);
+       if (i == dataForStackedArea.length-1) {
+         serie = "others";
+       }
+       forGraph.push({"topItems":serie,"time":j,"val":dataForStackedArea[i][j]})
+           }
+         }
+
+     console.log("iiiii")
+
+     $("#topNodePlotContent").empty()
+     console.log("iiiii")
+
+      try {
+     drawAsBarStackedArea(200,200,"#topNodePlotContent","time","val",forGraph,"topItems",true);
+     console.log("iiiii")
+     }
+     catch(err) {
+       //console.log(" error because the tab does not exist");
+     }
+
+   }
+   
+   function updateByStepPlot(){
+     console.log("cliclciclcilci");
+
+    $("#byStepPlotContent").empty()
+    try {
+      drawAsBarChartCatColors(200,200,"#byStepPlotContent","level","val",getNbVideosByLevel(),"serie",false);
+    }
+    catch(err) {
+      //console.log(" error because the tab does not exist");
+    }
+   }
+   
+   
+   
+   
+   
+   
+   
+   //------------------------------
+   //interactive functions
+  //------------------------------
+
+   
+    //call to switch to the display by step
+   function makeByStep(){
+    console.log("changing x to step");
+    xAxisAsStep =true
+    sankey.setStepAsX();
+    transitionToNewPostion();
+    removeAxis();
+  }
+  
+  //call to switch to the display by date
+  function makeByDate(){
+    console.log("changing x to date");
+    xAxisAsStep =false
+    sankey.setDateAsX();
+    transitionToNewPostion();
+    	drawAxis();
+
+  }
+  
+   //change the maximum total number of nodes displayed
+  function changeNbNodes(){
+    console.log("new number of nodes: "+$("#nbNodes").val());
+    
+    howManyNodesWeWantToDisplay = $("#nbNodes").val();
+        console.log("tag we want to display: "+currentDisplayedTag);
+
+    changeToEl(currentDisplayedTag);
+  }
+
+
+</script>

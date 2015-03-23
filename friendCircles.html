@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+    
+   <html>
+  <head>
+    <title>Cazabet Rémy Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+        
+        <style type="text/css">
+            body
+            {
+                 padding-top: 70px;
+                background-color:#FFFFFF  ;
+            }
+        </style>
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+
+     <script src=""></script>
+    <![endif]-->
+  </head>
+  <body >
+      <div class="container">
+        
+         
+<script src="header.js"> </script>
+<script>
+document.write( printHeader("ressources") );
+</script>
+          
+          <div class="alert alert-danger alert-dismissable">
+    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+   The application is down currently, due to a change in Facebook API. I'll try to find the time to correct it
+</div>
+          
+        <div class="row">
+        <div class="col-md-12">
+            
+                
+                
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Short presentation</h3>
+                    </div>
+                    <div class="panel-body">
+                        <p>
+                      <b>Friend Circles</b> is a Facebook application designed to illustrate the interest of automatic community detection on social networks.
+The idea is quite simple: by using the Facebook API, we get all the user’s friends, and the relations between them. From these informations, we build the ego-centered friend network.
+On this network, we are now able to run any existing community detection algorithm. By default, we use <a href="iLCD.html">iLCD</a>, for it’s ability to detect overlapping nodes (nodes belonging to several communities).
+Once the communities are built, we ask to the Facebook API the «tags» corresponding to people in each community, and display these tags if they seem representative.
+                       
+                    </p>
+                    </div>
+                </div>
+                
+                
+      
+		</div>
+		</div>
+        <div class="row">
+<div class="col-md-6">
+
+
+                <div class="panel panel-default" >
+                    <div class="panel-heading">
+                        <h3 class="panel-title" align="center">Communities visualization</h3>
+                    </div>
+                    <div class="panel-body" >
+                    <div align="center">
+                              		<img src="pics/FBComs.jpg" width="300px" class="img-thumbnail" align="center">
+	<br><br>
+		What a network looks like. Friends are inside communities. Communities can be linked, if at least 1 person belongs to the 2 communities.                        
+</div>
+                    </div>
+                </div>
+                
+
+        </div>
+        <div class="col-md-6">
+        
+        
+                
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title" align="center">Names of communities</h3>
+                    </div>
+                    <div class="panel-body">
+                                          <div align="center">
+                                    		<img src="pics/FBNames.jpg" width="380px" class="img-thumbnail" align="center">
+<br><br>
+
+                      The same view, in «community mode». You can see above each community the tags that characterize it the best.               
+						</div>
+                    </div>
+                </div>
+                        
+               
+  		
+        
+        
+           </div><!-- row-->
+        <div class="row">
+<div class="col-md-12">
+            
+                
+                
+                <div class="panel panel-default">
+                   
+                    <div class="panel-body">
+                        <p>
+                     The application allows also some usual Facebook features, like seeing the wall of people and, more specifically here, of groups of people. You can also see each of you friends’ information, and even publish a message on your wall limited to people on a given group (due to Facebook limitations, this function is not perfectly integrated). A last feature is to automatically generate a Facebook friends list, which can be used later anywhere on Facebook.
+With some technical improvements, this kind of tools could be integrated to existing social networks in order to facilitate their usage.               
+<hr>
+The application was designed by me and mostly developed by Alexandre Perles during his Master degree internship.
+The source code is free and available on Github <a href="https://github.com/sepen/Friend-circles">here</a>. Thank you to inform me if you want to use it !
+     </p>
+                    </div>
+                </div>
+                
+                
+      
+		</div>
+</div           
+
+    </div> <!-- container-->
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

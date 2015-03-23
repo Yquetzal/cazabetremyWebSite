@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <id>urn:iweb:CE341311-DFB1-4024-A645-B15D70DCE5ED</id>
+ <title>Page list Atom feed</title>
+ <updated>2013-12-06T17:48:47+09:00</updated>
+ <link rel="self" href="feed.xml"/>
+ <generator>iWeb</generator>
+ <author>
+  <name>iWeb</name>
+ </author>
+ <entry>
+  <id>urn:iweb:DFE10CB2-72D5-48F3-B0F3-D55925625E2A</id>
+  <title>Me</title>
+  <title xmlns="urn:iweb:">Me</title>
+  <in-navbar xmlns="urn:iweb:">DFE10CB2-72D5-48F3-B0F3-D55925625E2A</in-navbar>
+  <link rel="alternate" href="Me.html"/>
+  <updated>2013-12-06T17:48:47.001+09:00</updated>
+  <content>Me</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:EFC967B4-43F0-4B9B-9CA1-003768CE7741</id>
+  <title>Publications</title>
+  <title xmlns="urn:iweb:">Publications</title>
+  <in-navbar xmlns="urn:iweb:">EFC967B4-43F0-4B9B-9CA1-003768CE7741</in-navbar>
+  <link rel="alternate" href="Publications.html"/>
+  <updated>2013-12-06T17:48:47.002+09:00</updated>
+  <content>Publications</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:A11E1A47-743A-4057-9926-58C16EB66462</id>
+  <title>resources</title>
+  <title xmlns="urn:iweb:">resources</title>
+  <in-navbar xmlns="urn:iweb:">A11E1A47-743A-4057-9926-58C16EB66462</in-navbar>
+  <link rel="alternate" href="resources.html"/>
+  <updated>2013-12-06T17:48:47.003+09:00</updated>
+  <content>resources</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:787052AC-E87D-4832-A724-DFA788699F34</id>
+  <title>iLCD</title>
+  <title xmlns="urn:iweb:">iLCD</title>
+  <in-navbar xmlns="urn:iweb:">787052AC-E87D-4832-A724-DFA788699F34</in-navbar>
+  <link rel="alternate" href="iLCD.html"/>
+  <updated>2013-12-06T17:48:47.004+09:00</updated>
+  <content>iLCD</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:9A3AD59C-0413-4FEC-AC63-EBFDF2312ABC</id>
+  <title>CV</title>
+  <title xmlns="urn:iweb:">CV</title>
+  <in-navbar xmlns="urn:iweb:">9A3AD59C-0413-4FEC-AC63-EBFDF2312ABC</in-navbar>
+  <link rel="alternate" href="CV.html"/>
+  <updated>2013-12-06T17:48:47.005+09:00</updated>
+  <content>CV</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:7246736E-BBFF-4D88-8EC1-ABB030E00F7D</id>
+  <title>TEACHING</title>
+  <title xmlns="urn:iweb:">TEACHING</title>
+  <in-navbar xmlns="urn:iweb:">7246736E-BBFF-4D88-8EC1-ABB030E00F7D</in-navbar>
+  <link rel="alternate" href="TEACHING.html"/>
+  <updated>2013-12-06T17:48:47.006+09:00</updated>
+  <content>TEACHING</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:2D4A94D4-A786-4BAD-8A7F-D794C6860408</id>
+  <title>Other</title>
+  <title xmlns="urn:iweb:">Other</title>
+  <in-navbar xmlns="urn:iweb:">2D4A94D4-A786-4BAD-8A7F-D794C6860408</in-navbar>
+  <link rel="alternate" href="Other.html"/>
+  <updated>2013-12-06T17:48:47.007+09:00</updated>
+  <content>Other</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:840E2638-FC52-416F-A4E0-0A8455B255CB</id>
+  <title>Facebook App</title>
+  <title xmlns="urn:iweb:">Facebook App</title>
+  <in-navbar xmlns="urn:iweb:">840E2638-FC52-416F-A4E0-0A8455B255CB</in-navbar>
+  <link rel="alternate" href="Facebook_App.html"/>
+  <updated>2013-12-06T17:48:47.008+09:00</updated>
+  <content>Facebook App</content>
+ </entry>
+</feed>

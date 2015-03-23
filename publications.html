@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+    
+   <html>
+  <head>
+    <title>Cazabet Rémy Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+        
+        <style type="text/css">
+            body
+            {
+                 padding-top: 70px;
+                background-color:#FFFFFF  ;
+            }
+        </style>
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+
+     <script src=""></script>
+    <![endif]-->
+  </head>
+  <body >
+      <div class="container">
+        
+        
+        <script src="header.js"> </script>
+<script>
+document.write( printHeader("publications") );
+</script>
+
+<div class="alert alert-warning alert-dismissable">
+    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+   Click on a publication name to access more information and download link
+</div>
+        <div class="row">
+        <div class="col-md-9">
+            
+  		
+        
+        </div><!-- col 8 -->
+        
+        <div class="col-md-3">
+        
+        
+        
+        
+        
+        <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">       Selection of presentations
+</h3>
+                    </div>
+                    <div class="panel-body">
+                        <p>
+<b>English </b><br>
+2014: Presentation for Nico Nico Gakkai
+<a href="Publications_files/NicoNicoCoop.pdf">Download</a><br><br>
+
+2012: Invited speaker for weakly seminar at Louvain la neuve, Belgium 
+<a href="Publications_files/Louvain.pdf">Download</a><br><br>
+
+2012: Presentation of iLCD at the Aalto Science Factory, Finland 
+<a href="Cazabet_remy/Publications_files/presentation%20aalto.pdf">Download</a><br>
+
+<br>
+<b>French </b><br>
+2013 : Soutenance de thèse (22 Mars 2013)
+<a href="Cazabet_remy/Publications_files/Soutenance%20thèse%2022%20Mars.pdf">Download</a><br><br>
+
+2013 : Exposé invité à l’atelier FGG, EGC, Toulouse, 2013
+<a href="Cazabet_remy/Publications_files/EGC%20-%20FGG.pdf">Download</a><br><br>
+                      
+                       
+                    </div>
+                </div>
+                
+                
+                
+                
+       
+
+        </div><!-- col 2 -->
+    </div><!-- row-->
+
+    </div> <!-- container-->
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js">
+       
+        </script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="bibJsLoader.js"></script>
+    
+    <script>
+        $.get( "bibliographie.bib", function( data ) {
+              loadJs(data);
+              });
+        
+        function loadJs(data){
+            //textPubli ="<p>All new content. <em>You bet!</em></p>";
+            bibtexDisplay(data);
+            $( "div.col-md-9" )
+                .html( debug);
+        }
+        
+        </script>
+    
+  
+  </body>
+</html>

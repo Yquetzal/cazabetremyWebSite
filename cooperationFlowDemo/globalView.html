@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Streamgraph</title>
+<style>
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*margin: auto;
+  position: relative;*/
+  /*width: 1500px;*/
+}
+
+
+.axis path {
+  display: none;
+}
+
+.axis line {
+  shape-rendering: crispEdges;
+  stroke: Red;
+}
+
+.axis .minor line {
+  stroke: Black;
+  stroke-dasharray: 2,2;
+}
+
+/*button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}*/
+
+#infos{
+  float:right;
+  width:450px;
+  height:400px;
+  margin:5px;
+}
+
+
+#chart {
+  height:1000px;
+  overflow-y: scroll;
+}
+
+
+</style>
+
+</style>
+<body>
+
+<div id="infos">
+	<div class="input-group">
+    		<span class="input-group-addon"> Height scaling:</span>
+     	   <input style="max-width:60px" type="text" class="form-control input-mini" id="scaling" aria-describedby="inputGroupSuccess1Status" value="1">
+     	   <button class="btn btn-default" type="button" onclick="changeScaling();">Go</button>
+	</div>  
+<div id="legend"></div>
+<div id="graphs"></div>
+</div>
+<div id="chart"></div>
+  
+  
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://dimplejs.org/dist/dimple.v1.1.5.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+<script src="tools/analysis.js"></script>
+<script src="tools/generateShapes.js"></script>
+<script src="tools/analysisGlobal.js"></script>
+<script src="tools/generateGraphic.js"></script>
+<script src="http://dimplejs.org/dist/dimple.v1.1.5.min.js"></script>
+
+<script>
+
+//is filled with object containing sum data and y value (list: y:)
+var listOfDisplayedData=[];
+
+var howManyPixelsForAValue; //automatically computed, defines x normalization
+
+var allTimeSeries = []; // contains all cooperations, is modified. (summed, scaled...)
+var allStats = []; //list of objects, used to compute bursts, moving average, centroid and so on.
+var nbTotalSteps; // length of the time series. total number of steps.
+
+var firstDate, lastDate; //first and last date of the time series, used to calculate axis
+
+var amplitudeScale = 0.5; // coefficient defining the "width" of displayed shapes. Could be automatized. Big values mean large shapes
+
+var windowsWidth = $(window).width();
+
+var width = windowsWidth - 450 - 50 , // width and height of the main canva.
+height = 10000;
+
+color = d3.scale.category20(); //colors for the legend
+
+var svg;
+var countWhatIsDone = 0;
+var widthOfTimeAxis = 30;
+
+loadData()
+
+function loadData(){
+listOfDisplayedData=[]
+allTimeSeries = []
+allStats = []
+//-----------------------------------------------
+//Load all time series from global file. Call display function when everything is loaded
+//-----------------------------------------------
+ jQuery.getJSON("data/global.json")
+  .done(function(data){
+    allCollabs = data.allSequences;
+    firstDate = data.firstDate;
+    lastDate = data.lastDate;
+
+    console.log("number of cooperation flows:"+allCollabs.length);
+
+    
+    allCollabs.forEach(function(colab){
+      allTimeSeries.push(colab);
+    });
+    
+    //find the length of the time series
+    //----------
+    randomRef = allTimeSeries[0].references;
+    randomKey = Object.keys(randomRef)[0];
+    nbTotalSteps = randomRef[randomKey].length;
+    console.log("number of values per time series:"+nbTotalSteps);
+    //----------
+    
+     howManyPixelsForAValue = width/nbTotalSteps;
+
+      //draw the legend first, to ensure a fix  mapping between categories and colors
+      drawLegend(data.categories,color);
+      
+      //when everything is ready, begin to display the shapes.
+      ready();
+  })
+  .fail(function(a,b,c){
+    console.log(b+"-"+c)
+    
+  }
+  )
+}
+ //-----------------------------------------------
+
+  
+  function changeScaling(){  
+amplitudeScale = $("#scaling").val();
+
+  $("#chart").empty();
+$("#legend").empty();
+
+  $("#graphs").empty();
+  loadData()
+  }
+
+//main function, draw everything
+function ready(){
+  
+ svg = d3.select("#chart").append("svg")
+      .attr("width", width)
+      .attr("height", height)
+      //.attr("transform", "translate(0," + 10 + ")");
+  
+  
+  //for each cooperation flow, compute the sum of the time series by categories, and scale all the values. (fix the width of the shapes)
+  allTimeSeries.forEach(function(t){
+    list = t.references;
+    valuesSumation(list);
+    
+    for(key in list){
+      scaleAmplitude(list[key],amplitudeScale);
+    }
+  });
+
+      
+    listOfshapes = [];
+    maxValue=0;
+    totalValue = 0;
+    
+    //for each cooperation flow, 
+    allTimeSeries.forEach(function(t){
+       
+      lists=t.references;
+      totalValue += maxValue*2+2;
+      maxValue=0;
+     
+      var keyCorrespondingToMaxValue;
+
+    //find the maximum value, in order to know the width of the figure
+    //---------------------------------
+      for(key in lists){
+	tempMax = Math.max.apply(null,lists[key]); // get the max of all sums
+	maxValue=Math.max(tempMax,maxValue);
+	keyCorrespondingToMaxValue=key;
+      }
+    //---------------------------------
+
+      //construct the shape, move it to the right position, add the figure to list of figures
+      //---------------------------------
+      for(key in lists){
+	list = lists[key];
+	
+	shape = shapeFromValues(list);
+	y = totalValue+maxValue+widthOfTimeAxis;
+	moveTo(shape,0,y);
+
+	listOfshapes.push([key,shape,t.name,t.author,t.id]);// here we have a shape, with the attributes of this shape
+	
+	if (keyCorrespondingToMaxValue==key) {
+	  listOfDisplayedData.push({data:list,y:y,id:t.name}); 
+	}
+      }
+      //---------------------------------
+    });
+      
+     
+      
+      
+      //reverse the list of shapes in order to print the smallest ones last
+      //---------------------------------
+      listOfshapes.reverse();
+      //---------------------------------
+
+
+console.log("starting to draw the shapes");
+//draw the shapes
+  svg.selectAll("path.area")
+   .data(listOfshapes)
+    .enter().append("path")
+    .style("fill",function (d){return d.color = color(d[0]); })
+
+    .attr("class","area")
+    .attr("d", function(d) { return d3.svg.area()(d[1])}
+
+		)
+    .append("title")
+      .text(function(d) {return   "name: "+ d[2] + "\n" +  "author: "+d[3] +  "\n" +"id: "+ d[4]})
+    
+    svg.selectAll("path.area")
+        .on("click",function(d){console.log(d[2]); window.open("CooperationFlow.html?"+d[4]);});
+
+
+    
+   //when all shapes are displayed, draw the xaxis and the stats
+    drawAxis();
+    
+    drawStats();
+
+      
+}
+
+function drawStats(){
+  
+
+
+  //for all cooperation flow, create an object timeSerieStats and compute the stats on this object
+   for(iii=0;iii<listOfDisplayedData.length;iii++){
+    var ana = new timeSerieStats(listOfDisplayedData[iii].data,listOfDisplayedData[iii].y,listOfDisplayedData[iii].id);
+    allStats.push(ana);
+    ana.computeStats();
+   }
+   
+  //display a dot for each starting and ending point
+    var pointsToDraw = [];
+  for(iii=0;iii<listOfDisplayedData.length;iii++){
+    var ana = allStats[iii];
+    pointsToDraw.push({cx:ana.officialStart*howManyPixelsForAValue,cy:listOfDisplayedData[iii].y,r:2});
+    pointsToDraw.push({cx:ana.officialEnd*howManyPixelsForAValue,cy:listOfDisplayedData[iii].y,r:2});
+  }
+  drawDots(svg,pointsToDraw,"green","startEnd");
+  
+  
+  
+  var pointsToDraw = [];
+    
+  for(iii=0;iii<listOfDisplayedData.length;iii++){
+     ana = allStats[iii];
+    //ana.computeStats();
+    //console.log(ana);
+
+    pointsToDraw.push({cx:ana.centroid*howManyPixelsForAValue,cy:listOfDisplayedData[iii].y,r:2});
+  }
+    drawDots(svg,pointsToDraw,"red","centroid");
+    
+    
+    
+    //draw the opening shape
+    var allTrapezoid = [];
+    var allSmoothed = [];
+    var allBursts = [];
+    var allPeriodicity = [];
+    var sumBurstingFractions = [];
+    for(var i = 0 ; i < 10;i++){sumBurstingFractions[i]={"location(norm)":i,val:0};}
+    
+    for(iii=0;iii<listOfDisplayedData.length;iii++){
+      ana = allStats[iii];
+
+//      if (ana.basicStructure=="shrinking" || ana.basicStructure=="growing") {
+//	//console.log("printing a trapez");
+//	var startPosition = ana.basicStructureProperties.p1.x*howManyPixelsForAValue;
+//	var endPosition = ana.basicStructureProperties.p2.x*howManyPixelsForAValue;
+//	var starty = ana.basicStructureProperties.p1.y;
+//	var endy = ana.basicStructureProperties.p2.y;
+//	//var up = 
+//	allTrapezoid.push(convertToTrapezoid(listOfDisplayedData[iii].y,startPosition,endPosition,starty,endy));
+//      }
+      
+      //create the shape for smoothed
+      var shape = shapeFromValues(ana.smoothed);
+      moveTo(shape,ana.officialStart*howManyPixelsForAValue,ana.yOffset);
+
+      allSmoothed.push(shape);
+      
+      //create the shape for burst
+      var burstIndices = ana.getBurstsIndices();
+      if (burstIndices.length>0) {
+	  shape2 = shapeFromValues(burstIndices);
+	moveTo(shape2,0,ana.yOffset);
+	allBursts.push(shape2);
+      }
+    
+    
+      //checking if regular patterns are correctly detected
+      var perio = ana.getPeriodicBursts();
+      if(perio!=-1){
+	allPeriodicity.push(perio);
+      }
+      
+      var burstsPositions = ana.getBurstsPositions(10);
+      for(var i = 0 ; i < burstsPositions.length;i++){
+	sumBurstingFractions[i].val+=burstsPositions[i];
+      }
+      
+    }
+    
+    
+    drawLines(allSmoothed,"smoothed","rgba(0,0,0,0.6)",false);
+    drawShapes(allBursts,"bursts","rgba(0,255,255,0.7)",false);
+
+    drawBarChartCentroid();
+
+    drawBarChartFromValues("time","periodicity",allPeriodicity);
+    drawBarChart("location(norm)","bursts",sumBurstingFractions);
+
+    
+    
+
+}
+
+//Create the axis
+//---------------------------------
+function drawAxis(){
+ 
+    xScale = d3.time.scale()
+	      .range([0, nbTotalSteps*howManyPixelsForAValue])
+	      .domain([new Date(firstDate),new Date(lastDate)])
+
+	xAxis = d3.svg.axis().scale(xScale).orient("top").tickSize(height)//.ticks(d3.time.year, 6);
+  
+    var gy = svg.append("g")
+      .attr("class", "x axis")
+
+      .attr("transform", "translate("+(0)+"," + (height+widthOfTimeAxis )+ ")")
+      .call(xAxis);
+      
+      gy.selectAll("g").filter(function(d) { return d; })
+	.classed("minor", true);
+	
+    //---------------------------------
+}
+
+//function to make the legend
+function drawLegend(elts,colors){
+  var legend = d3.select("#legend").append("svg")
+      .attr("class", "legend")
+      .attr("width", 200)
+      .attr("height", elts.length*20)
+    .selectAll("g")
+      .data(elts)
+    .enter().append("g")
+      .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+
+  legend.append("rect")
+      .attr("width", 18)
+      .attr("height", 18)
+      .style("fill", function(d, i) { return colors(d); });
+
+  legend.append("text")
+      .attr("x", 24)
+      .attr("y", 9)
+      .attr("dy", ".35em")
+      .text(function(d) { return d; });
+      
+      
+  
+  
+}
+
+function drawBarChartCentroid(){
+      
+      drawAsBarChart(200,200,"#graphs","location(norm)","val",computeDistributionOfCentroid(allStats),"centroids",true);
+      
+      
+      drawAsBarChart(200,200,"#graphs","time","val",computeDistributionOfLength(allStats),"lifes",true);
+}
+
+function drawBarChart(axisName,name, values){
+
+      
+  drawAsBarChart(200,200,"#graphs",axisName,"val",values,name,true);
+      
+     
+}
+
+function drawBarChartFromValues(axisName,name, vals){
+  topDisplay=[];
+  var max = Math.max.apply(Math,vals);
+  for(i=0;i<11;i++){
+    temp = {};
+    temp[axisName]=Math.round((max/10)*i);
+    temp["val"] = 0
+    //topDisplay.push({axisName:(max/10)*i,val:0});
+    topDisplay.push(temp);
+  }
+
+  for(var i = 0 ; i<vals.length;i++){
+    topDisplay[Math.round(vals[i]/(max/10))].val++;
+  }
+  
+  
+  drawAsBarChart(200,200,"#graphs",axisName,"val",topDisplay,"periods",true);
+  
+
+}
+
+
+//replace original values by summed values
+function valuesSumation(values) {
+  keys = Object.keys(values);
+  
+  for(i=1; i<keys.length;i++){
+    previousList = values[keys[i-1]];
+    currentList = values[keys[i]];
+
+    for(j = 0;j<currentList.length;j++){
+      currentList[j]=previousList[j]+currentList[j];
+    }
+  }
+}
+
+//for a Shape, translate all points according to given offsets
+function moveTo(aShape,xOffset,yOffset) {
+  for(ind =0; ind<aShape.length;ind++){
+      aShape[ind][0]+=xOffset;
+      aShape[ind][1]+=yOffset;
+
+  }
+}
+
+
+//scale all values
+//function scale(matches,xScale,yScale) {
+//  matches.forEach(function(oneSerie){
+//    oneSerie.forEach(function(value){
+//      value[0]= value[0]*xScale;
+//      value[1]= value[1]*yScale;
+//
+//    })
+//  });
+//}
+
+//function 
+function scaleAmplitude(serie,scale) {
+  for(var i= 0; i < serie.length; i++)
+  {	
+    serie[i] =serie[i]*scale;
+  }
+}
+</script>

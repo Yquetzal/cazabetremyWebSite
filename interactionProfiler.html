@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+    
+   <html>
+  <head>
+    <title>Cazabet Rémy Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+        
+        <style type="text/css">
+            body
+            {
+                 padding-top: 70px;
+                background-color:#FFFFFF  ;
+            }
+        </style>
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+
+     <script src=""></script>
+    <![endif]-->
+  </head>
+  <body >
+      <div class="container">
+        
+         
+<script src="header.js"> </script>
+<script>
+document.write( printHeader("ressources") );
+</script>
+          
+          
+          
+        <div class="row">
+        <div class="col-md-8">
+            
+                
+                
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Short presentation</h3>
+                    </div>
+                    <div class="panel-body">
+                        <p>
+                      Interaction Profiler is a small program that can be used to evaluate the nature of interactions between a set of actors.
+                      <br>
+                      In summary, if you have a set of actors (individuals or something else) that interact repeatedly with each other (any kind of interaction: phone calls, emails, scientific citation, colocation... anything you like), you might wonder how these interaction are organized.
+                      <br><br>
+                      
+                      What we propose is to compute three metrics to characterize these interactions. The value is significative in itself, but comparing with other datasets that you already know is the best way to interprete the obtained values. 
+                      The computed values are all between 0 and 1. 0 means that the observations can be explained by random interactions, while 1 means that none of the observations can be due to randomness 
+                      These values are:
+                      <ul>
+ 							 <li>Social Structure Impact(SSI): how strong is the influence of the social structure on the interactions between authors, compared with random interactions</li>
+ 							 <li>Concentration Impact(CI): how much concentration there is in the interactions, excluding interpersonal friendships (strong if a few actors receive most of interactions)</li>
+ 							 <li>Reciprocity Impact(RI): how strong is the reciprocity in interactions between users. All these values can take values between 0 and 1, 0 meaning that obesrvations can be explained by random interactions, 1 meaning that none of the observations can be expplained by random interactions.
+					</ul>                       
+                    </p>
+                    </div>
+                </div>
+                
+                
+      
+
+
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Example values on some networks</h3>
+                    </div>
+                    <div class="panel-body">
+                        <p>
+                      	<table class="table table-striped">
+                      	<tr><th>NETWORK</th> <th>#Nodes</th><th>#Edges</th><th>I/A</th><th>SSI</th> <th>RI</th> <th>CI</th>
+                      	</tr>
+                      	<tr><td>NicoNico Douga</td> <td>27,514</td> <td>371,450</td> <td>13.5</td><td>0.36</td> <td>0.023</td> <td>0.37</td>
+                      	</tr>
+                      	<tr><td>DBLP</td> <td>194,079</td> <td>7,940,131</td> <td>40.9</td><td>0.45</td> <td>0.11</td> <td>0.16</td>
+                      	</tr>
+                      	<tr><td>TwitterRT</td> <td>271,402</td> <td>16,917,969</td> <td>62.33</td><td>0.28</td> <td>0.018</td> <td>0.40</td>
+                      	</tr>
+                      	<tr><td>TwitterNOTRT</td><td>262,545</td> <td>17,719,946</td> <td>67.5</td><td>0.88</td> <td>0.66</td> <td>0.021</td>
+                      	</tr>
+                      	<tr><td>ENRON emails</td> <td>155</td> <td>9,646</td> <td>62.2</td><td>0.51</td> <td>0.31</td> <td>0.0001</td>
+                      	</tr>
+                      	
+						</table>
+                        
+                        Where I/A is the number of interaction per actor in our dataset.
+                         <ul>
+ 							 <li>NicoNico is the network of references among creators in the NicoNico social network platform</li>
+ 							 <li>DBLP is a network of citation in the DBLP database</li>
+ 							 <li>TwitterRT is a network of retweets between Twitter users</li>
+ 							  <li>TwitterNOTRT is a network of direct communications (mentions) between Twitter users</li>
+ 							  <li>ENRON is the network of emails sent between individuals in the ENRON dataset</li>
+					</ul>   
+					We can observe, for instance, a clear difference between interpersonal communication activities (ENRON, TwitterNotRT), having a high RI and low CI, compared with interactions corresponding to 
+					the diffusion of information (NND,TwitterRT), which have a low RI and high CI. DBLP is a little different, as discussed in our article on the subject.
+
+                    </div>
+                </div>
+                
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">More information</h3>
+                    </div>
+                    <div class="panel-body">
+                        <p class="text-center">
+                       <a href="https://github.com/Yquetzal/InteractionProfiler/blob/master/README.md" class="btn btn-primary btn-lg" role="button">Code on GitHub</a>
+                       <a href="http://cazabetremy.fr/publications.html" class="btn btn-primary btn-lg" role="button">Read related article</a>
+
+
+
+                        </p>
+                    </div>
+                </div>
+        
+          </div>
+                        
+               
+  		
+        
+        </div><!-- col 8 -->
+        
+           </div><!-- row-->
+
+    </div> <!-- container-->
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
